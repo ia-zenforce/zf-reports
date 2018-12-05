@@ -10,15 +10,27 @@
     "Jan Blaha"
   ],
   "description": "javascript based business reporting",
-  "keywords": ["report", "business", "javascript"],
+  "keywords": [
+    "report",
+    "business",
+    "javascript"
+  ],
   "homepage": "https://github.com/jsreport/jsreport",
   "repository": {
     "type": "git",
     "url": "git@github.com:jsreport/jsreport.git"
   },
   "standard": {
-    "ignore": ["data/**"],
-    "globals": ["describe", "it", "beforeEach", "afterEach", "define"]
+    "ignore": [
+      "data/**"
+    ],
+    "globals": [
+      "describe",
+      "it",
+      "beforeEach",
+      "afterEach",
+      "define"
+    ]
   },
   "jsreport": {
     "entryPoint": "server.js"
@@ -75,8 +87,7 @@
   },
   "scripts": {
     "test": "mocha test --timeout 35000 && standard",
-    "compile":
-      "cross-env extensions_authentication_enabled=true jsreport-compile",
+    "compile": "cross-env extensions_authentication_enabled=true jsreport-compile",
     "start": "node server.js"
   },
   "engines": {

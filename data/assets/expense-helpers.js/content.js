@@ -1,3 +1,19 @@
+const views = {
+    "company_id": "Company",
+    "department_id": "Department",
+    "user_id": "User"
+}
+
+function getReportViewBy(viewBy){
+    return `${views[viewBy].toUpperCase()} EXPENSE REPORT`
+}
+
+function getReportName(expenses){
+    const { name, reportDetails } = expenses
+    const label = views[reportDetails.viewBy]
+    return `${label}: ${name}`
+}
+
 function sortData(list){
     return _.sortBy(list, "exp_date")    
 }

@@ -2186,3 +2186,265 @@ Expecting 'EOF', got 'INVERSE'
 2018-12-05T07:07:58.637Z - info: Verifying license key free
 2018-12-05T07:07:58.640Z - info: Using free license
 2018-12-05T07:07:58.643Z - info: reporter initialized
+2018-12-05T07:47:12.322Z - info: Initializing jsreport@2.2.0 in development mode using configuration file: jsreport.config.json
+2018-12-05T07:47:12.326Z - info: Searching for available extensions in C:\Users\IAInnovations0005\Desktop\zf-reports
+2018-12-05T07:47:12.336Z - info: Extensions location cache doesn't contain entry yet, crawling
+2018-12-05T07:47:13.809Z - info: Found 31 extensions
+2018-12-05T07:47:14.356Z - info: Using extension handlebars
+2018-12-05T07:47:14.363Z - info: Using extension import-export
+2018-12-05T07:47:14.633Z - info: Using extension templates
+2018-12-05T07:47:14.643Z - info: Using extension jsrender
+2018-12-05T07:47:14.646Z - info: Using extension freeze
+2018-12-05T07:47:14.651Z - info: Using extension cli
+2018-12-05T07:47:14.653Z - info: Using extension express
+2018-12-05T07:47:14.920Z - info: Using extension debug
+2018-12-05T07:47:14.924Z - info: Using extension tags
+2018-12-05T07:47:14.932Z - info: Using extension data
+2018-12-05T07:47:14.940Z - info: Using extension fs-store
+2018-12-05T07:47:15.342Z - info: Using extension authorization
+2018-12-05T07:47:15.348Z - info: Using extension html-to-xlsx
+2018-12-05T07:47:15.581Z - info: html-to-xlsx detected chrome as available html engine
+2018-12-05T07:47:15.585Z - info: html-to-xlsx detected phantom as available html engine
+2018-12-05T07:47:15.587Z - info: Using extension child-templates
+2018-12-05T07:47:15.592Z - info: Using extension browser-client
+2018-12-05T07:47:15.597Z - info: Using extension chrome-pdf
+2018-12-05T07:47:15.604Z - info: Using extension pdf-utils
+2018-12-05T07:47:15.607Z - info: Using extension version-control
+2018-12-05T07:47:15.658Z - info: Using extension reports
+2018-12-05T07:47:15.667Z - info: Using extension text
+2018-12-05T07:47:15.672Z - info: Using extension base
+2018-12-05T07:47:15.676Z - info: Using extension studio
+2018-12-05T07:47:15.760Z - info: Using extension licensing
+2018-12-05T07:47:15.801Z - info: Using extension scripts
+2018-12-05T07:47:15.811Z - info: Using extension assets
+2018-12-05T07:47:15.839Z - info: Using extension scheduling
+2018-12-05T07:47:15.914Z - info: Using extension xlsx
+2018-12-05T07:47:16.269Z - info: Using extension sample-template
+2018-12-05T07:47:16.274Z - info: Using extension resources
+2018-12-05T07:47:16.277Z - info: Using extension public-templates
+2018-12-05T07:47:16.286Z - info: fs store is persisting using fs
+2018-12-05T07:47:16.287Z - info: fs store is synchronizing using fs
+2018-12-05T07:47:16.326Z - info: fs store is loading data
+2018-12-05T07:47:16.443Z - info: fs store is initialized successfully
+2018-12-05T07:47:16.465Z - info: Creating default express app.
+2018-12-05T07:47:16.515Z - info: jsreport server successfully started on https port: 8080
+2018-12-05T07:47:16.520Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-12-05T07:47:16.552Z - info: Verifying license key free
+2018-12-05T07:47:16.556Z - info: Using free license
+2018-12-05T07:47:16.561Z - info: reporter initialized
+2018-12-05T07:47:32.262Z - info: Starting rendering request 1 (user: null)
+2018-12-05T07:47:32.294Z - info: Rendering template { name: Company & Dept Deliverable List xls, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-05T07:47:57.356Z - info: Initializing jsreport@2.2.0 in development mode using configuration file: jsreport.config.json
+2018-12-05T07:47:57.360Z - info: Searching for available extensions in C:\Users\IAInnovations0005\Desktop\zf-reports
+2018-12-05T07:47:57.370Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\IAInnovations0005\Desktop\zf-reports
+2018-12-05T07:47:57.400Z - info: Found 31 extensions
+2018-12-05T07:47:57.994Z - info: Using extension handlebars
+2018-12-05T07:47:58.003Z - info: Using extension import-export
+2018-12-05T07:47:58.280Z - info: Using extension templates
+2018-12-05T07:47:58.293Z - info: Using extension jsrender
+2018-12-05T07:47:58.296Z - info: Using extension freeze
+2018-12-05T07:47:58.321Z - info: Using extension cli
+2018-12-05T07:47:58.325Z - info: Using extension express
+2018-12-05T07:47:58.637Z - info: Using extension debug
+2018-12-05T07:47:58.643Z - info: Using extension tags
+2018-12-05T07:47:58.655Z - info: Using extension data
+2018-12-05T07:47:58.663Z - info: Using extension fs-store
+2018-12-05T07:47:59.132Z - info: Using extension authorization
+2018-12-05T07:47:59.141Z - info: Using extension html-to-xlsx
+2018-12-05T07:47:59.443Z - info: html-to-xlsx detected chrome as available html engine
+2018-12-05T07:47:59.447Z - info: html-to-xlsx detected phantom as available html engine
+2018-12-05T07:47:59.449Z - info: Using extension child-templates
+2018-12-05T07:47:59.459Z - info: Using extension browser-client
+2018-12-05T07:47:59.465Z - info: Using extension chrome-pdf
+2018-12-05T07:47:59.477Z - info: Using extension pdf-utils
+2018-12-05T07:47:59.482Z - info: Using extension version-control
+2018-12-05T07:47:59.550Z - info: Using extension reports
+2018-12-05T07:47:59.562Z - info: Using extension text
+2018-12-05T07:47:59.564Z - info: Using extension base
+2018-12-05T07:47:59.577Z - info: Using extension studio
+2018-12-05T07:47:59.655Z - info: Using extension licensing
+2018-12-05T07:47:59.707Z - info: Using extension scripts
+2018-12-05T07:47:59.715Z - info: Using extension assets
+2018-12-05T07:47:59.750Z - info: Using extension scheduling
+2018-12-05T07:47:59.816Z - info: Using extension xlsx
+2018-12-05T07:48:00.026Z - info: Using extension sample-template
+2018-12-05T07:48:00.032Z - info: Using extension resources
+2018-12-05T07:48:00.038Z - info: Using extension public-templates
+2018-12-05T07:48:00.047Z - info: fs store is persisting using fs
+2018-12-05T07:48:00.052Z - info: fs store is synchronizing using fs
+2018-12-05T07:48:00.090Z - info: fs store is loading data
+2018-12-05T07:48:00.211Z - info: fs store is initialized successfully
+2018-12-05T07:48:00.240Z - info: Creating default express app.
+2018-12-05T07:48:00.287Z - info: jsreport server successfully started on https port: 8080
+2018-12-05T07:48:00.290Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-12-05T07:48:00.329Z - info: Verifying license key free
+2018-12-05T07:48:00.335Z - info: Using free license
+2018-12-05T07:48:00.341Z - info: reporter initialized
+2018-12-05T07:48:12.146Z - info: Starting rendering request 1 (user: null)
+2018-12-05T07:48:12.153Z - info: Rendering template { name: Company & Dept Deliverable List xls, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-05T07:48:34.079Z - info: Rendering request 1 finished in 21932 ms
+2018-12-05T09:33:30.746Z - info: fs store is loading data
+2018-12-05T09:33:30.918Z - info: fs store is loading data
+2018-12-05T09:33:30.930Z - info: fs store is loading data
+2018-12-05T09:33:30.934Z - info: fs store is loading data
+2018-12-05T09:33:30.938Z - info: fs store is loading data
+2018-12-05T09:33:30.953Z - info: fs store is loading data
+2018-12-05T09:33:30.957Z - info: fs store is loading data
+2018-12-05T09:33:30.965Z - info: fs store is loading data
+2018-12-05T09:33:30.968Z - info: fs store is loading data
+2018-12-05T09:33:30.969Z - info: fs store is loading data
+2018-12-05T09:33:30.973Z - info: fs store is loading data
+2018-12-05T09:33:30.977Z - info: fs store is loading data
+2018-12-05T09:33:30.981Z - info: fs store is loading data
+2018-12-05T09:33:30.985Z - info: fs store is loading data
+2018-12-05T09:33:30.991Z - info: fs store is loading data
+2018-12-05T09:33:30.994Z - info: fs store is loading data
+2018-12-05T09:33:30.995Z - info: fs store is loading data
+2018-12-05T09:33:31.002Z - info: fs store is loading data
+2018-12-05T09:33:31.003Z - info: fs store is loading data
+2018-12-05T09:33:31.004Z - info: fs store is loading data
+2018-12-05T09:33:31.008Z - info: fs store is loading data
+2018-12-05T09:33:31.012Z - info: fs store is loading data
+2018-12-05T09:33:31.013Z - info: fs store is loading data
+2018-12-05T09:33:31.014Z - info: fs store is loading data
+2018-12-05T09:33:31.016Z - info: fs store is loading data
+2018-12-05T09:33:31.017Z - info: fs store is loading data
+2018-12-05T09:33:31.023Z - info: fs store is loading data
+2018-12-05T09:33:31.024Z - info: fs store is loading data
+2018-12-05T09:33:31.025Z - info: fs store is loading data
+2018-12-05T09:33:31.026Z - info: fs store is loading data
+2018-12-05T09:33:31.027Z - info: fs store is loading data
+2018-12-05T09:33:31.029Z - info: fs store is loading data
+2018-12-05T09:33:31.034Z - info: fs store is loading data
+2018-12-05T09:33:31.035Z - info: fs store is loading data
+2018-12-05T09:33:31.036Z - info: fs store is loading data
+2018-12-05T09:33:31.037Z - info: fs store is loading data
+2018-12-05T09:33:31.041Z - info: fs store is loading data
+2018-12-05T09:33:31.045Z - info: fs store is loading data
+2018-12-05T09:33:31.046Z - info: fs store is loading data
+2018-12-05T09:33:31.047Z - info: fs store is loading data
+2018-12-05T09:33:31.062Z - info: fs store is loading data
+2018-12-05T09:33:31.064Z - info: fs store is loading data
+2018-12-05T09:33:31.067Z - info: fs store is loading data
+2018-12-05T09:33:31.070Z - info: fs store is loading data
+2018-12-05T09:33:31.079Z - info: fs store is loading data
+2018-12-05T09:35:11.199Z - info: Initializing jsreport@2.2.0 in development mode using configuration file: jsreport.config.json
+2018-12-05T09:35:11.201Z - info: Searching for available extensions in C:\Users\IAInnovations0005\Desktop\zf-reports
+2018-12-05T09:35:11.215Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\IAInnovations0005\Desktop\zf-reports
+2018-12-05T09:35:11.235Z - info: Found 31 extensions
+2018-12-05T09:35:12.015Z - info: Using extension handlebars
+2018-12-05T09:35:12.022Z - info: Using extension import-export
+2018-12-05T09:35:12.314Z - info: Using extension templates
+2018-12-05T09:35:12.331Z - info: Using extension jsrender
+2018-12-05T09:35:12.332Z - info: Using extension freeze
+2018-12-05T09:35:12.335Z - info: Using extension cli
+2018-12-05T09:35:12.337Z - info: Using extension express
+2018-12-05T09:35:12.598Z - info: Using extension debug
+2018-12-05T09:35:12.603Z - info: Using extension tags
+2018-12-05T09:35:12.613Z - info: Using extension data
+2018-12-05T09:35:12.619Z - info: Using extension fs-store
+2018-12-05T09:35:13.067Z - info: Using extension authorization
+2018-12-05T09:35:13.073Z - info: Using extension html-to-xlsx
+2018-12-05T09:35:13.280Z - info: html-to-xlsx detected chrome as available html engine
+2018-12-05T09:35:13.283Z - info: html-to-xlsx detected phantom as available html engine
+2018-12-05T09:35:13.284Z - info: Using extension child-templates
+2018-12-05T09:35:13.290Z - info: Using extension browser-client
+2018-12-05T09:35:13.295Z - info: Using extension chrome-pdf
+2018-12-05T09:35:13.303Z - info: Using extension pdf-utils
+2018-12-05T09:35:13.307Z - info: Using extension version-control
+2018-12-05T09:35:13.360Z - info: Using extension reports
+2018-12-05T09:35:13.368Z - info: Using extension text
+2018-12-05T09:35:13.370Z - info: Using extension base
+2018-12-05T09:35:13.374Z - info: Using extension studio
+2018-12-05T09:35:13.416Z - info: Using extension licensing
+2018-12-05T09:35:13.447Z - info: Using extension scripts
+2018-12-05T09:35:13.453Z - info: Using extension assets
+2018-12-05T09:35:13.466Z - info: Using extension scheduling
+2018-12-05T09:35:13.506Z - info: Using extension xlsx
+2018-12-05T09:35:13.616Z - info: Using extension sample-template
+2018-12-05T09:35:13.619Z - info: Using extension resources
+2018-12-05T09:35:13.621Z - info: Using extension public-templates
+2018-12-05T09:35:13.629Z - info: fs store is persisting using fs
+2018-12-05T09:35:13.630Z - info: fs store is synchronizing using fs
+2018-12-05T09:35:13.666Z - info: fs store is loading data
+2018-12-05T09:35:13.742Z - info: fs store is initialized successfully
+2018-12-05T09:35:13.784Z - info: Creating default express app.
+2018-12-05T09:35:13.821Z - info: jsreport server successfully started on http port: 53231
+2018-12-05T09:35:13.823Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-12-05T09:35:13.859Z - info: Verifying license key free
+2018-12-05T09:35:13.862Z - info: Using free license
+2018-12-05T09:35:13.866Z - info: reporter initialized
+2018-12-05T09:36:06.704Z - info: Initializing jsreport@2.2.0 in development mode using configuration file: jsreport.config.json
+2018-12-05T09:36:06.707Z - info: Searching for available extensions in C:\Users\IAInnovations0005\Desktop\zf-reports
+2018-12-05T09:36:06.721Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\IAInnovations0005\Desktop\zf-reports
+2018-12-05T09:36:06.741Z - info: Found 31 extensions
+2018-12-05T09:36:07.474Z - info: Using extension handlebars
+2018-12-05T09:36:07.480Z - info: Using extension import-export
+2018-12-05T09:36:07.677Z - info: Using extension templates
+2018-12-05T09:36:07.683Z - info: Using extension jsrender
+2018-12-05T09:36:07.687Z - info: Using extension freeze
+2018-12-05T09:36:07.689Z - info: Using extension cli
+2018-12-05T09:36:07.691Z - info: Using extension express
+2018-12-05T09:36:07.918Z - info: Using extension debug
+2018-12-05T09:36:07.921Z - info: Using extension tags
+2018-12-05T09:36:07.929Z - info: Using extension data
+2018-12-05T09:36:07.934Z - info: Using extension fs-store
+2018-12-05T09:36:08.272Z - info: Using extension authorization
+2018-12-05T09:36:08.279Z - info: Using extension html-to-xlsx
+2018-12-05T09:36:08.466Z - info: html-to-xlsx detected chrome as available html engine
+2018-12-05T09:36:08.468Z - info: html-to-xlsx detected phantom as available html engine
+2018-12-05T09:36:08.469Z - info: Using extension child-templates
+2018-12-05T09:36:08.472Z - info: Using extension browser-client
+2018-12-05T09:36:08.475Z - info: Using extension chrome-pdf
+2018-12-05T09:36:08.481Z - info: Using extension pdf-utils
+2018-12-05T09:36:08.483Z - info: Using extension version-control
+2018-12-05T09:36:08.513Z - info: Using extension reports
+2018-12-05T09:36:08.519Z - info: Using extension text
+2018-12-05T09:36:08.520Z - info: Using extension base
+2018-12-05T09:36:08.523Z - info: Using extension studio
+2018-12-05T09:36:08.561Z - info: Using extension licensing
+2018-12-05T09:36:08.585Z - info: Using extension scripts
+2018-12-05T09:36:08.591Z - info: Using extension assets
+2018-12-05T09:36:08.600Z - info: Using extension scheduling
+2018-12-05T09:36:08.638Z - info: Using extension xlsx
+2018-12-05T09:36:08.741Z - info: Using extension sample-template
+2018-12-05T09:36:08.745Z - info: Using extension resources
+2018-12-05T09:36:08.747Z - info: Using extension public-templates
+2018-12-05T09:36:08.753Z - info: fs store is persisting using fs
+2018-12-05T09:36:08.754Z - info: fs store is synchronizing using fs
+2018-12-05T09:36:08.790Z - info: fs store is loading data
+2018-12-05T09:36:08.885Z - info: fs store is initialized successfully
+2018-12-05T09:36:08.930Z - info: Creating default express app.
+2018-12-05T09:36:08.980Z - info: jsreport server successfully started on https port: 8080
+2018-12-05T09:36:08.982Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-12-05T09:36:09.017Z - info: Verifying license key free
+2018-12-05T09:36:09.020Z - info: Using free license
+2018-12-05T09:36:09.024Z - info: reporter initialized
+2018-12-05T10:01:08.999Z - info: fs store is loading data
+2018-12-05T10:01:09.058Z - info: fs store is loading data
+2018-12-05T10:01:09.059Z - info: fs store is loading data
+2018-12-05T10:01:09.059Z - info: fs store is loading data
+2018-12-05T10:01:09.060Z - info: fs store is loading data
+2018-12-05T10:01:09.061Z - info: fs store is loading data
+2018-12-05T10:01:09.062Z - info: fs store is loading data
+2018-12-05T10:01:09.063Z - info: fs store is loading data
+2018-12-05T10:01:09.064Z - info: fs store is loading data
+2018-12-05T10:01:09.068Z - info: fs store is loading data
+2018-12-05T10:01:09.074Z - info: fs store is loading data
+2018-12-05T10:01:09.076Z - info: fs store is loading data
+2018-12-05T10:01:09.077Z - info: fs store is loading data
+2018-12-05T10:01:09.079Z - info: fs store is loading data
+2018-12-05T10:01:09.082Z - info: fs store is loading data
+2018-12-05T10:01:09.095Z - info: fs store is loading data
+2018-12-05T10:01:09.097Z - info: fs store is loading data
+2018-12-05T10:01:09.098Z - info: fs store is loading data
+2018-12-05T10:01:09.099Z - info: fs store is loading data
+2018-12-05T10:01:09.100Z - info: fs store is loading data
+2018-12-05T10:01:09.101Z - info: fs store is loading data
+2018-12-05T10:01:09.102Z - info: fs store is loading data
+2018-12-05T10:01:09.103Z - info: fs store is loading data
+2018-12-05T10:01:09.108Z - info: fs store is loading data
+2018-12-05T10:01:09.109Z - info: fs store is loading data
+2018-12-05T10:01:09.110Z - info: fs store is loading data
+2018-12-05T10:01:09.126Z - info: fs store is loading data
+2018-12-05T10:01:09.127Z - info: fs store is loading data

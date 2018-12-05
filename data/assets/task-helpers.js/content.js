@@ -9,7 +9,7 @@ const views = {
 }
 
 function getReportViewBy(viewBy){
-    return `${views[viewBy].toUpperCase()} TASKS REPORT`
+    return `${views[viewBy].toUpperCase()} EXPENSE REPORT`
 }
 
 function getReportName(tasks){

@@ -4,11 +4,7 @@
 <table>
     <tr class='bold center-align'>
         <td colspan='5'>
-            {{#if expenses.reportDetails.viewByCompany}}
-                COMPANY EXPENSE REPORT
-            {{else}}
-                DEPARTMENT EXPENSE REPORT
-            {{/if}}
+            {{getReportViewBy expenses.reportDetails.viewBy }}
         </td>
     </tr>
     <tr class='bold center-align'>
@@ -17,11 +13,7 @@
     <tr><td  colspan='5' class="empty"> </td></tr>
     <tr class='bold'>
         <td colspan='5'>
-            {{#if expenses.reportDetails.viewByCompany}}
-                Company: {{upperCase expenses.name}}
-            {{else}}
-                Department: {{upperCase expenses.name}}
-            {{/if}}
+            {{getReportName expenses}}
         </td>
     </tr>
     <tr class='bold'>
@@ -29,7 +21,7 @@
     </tr>
     <tr><td  colspan='5' class="empty"> </td></tr>
     {{#if (checkIfWithResult expenses.data)}}
-        {{#if expenses.reportDetails.viewByCompany}}
+        {{#if (checkIfCompanyView expenses.reportDetails.viewBy)}}
            {{#each (groupByDepartment expenses.data)}}
                 <tr class='head-section font-white'>
                     <td colspan='5'>Department: {{@key}}</td>
@@ -61,7 +53,7 @@
                         <td>{{peso (getTotal this)}}</td>
                     </tr>
             {{/each}}
-        {{else}}
+        {{else if (checkIfDepartmentView expenses.reportDetails.viewBy)}}
             <tr class="heading ">
                 <td>Expense</td>
                 <td>Amount</td>
@@ -83,6 +75,23 @@
                         <td>{{exp_status}}</td>
                     </tr>
                 {{/each}}
+            {{/each}}
+        {{else}}
+            <tr class="heading ">
+                <td>Expense</td>
+                <td>Amount</td>
+                <td>Date</td>
+                <td>Details</td>
+                <td>Status</td>
+            </tr>
+            {{#each expenses.data}}
+                <tr class="item summary">
+                    <td>{{capitalize expTypeModel.exptype_name}}</td>
+                    <td>{{peso exp_amount}}</td>
+                    <td>{{formatDate exp_date}}</td>
+                    <td>{{exp_notes}}</td>
+                    <td>{{exp_status}}</td>
+                </tr>
             {{/each}}
         {{/if}}
     {{else}}

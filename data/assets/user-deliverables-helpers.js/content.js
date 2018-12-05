@@ -3,6 +3,22 @@ var rowCells = 0
 var delKeys = []
 let displayedField = ""
 
+const views = {
+    "company_id": "Company",
+    "department_id": "Department",
+    "user_id": "User"
+}
+
+function getReportViewBy(viewBy){
+    return `${views[viewBy].toUpperCase()} DELIVERABLE REPORT`
+}
+
+function getReportName(deliverables){
+    const { name, reportDetails } = deliverables
+    const label = views[reportDetails.viewBy]
+    return `${label}: ${name}`
+}
+
 function getDeptIndex(index){
     deptIndex =  index 
     return index !== 0 ? 'page-break' : ''

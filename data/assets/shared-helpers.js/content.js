@@ -69,3 +69,15 @@ function getRowSpan(data){
     const count = membersCount > notesCount ? membersCount : notesCount
     return count.toString() 
 }
+
+function checkIfCompanyView(viewBy){
+    return viewBy === "company_id"
+}
+
+function checkIfDepartmentView(viewBy){
+    return viewBy === "department_id"
+}
+
+function checkIfUserView(viewBy){
+    return viewBy === "user_id"
+}

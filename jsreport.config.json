@@ -15,7 +15,8 @@
       "strategy": "http-server"
     }
   },
-  "httpsPort": 8080,
+  "httpPort": null,
+  "httpsPort": null,
   "certificate": {
     "key": "certificates/server.key",
     "cert": "certificates/server.cert"

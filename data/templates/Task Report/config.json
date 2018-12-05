@@ -5,7 +5,7 @@
     "recipe": "html-to-xlsx",
     "engine": "handlebars",
     "modificationDate": {
-        "$$date": 1543971333411
+        "$$date": 1544004082586
     },
     "scripts": [
         {

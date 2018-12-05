@@ -5,7 +5,7 @@
     "isGlobal": false,
     "creationDate": "2018-12-04T03:18:34.759Z",
     "modificationDate": {
-        "$$date": 1543971001589
+        "$$date": 1544004082624
     },
     "tenantId": "ia-zenforce",
     "$entitySet": "scripts"
