@@ -1,0 +1,71 @@
+table {
+    width: 150%;
+    text-align: left;
+    table-layout: fixed;
+}
+
+.empty{
+    height: 20px;
+}
+
+.divider {
+    background: #A6ED93;
+}
+
+.main td {
+    background: #eee;
+    font-weight: bold;
+}
+
+.head-section td {
+    background: #01579b;
+    font-weight: bold;
+}
+
+.name-section td {
+    background: #fff59d  ;
+    font-weight: bold;
+}
+
+.heading td {
+    background: #bbdefb;
+    font-weight: bold;
+}
+
+.item td {
+    width: 100px;
+    text-align: left;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.mid-height {
+    height: 50px;
+}
+
+.font-white {
+    color: white;
+}
+
+.font-white td{
+    color: white;
+}
+
+table td {
+    white-space:nowrap;
+    min-width: 200px;
+}
+
+.summary td {
+    border: 1px solid black;
+}

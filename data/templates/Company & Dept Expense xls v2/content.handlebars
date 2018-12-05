@@ -1,0 +1,113 @@
+<style>
+    {#asset xls-style.css @encoding=utf8}
+</style>
+<table>
+    <tr class='bold center-align'>
+        <td colspan='5'>
+            {{#if expenses.reportDetails.viewByCompany}}
+                COMPANY EXPENSE REPORT
+            {{else}}
+                DEPARTMENT EXPENSE REPORT
+            {{/if}}
+        </td>
+    </tr>
+    <tr class='bold center-align'>
+        <td colspan='5'>(LIQUIDATION/REIMBURSEMENT)</td>
+    </tr>
+    <tr><td  colspan='5' class="empty"> </td></tr>
+    <tr class='bold'>
+        <td colspan='5'>
+            {{#if expenses.reportDetails.viewByCompany}}
+                Company: {{upperCase expenses.name}}
+            {{else}}
+                Department: {{upperCase expenses.name}}
+            {{/if}}
+        </td>
+    </tr>
+    <tr class='bold'>
+        <td colspan='5'>Duration: {{getDate expenses.reportDetails.startDate}} - {{getDate expenses.reportDetails.endDate}}
+    </tr>
+    <tr><td  colspan='5' class="empty"> </td></tr>
+    {{#if (checkIfWithResult expenses.data)}}
+        {{#if expenses.reportDetails.viewByCompany}}
+           {{#each (groupByDepartment expenses.data)}}
+                <tr class='head-section font-white'>
+                    <td colspan='5'>Department: {{@key}}</td>
+                </tr>
+                <tr class="heading ">
+                    <td>Expense</td>
+                    <td>Amount</td>
+                    <td>Date</td>
+                    <td>Details</td>
+                    <td>Status</td>
+                </tr>
+                {{#each (groupByUser this)}}
+                    <tr class='main summary'>
+                        <td colspan='4'>{{capitalize @key}}</td>
+                        <td class="head-section">{{getUserTotal this}}</td>
+                    </tr>
+                        {{#each this}}
+                            <tr class="item summary">
+                                <td>{{capitalize expTypeModel.exptype_name}}</td>
+                                <td>{{peso exp_amount}}</td>
+                                <td>{{formatDate exp_date}}</td>
+                                <td>{{exp_notes}}</td>
+                                <td>{{exp_status}}</td>
+                            </tr>
+                        {{/each}}
+                    {{/each}}
+                    <tr class="main summary">
+                        <td colspan='4'>Total</td>
+                        <td>{{peso (getTotal this)}}</td>
+                    </tr>
+            {{/each}}
+        {{else}}
+            <tr class="heading ">
+                <td>Expense</td>
+                <td>Amount</td>
+                <td>Date</td>
+                <td>Details</td>
+                <td>Status</td>
+            </tr>
+            {{#each (groupByUser expenses.data)}}
+                <tr class='main summary'>
+                    <td colspan='4'>{{capitalize @key}}</td>
+                    <td class="head-section">{{getUserTotal this}}</td>
+                </tr>
+                {{#each this}}
+                    <tr class="item summary">
+                        <td>{{capitalize expTypeModel.exptype_name}}</td>
+                        <td>{{peso exp_amount}}</td>
+                        <td>{{formatDate exp_date}}</td>
+                        <td>{{exp_notes}}</td>
+                        <td>{{exp_status}}</td>
+                    </tr>
+                {{/each}}
+            {{/each}}
+        {{/if}}
+    {{else}}
+        <tr>
+            <td colspan='5'>No data available for this duration.</td>
+        </tr>
+    {{/if}}
+    <tr><td  colspan='5' class="empty"> </td></tr>
+    <tr><td  colspan='5' class="empty"> </td></tr>
+    <tr class='head-section font-white center-align'>
+        <td colspan='2'>Summary</td>
+    </tr>
+        {{#each (groupByType expenses.data)}}
+            <tr class='main'>
+                <td colspan='2'>{{capitalize @key}}</td>
+            </tr>
+            {{#each (getTotalByStatus this)}}
+                <tr class='summary'>
+                    <td>{{@key}} : </td>
+                    <td>{{peso this}}</td>
+                </tr>
+            {{/each}}
+        {{/each}}
+        <tr class='main summary'>
+            <td>Total:</td>  
+            <td>{{total expenses.data}}</td>
+        </tr>
+    </table>

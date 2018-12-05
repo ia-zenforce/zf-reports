@@ -1,0 +1,163 @@
+2018-12-04T06:03:06.962Z - error: Error when processing render request htmlEngine "phantom" not found Error: htmlEngine "phantom" not found
+    at module.exports (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-core\lib\util\createError.js:9:13)
+    at Reporter.createError (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-core\lib\reporter.js:263:12)
+    at Object.execute (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-html-to-xlsx\lib\htmlToXlsx.js:62:24)
+    at invokeRender (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-core\lib\render\render.js:95:17)
+    at <anonymous>
+2018-12-04T06:03:06.964Z - error: Error during processing request at https://localhost:5489/api/report/Department%20Expense%20xls%20v2
+2018-12-04T06:03:29.373Z - error: Error when processing render request htmlEngine "phantom" not found Error: htmlEngine "phantom" not found
+    at module.exports (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-core\lib\util\createError.js:9:13)
+    at Reporter.createError (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-core\lib\reporter.js:263:12)
+    at Object.execute (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-html-to-xlsx\lib\htmlToXlsx.js:62:24)
+    at invokeRender (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-core\lib\render\render.js:95:17)
+    at <anonymous>
+2018-12-04T06:03:29.375Z - error: Error during processing request at https://localhost:5489/api/report/Company%20%20Task%20xls%20v2
+2018-12-04T06:35:31.761Z - error: uncaughtException: ENOENT: no such file or directory, scandir 'C:\Users\IAINNO~1\AppData\Local\Temp\jsreport\autocleanup' date=Tue Dec 04 2018 14:35:31 GMT+0800 (China Standard Time), pid=12740, uid=null, gid=null, cwd=C:\Users\IAInnovations0005\Desktop\jsreport, execPath=C:\Program Files\nodejs\node.exe, version=v8.11.1, argv=[C:\Program Files\nodejs\node.exe, C:\Users\IAInnovations0005\AppData\Roaming\npm\node_modules\jsreport-cli\cli.js, start], rss=119816192, heapTotal=73314304, heapUsed=61791176, external=876706, loadavg=[0, 0, 0], uptime=21778.2655399, trace=[column=18, file=fs.js, function=Object.fs.readdirSync, line=904, method=readdirSync, native=false, column=20, file=C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\reap2\index.js, function=null, line=98, method=null, native=false, column=null, file=null, function=Array.forEach, line=null, method=forEach, native=false, column=13, file=C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\reap2\index.js, function=Reaper.start, line=97, method=start, native=false, column=14, file=C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-core\lib\reporter.js, function=Timeout.setInterval [as _onTimeout], line=763, method=setInterval [as _onTimeout], native=false, column=11, file=timers.js, function=ontimeout, line=482, method=null, native=false, column=5, file=timers.js, function=Timer.unrefdHandle, line=595, method=unrefdHandle, native=false], stack=[Error: ENOENT: no such file or directory, scandir 'C:\Users\IAINNO~1\AppData\Local\Temp\jsreport\autocleanup',     at Object.fs.readdirSync (fs.js:904:18),     at C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\reap2\index.js:98:20,     at Array.forEach (<anonymous>),     at Reaper.start (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\reap2\index.js:97:13),     at Timeout.setInterval [as _onTimeout] (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-core\lib\reporter.js:763:14),     at ontimeout (timers.js:482:11),     at Timer.unrefdHandle (timers.js:595:5)]
+2018-12-04T06:42:04.820Z - error: Error when starting http server on port 1234 Error: listen EADDRINUSE :::1234
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:23:12)
+    at Promise._execute (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\debuggability.js:303:9)
+    at Promise._resolveFromExecutor (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\promise.js:79:10)
+    at startAsync (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:17:10)
+    at steps.push (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:119:14)
+    at Object.start (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:125:13)
+    at <anonymous>
+2018-12-04T06:42:04.825Z - error: Error occured during reporter init Error: listen EADDRINUSE :::1234
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:23:12)
+    at Promise._execute (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\debuggability.js:303:9)
+    at Promise._resolveFromExecutor (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\promise.js:79:10)
+    at startAsync (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:17:10)
+    at steps.push (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:119:14)
+    at Object.start (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:125:13)
+    at <anonymous>
+2018-12-04T06:43:19.155Z - error: Error when starting http server on port 1234 Error: listen EADDRINUSE :::1234
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:23:12)
+    at Promise._execute (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\debuggability.js:303:9)
+    at Promise._resolveFromExecutor (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\promise.js:79:10)
+    at startAsync (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:17:10)
+    at steps.push (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:119:14)
+    at Object.start (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:125:13)
+    at <anonymous>
+2018-12-04T06:43:19.158Z - error: Error occured during reporter init Error: listen EADDRINUSE :::1234
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:23:12)
+    at Promise._execute (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\debuggability.js:303:9)
+    at Promise._resolveFromExecutor (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\promise.js:79:10)
+    at startAsync (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:17:10)
+    at steps.push (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:119:14)
+    at Object.start (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:125:13)
+    at <anonymous>
+2018-12-04T06:44:50.532Z - error: Error when starting http server on port 1234 Error: listen EADDRINUSE :::1234
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:23:12)
+    at Promise._execute (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\debuggability.js:303:9)
+    at Promise._resolveFromExecutor (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\promise.js:79:10)
+    at startAsync (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:17:10)
+    at steps.push (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:119:14)
+    at Object.start (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:125:13)
+    at <anonymous>
+2018-12-04T06:44:50.536Z - error: Error occured during reporter init Error: listen EADDRINUSE :::1234
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:23:12)
+    at Promise._execute (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\debuggability.js:303:9)
+    at Promise._resolveFromExecutor (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\promise.js:79:10)
+    at startAsync (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:17:10)
+    at steps.push (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:119:14)
+    at Object.start (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:125:13)
+    at <anonymous>
+2018-12-04T06:49:53.303Z - error: Error when starting http server on port 1234 Error: listen EADDRINUSE :::1234
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:23:12)
+    at Promise._execute (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\debuggability.js:303:9)
+    at Promise._resolveFromExecutor (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\promise.js:79:10)
+    at startAsync (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:17:10)
+    at steps.push (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:119:14)
+    at Object.start (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:125:13)
+    at <anonymous>
+2018-12-04T06:49:53.398Z - error: Error occured during reporter init Error: listen EADDRINUSE :::1234
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:23:12)
+    at Promise._execute (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\debuggability.js:303:9)
+    at Promise._resolveFromExecutor (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\promise.js:79:10)
+    at startAsync (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:17:10)
+    at steps.push (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:119:14)
+    at Object.start (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:125:13)
+    at <anonymous>
+2018-12-04T08:22:35.850Z - error: Error when processing render request Invalid character () in string: 
+                                                    1000000372002
+                                                                                            at index 66 Error: Invalid character () in string: 
+                                                    1000000372002
+                                                                                            at index 66
+    at XMLStringifier.module.exports.XMLStringifier.assertLegalChar (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\html-to-xlsx\node_modules\xmlbuilder\lib\XMLStringifier.js:153:15)
+    at XMLStringifier.assertLegalChar (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\html-to-xlsx\node_modules\xmlbuilder\lib\XMLStringifier.js:4:59)
+    at XMLStringifier.module.exports.XMLStringifier.eleText (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\html-to-xlsx\node_modules\xmlbuilder\lib\XMLStringifier.js:33:19)
+    at new XMLText (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\html-to-xlsx\node_modules\xmlbuilder\lib\XMLText.js:17:35)
+    at XMLElement.module.exports.XMLNode.text (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\html-to-xlsx\node_modules\xmlbuilder\lib\XMLNode.js:165:15)
+    at XMLElement.module.exports.XMLNode.node (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\html-to-xlsx\node_modules\xmlbuilder\lib\XMLNode.js:157:15)
+    at XMLElement.module.exports.XMLNode.element (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\html-to-xlsx\node_modules\xmlbuilder\lib\XMLNode.js:102:28)
+    at XMLElement.module.exports.XMLNode.ele (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\html-to-xlsx\node_modules\xmlbuilder\lib\XMLNode.js:357:19)
+    at SharedStrings.toxml (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\html-to-xlsx\node_modules\msexcel-builder-extended\lib\msexcel-builder.js:295:10)
+    at Workbook.save (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\html-to-xlsx\node_modules\msexcel-builder-extended\lib\msexcel-builder.js:827:75)
+    at Workbook.save (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\html-to-xlsx\node_modules\msexcel-builder-extended\lib\msexcel-builder.js:7:59)
+    at Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\html-to-xlsx\lib\conversion.js:331:14)
+    at new Promise (<anonymous>)
+    at tableToXlsx (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\html-to-xlsx\lib\conversion.js:330:10)
+    at convert (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\html-to-xlsx\lib\conversion.js:383:26)
+    at <anonymous>
+2018-12-04T08:22:35.851Z - error: Error during processing request at https://localhost:12345/api/report
+2018-12-05T03:40:29.006Z - error: Error when starting http server on port 3000 Error: listen EADDRINUSE :::3000
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:23:12)
+    at Promise._execute (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\debuggability.js:303:9)
+    at Promise._resolveFromExecutor (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\promise.js:79:10)
+    at startAsync (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:17:10)
+    at steps.push (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:119:14)
+    at Object.start (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:125:13)
+    at <anonymous>

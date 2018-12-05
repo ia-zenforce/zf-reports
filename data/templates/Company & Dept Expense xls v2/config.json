@@ -1,0 +1,25 @@
+{
+    "_id": "5c05f20ae58d5cf4f484199b",
+    "shortid": "B1UjXNA-M",
+    "name": "Company & Dept Expense xls v2",
+    "recipe": "html-to-xlsx",
+    "engine": "handlebars",
+    "scripts": [
+        {
+            "shortid": "SJqOuyq2b"
+        }
+    ],
+    "phantom": {
+        "format": "Legal",
+        "orientation": "landscape"
+    },
+    "modificationDate": {
+        "$$date": 1543916943867
+    },
+    "tenantId": "ia-zenforce",
+    "htmlToXlsx": {
+        "htmlEngine": "phantom"
+    },
+    "htmlToXlsxPhantomDefaultMigrated": true,
+    "$entitySet": "templates"
+}

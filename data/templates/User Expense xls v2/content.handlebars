@@ -1,0 +1,61 @@
+<style>
+    {#asset xls-style.css @encoding=utf8}
+</style>
+<table>
+    <tr>
+        <td colspan='4' class='bold center-align'>EXPENSE REPORT</td>
+    </tr>
+    <tr>
+        <td colspan='4' class='bold center-align'>(LIQUIDATION/REIMBURSEMENT)</td>
+    </tr>
+    <tr><td  colspan='6' class="empty"> </td></tr>
+    <tr>
+         <td colspan='4' class='bold'>Duration: {{getDate expenses.reportDetails.startDate}} - {{getDate expenses.reportDetails.endDate}}</td>
+    </tr>
+    <tr>
+         <td colspan='4' class='bold'>Full Name : {{upperCase expenses.name}}</td>
+    </tr>
+   <tr><td  colspan='6' class="empty"> </td></tr>
+        {{#if (checkIfWithResult expenses.data)}}
+            <tr class="heading ">
+                <td>Expense</td>
+                <td>Amount</td>
+                <td>Date</td>
+                <td>Status</td>
+            </tr>
+            {{#each expenses.data}}
+            <tr class="item summary">
+                <td>{{capitalize expTypeModel.exptype_name}}</td>
+                <td>{{peso exp_amount}}</td>
+                <td>{{formatDate exp_date}}</td>
+                <td>{{exp_status}}</td>
+            </tr>
+            {{/each}}
+    {{else}}
+        <tr>
+            <td colspan='4'>No data available for this duration.</td>
+        </tr>
+    {{/if}}
+    <tr><td  colspan='6' class="empty"> </td></tr>
+    <tr><td  colspan='6' class="empty"> </td></tr>
+    <tr class='head-section font-white center-align'>
+        <td colspan='2'>Summary</h3>
+    </tr>
+        
+        {{#each (groupByType expenses.data)}}
+            <tr  class='main'>
+                <td colspan="2">{{capitalize @key }}</td>
+            </tr>
+            {{#each (getTotalByStatus this)}}
+                <tr class='summary'>
+                    <td>{{@key}} : </td>
+                    <td>{{peso this}}</td>
+                </tr>
+            {{/each}}
+        {{/each}}
+        <tr class='main summary'>
+            <td>Total:  </td>
+            <td>{{total expenses.data}}</td>
+        </tr>
+ 
+</table>

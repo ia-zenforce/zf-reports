@@ -1,0 +1,11 @@
+{
+    "_id": "5c05f20ae58d5cccf28419b5",
+    "name": "Company & Dept Deliverable List",
+    "shortid": "SyeVt0bTZ",
+    "creationDate": "2018-12-04T03:18:34.750Z",
+    "modificationDate": {
+        "$$date": 1543977243005
+    },
+    "tenantId": "ia-zenforce",
+    "$entitySet": "scripts"
+}

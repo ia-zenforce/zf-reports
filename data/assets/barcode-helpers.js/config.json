@@ -1,0 +1,10 @@
+{
+    "_id": "5c05f20ae58d5c125a8419ad",
+    "name": "barcode-helpers.js",
+    "modificationDate": {
+        "$$date": 1543906280116
+    },
+    "shortid": "S112EJtkm",
+    "tenantId": "ia-zenforce",
+    "$entitySet": "assets"
+}

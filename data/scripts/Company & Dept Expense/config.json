@@ -1,0 +1,12 @@
+{
+    "_id": "5c05f20ae58d5c00178419b0",
+    "shortid": "SJqOuyq2b",
+    "name": "Company & Dept Expense",
+    "isGlobal": false,
+    "creationDate": "2018-12-04T03:18:34.728Z",
+    "modificationDate": {
+        "$$date": 1543916955364
+    },
+    "tenantId": "ia-zenforce",
+    "$entitySet": "scripts"
+}

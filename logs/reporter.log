@@ -1,0 +1,2188 @@
+2018-12-04T05:59:48.262Z - info: Initializing jsreport@2.2.0 in development mode using configuration file: jsreport.config.json
+2018-12-04T05:59:48.264Z - info: Searching for available extensions in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-04T05:59:48.269Z - info: Extensions location cache not found, crawling directories
+2018-12-04T05:59:49.534Z - info: Found 31 extensions
+2018-12-04T05:59:49.572Z - debug: Writing extension locations cache to C:\Users\IAINNO~1\AppData\Local\Temp\jsreport\core\locations.json
+2018-12-04T05:59:49.574Z - debug: Discovered 31 extensions
+2018-12-04T05:59:50.003Z - info: Using extension handlebars
+2018-12-04T05:59:50.010Z - info: Using extension import-export
+2018-12-04T05:59:50.265Z - info: Using extension templates
+2018-12-04T05:59:50.273Z - info: Using extension jsrender
+2018-12-04T05:59:50.275Z - debug: Extension authentication is disabled, skipping
+2018-12-04T05:59:50.276Z - info: Using extension freeze
+2018-12-04T05:59:50.278Z - info: Using extension cli
+2018-12-04T05:59:50.280Z - info: Using extension express
+2018-12-04T05:59:50.495Z - info: Using extension debug
+2018-12-04T05:59:50.499Z - info: Using extension tags
+2018-12-04T05:59:50.506Z - info: Using extension data
+2018-12-04T05:59:50.510Z - info: Using extension fs-store
+2018-12-04T05:59:50.858Z - debug: Extension fs-store was disabled
+2018-12-04T05:59:50.859Z - info: Using extension authorization
+2018-12-04T05:59:50.864Z - debug: Extension authorization was disabled
+2018-12-04T05:59:50.864Z - info: Using extension html-to-xlsx
+2018-12-04T05:59:51.092Z - info: html-to-xlsx detected chrome as available html engine
+2018-12-04T05:59:51.093Z - info: Using extension child-templates
+2018-12-04T05:59:51.098Z - info: Using extension browser-client
+2018-12-04T05:59:51.113Z - info: Using extension chrome-pdf
+2018-12-04T05:59:51.120Z - info: Using extension pdf-utils
+2018-12-04T05:59:51.123Z - info: Using extension version-control
+2018-12-04T05:59:51.179Z - info: Using extension reports
+2018-12-04T05:59:51.187Z - info: Using extension text
+2018-12-04T05:59:51.189Z - info: Using extension base
+2018-12-04T05:59:51.192Z - info: Using extension studio
+2018-12-04T05:59:51.250Z - info: Using extension licensing
+2018-12-04T05:59:51.283Z - info: Using extension scripts
+2018-12-04T05:59:51.290Z - info: Using extension assets
+2018-12-04T05:59:51.307Z - info: Using extension scheduling
+2018-12-04T05:59:51.353Z - info: Using extension xlsx
+2018-12-04T05:59:51.490Z - info: Using extension sample-template
+2018-12-04T05:59:51.494Z - debug: Creating samples is disabled
+2018-12-04T05:59:51.495Z - info: Using extension resources
+2018-12-04T05:59:51.497Z - info: Using extension public-templates
+2018-12-04T05:59:51.501Z - debug: Extension public-templates was disabled
+2018-12-04T05:59:51.582Z - info: Creating default express app.
+2018-12-04T05:59:51.611Z - debug: Reading ssl certificate from C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\certificates\jsreport.net.cert
+2018-12-04T05:59:51.640Z - info: jsreport server successfully started on https port: 5489
+2018-12-04T05:59:51.641Z - info: jsreport server successfully started on http port: 1234
+2018-12-04T05:59:51.647Z - info: Verifying license key free
+2018-12-04T05:59:51.650Z - info: Using free license
+2018-12-04T05:59:51.655Z - info: reporter initialized
+2018-12-04T06:01:31.031Z - debug: OData query on templates
+2018-12-04T06:01:31.047Z - debug: OData query on assets
+2018-12-04T06:01:31.056Z - debug: OData query on tags
+2018-12-04T06:01:31.062Z - debug: OData query on schedules
+2018-12-04T06:01:31.066Z - debug: OData query on settings
+2018-12-04T06:01:31.071Z - debug: OData query on data
+2018-12-04T06:01:31.076Z - debug: OData query on scripts
+2018-12-04T06:01:31.085Z - debug: OData query on xlsxTemplates
+2018-12-04T06:01:31.203Z - debug: OData query on templates
+2018-12-04T06:01:31.219Z - debug: OData query on settings
+2018-12-04T06:01:41.818Z - debug: OData query on templates
+2018-12-04T06:01:41.844Z - debug: OData query on settings
+2018-12-04T06:01:41.913Z - debug: OData query on templates
+2018-12-04T06:01:41.932Z - debug: OData query on settings
+2018-12-04T06:01:43.421Z - debug: reading import zip file
+2018-12-04T06:01:43.426Z - debug: OData query on templates
+2018-12-04T06:01:43.436Z - debug: OData query on settings
+2018-12-04T06:01:43.478Z - debug: import found 41 objects
+2018-12-04T06:01:43.651Z - debug: OData query on templates
+2018-12-04T06:01:45.683Z - debug: OData query on settings
+2018-12-04T06:01:46.007Z - debug: OData query on templates
+2018-12-04T06:01:46.017Z - debug: OData query on tags
+2018-12-04T06:01:46.087Z - debug: OData query on data
+2018-12-04T06:01:46.101Z - debug: OData query on settings
+2018-12-04T06:01:46.106Z - debug: OData query on schedules
+2018-12-04T06:01:46.112Z - debug: OData query on scripts
+2018-12-04T06:01:46.114Z - debug: OData query on assets
+2018-12-04T06:01:46.122Z - debug: OData query on xlsxTemplates
+2018-12-04T06:01:46.201Z - debug: OData query on templates
+2018-12-04T06:01:46.216Z - debug: OData query on settings
+2018-12-04T06:01:56.256Z - debug: OData query on templates
+2018-12-04T06:01:56.263Z - info: Verifying license key free
+2018-12-04T06:01:56.282Z - debug: OData query on settings
+2018-12-04T06:01:57.772Z - info: Starting one month enterprise trial
+2018-12-04T06:01:57.815Z - debug: OData query on templates
+2018-12-04T06:01:57.827Z - debug: OData query on settings
+2018-12-04T06:02:08.974Z - debug: OData query on templates
+2018-12-04T06:02:08.986Z - debug: OData query on settings
+2018-12-04T06:03:02.081Z - debug: OData query on templates
+2018-12-04T06:03:02.091Z - debug: OData query on templates
+2018-12-04T06:03:02.387Z - debug: OData query on settings
+2018-12-04T06:03:03.971Z - info: Starting rendering request 1 (user: null)
+2018-12-04T06:03:03.974Z - info: Rendering template { name: Department Expense xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T06:03:03.975Z - debug: Data item not defined for this template.
+2018-12-04T06:03:03.977Z - debug: Resources not defined for this template.
+2018-12-04T06:03:03.981Z - debug: Executing script Department Expense
+2018-12-04T06:03:03.985Z - debug: Replaced assets ["shared-scripts.js"]
+2018-12-04T06:03:06.786Z - debug: login
+2018-12-04T06:03:06.795Z - debug: Replaced assets ["xls-style.css"]
+2018-12-04T06:03:06.802Z - debug: Replaced assets ["shared-helpers.js","expense-helpers.js"]
+2018-12-04T06:03:06.805Z - debug: Base url not specified, skipping its injection.
+2018-12-04T06:03:06.807Z - debug: Rendering engine handlebars
+2018-12-04T06:03:06.955Z - debug: Compiled template not found in the cache, compiling
+2018-12-04T06:03:06.957Z - debug: Executing recipe html-to-xlsx
+2018-12-04T06:03:06.961Z - error: Error when processing render request htmlEngine "phantom" not found Error: htmlEngine "phantom" not found
+    at module.exports (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-core\lib\util\createError.js:9:13)
+    at Reporter.createError (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-core\lib\reporter.js:263:12)
+    at Object.execute (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-html-to-xlsx\lib\htmlToXlsx.js:62:24)
+    at invokeRender (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-core\lib\render\render.js:95:17)
+    at <anonymous>
+2018-12-04T06:03:06.964Z - error: Error during processing request at https://localhost:5489/api/report/Department%20Expense%20xls%20v2
+2018-12-04T06:03:20.429Z - debug: OData query on templates
+2018-12-04T06:03:20.455Z - debug: OData query on settings
+2018-12-04T06:03:21.788Z - debug: OData query on templates
+2018-12-04T06:03:21.797Z - debug: OData query on templates
+2018-12-04T06:03:21.904Z - debug: OData query on settings
+2018-12-04T06:03:26.246Z - info: Starting rendering request 2 (user: null)
+2018-12-04T06:03:26.248Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T06:03:26.250Z - debug: Data item not defined for this template.
+2018-12-04T06:03:26.251Z - debug: Resources not defined for this template.
+2018-12-04T06:03:26.254Z - debug: Executing script Company Task
+2018-12-04T06:03:26.256Z - debug: Replaced assets ["shared-scripts.js"]
+2018-12-04T06:03:29.285Z - debug: login
+2018-12-04T06:03:29.291Z - debug: Replaced assets ["xls-style.css"]
+2018-12-04T06:03:29.301Z - debug: Replaced assets ["shared-helpers.js","task-helpers.js"]
+2018-12-04T06:03:29.304Z - debug: Base url not specified, skipping its injection.
+2018-12-04T06:03:29.308Z - debug: Rendering engine handlebars
+2018-12-04T06:03:29.369Z - debug: Compiled template not found in the cache, compiling
+2018-12-04T06:03:29.369Z - debug: checkIfWithTask:  true
+2018-12-04T06:03:29.371Z - debug: Executing recipe html-to-xlsx
+2018-12-04T06:03:29.373Z - error: Error when processing render request htmlEngine "phantom" not found Error: htmlEngine "phantom" not found
+    at module.exports (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-core\lib\util\createError.js:9:13)
+    at Reporter.createError (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-core\lib\reporter.js:263:12)
+    at Object.execute (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-html-to-xlsx\lib\htmlToXlsx.js:62:24)
+    at invokeRender (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-core\lib\render\render.js:95:17)
+    at <anonymous>
+2018-12-04T06:03:29.374Z - error: Error during processing request at https://localhost:5489/api/report/Company%20%20Task%20xls%20v2
+2018-12-04T06:04:16.904Z - debug: OData remove from templates
+2018-12-04T06:04:20.165Z - debug: OData remove from templates
+2018-12-04T06:04:25.791Z - debug: OData remove from templates
+2018-12-04T06:04:28.812Z - debug: OData remove from templates
+2018-12-04T06:04:37.398Z - debug: OData remove from templates
+2018-12-04T06:04:40.957Z - debug: OData remove from templates
+2018-12-04T06:04:44.260Z - debug: OData remove from templates
+2018-12-04T06:04:49.487Z - debug: OData remove from templates
+2018-12-04T06:05:03.751Z - debug: OData remove from templates
+2018-12-04T06:19:28.268Z - info: Initializing jsreport@2.2.0 in development mode using configuration file: jsreport.config.json
+2018-12-04T06:19:28.270Z - info: Searching for available extensions in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-04T06:19:28.278Z - info: Extensions location cache C:\Users\IAINNO~1\AppData\Local\Temp\jsreport\core\locations.json contains older information, crawling
+2018-12-04T06:19:29.468Z - info: Found 31 extensions
+2018-12-04T06:19:29.503Z - debug: Writing extension locations cache to C:\Users\IAINNO~1\AppData\Local\Temp\jsreport\core\locations.json
+2018-12-04T06:19:29.507Z - debug: Discovered 31 extensions
+2018-12-04T06:19:29.972Z - info: Using extension handlebars
+2018-12-04T06:19:29.979Z - info: Using extension import-export
+2018-12-04T06:19:30.160Z - info: Using extension templates
+2018-12-04T06:19:30.169Z - info: Using extension jsrender
+2018-12-04T06:19:30.171Z - debug: Extension authentication is disabled, skipping
+2018-12-04T06:19:30.172Z - info: Using extension freeze
+2018-12-04T06:19:30.175Z - info: Using extension cli
+2018-12-04T06:19:30.177Z - info: Using extension express
+2018-12-04T06:19:30.417Z - info: Using extension debug
+2018-12-04T06:19:30.422Z - info: Using extension tags
+2018-12-04T06:19:30.430Z - info: Using extension data
+2018-12-04T06:19:30.440Z - info: Using extension fs-store
+2018-12-04T06:19:30.829Z - debug: Extension fs-store was disabled
+2018-12-04T06:19:30.831Z - info: Using extension authorization
+2018-12-04T06:19:30.836Z - debug: Extension authorization was disabled
+2018-12-04T06:19:30.836Z - info: Using extension html-to-xlsx
+2018-12-04T06:19:31.063Z - info: html-to-xlsx detected chrome as available html engine
+2018-12-04T06:19:31.066Z - info: html-to-xlsx detected phantom as available html engine
+2018-12-04T06:19:31.066Z - info: Using extension child-templates
+2018-12-04T06:19:31.071Z - info: Using extension browser-client
+2018-12-04T06:19:31.076Z - info: Using extension chrome-pdf
+2018-12-04T06:19:31.082Z - info: Using extension pdf-utils
+2018-12-04T06:19:31.086Z - info: Using extension version-control
+2018-12-04T06:19:31.129Z - info: Using extension reports
+2018-12-04T06:19:31.137Z - info: Using extension text
+2018-12-04T06:19:31.140Z - info: Using extension base
+2018-12-04T06:19:31.143Z - info: Using extension studio
+2018-12-04T06:19:31.202Z - info: Using extension licensing
+2018-12-04T06:19:31.233Z - info: Using extension scripts
+2018-12-04T06:19:31.241Z - info: Using extension assets
+2018-12-04T06:19:31.255Z - info: Using extension scheduling
+2018-12-04T06:19:31.305Z - info: Using extension xlsx
+2018-12-04T06:19:31.471Z - info: Using extension sample-template
+2018-12-04T06:19:31.476Z - debug: Creating samples is disabled
+2018-12-04T06:19:31.477Z - info: Using extension resources
+2018-12-04T06:19:31.480Z - info: Using extension public-templates
+2018-12-04T06:19:31.484Z - debug: Extension public-templates was disabled
+2018-12-04T06:19:31.590Z - info: Creating default express app.
+2018-12-04T06:19:31.621Z - debug: Reading ssl certificate from C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\certificates\jsreport.net.cert
+2018-12-04T06:19:31.642Z - info: jsreport server successfully started on https port: 5489
+2018-12-04T06:19:31.644Z - info: jsreport server successfully started on http port: 1234
+2018-12-04T06:19:31.649Z - info: Verifying license key free
+2018-12-04T06:19:31.652Z - info: Using free license
+2018-12-04T06:19:31.663Z - info: reporter initialized
+2018-12-04T06:19:56.603Z - debug: OData query on templates
+2018-12-04T06:19:56.625Z - debug: OData query on schedules
+2018-12-04T06:19:56.632Z - debug: OData query on data
+2018-12-04T06:19:56.641Z - debug: OData query on assets
+2018-12-04T06:19:56.646Z - debug: OData query on xlsxTemplates
+2018-12-04T06:19:56.652Z - debug: OData query on settings
+2018-12-04T06:19:56.658Z - debug: OData query on tags
+2018-12-04T06:19:56.661Z - debug: OData query on scripts
+2018-12-04T06:20:34.748Z - debug: Version control commit: local changes
+2018-12-04T06:20:34.753Z - debug: Version control diff for local changes
+2018-12-04T06:21:40.857Z - debug: reading import zip file
+2018-12-04T06:21:40.890Z - debug: import found 29 objects
+2018-12-04T06:21:43.350Z - debug: OData query on templates
+2018-12-04T06:21:43.362Z - debug: OData query on tags
+2018-12-04T06:21:43.374Z - debug: OData query on scripts
+2018-12-04T06:21:43.380Z - debug: OData query on assets
+2018-12-04T06:21:43.383Z - debug: OData query on schedules
+2018-12-04T06:21:43.388Z - debug: OData query on xlsxTemplates
+2018-12-04T06:21:43.399Z - debug: OData query on settings
+2018-12-04T06:21:43.402Z - debug: OData query on data
+2018-12-04T06:21:43.516Z - debug: OData query on templates
+2018-12-04T06:21:43.533Z - debug: OData query on settings
+2018-12-04T06:21:46.419Z - debug: Version control commit: local changes
+2018-12-04T06:21:46.428Z - debug: Version control diff for local changes
+2018-12-04T06:21:51.594Z - debug: OData query on templates
+2018-12-04T06:21:53.118Z - info: Starting rendering request 1 (user: null)
+2018-12-04T06:21:53.122Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T06:21:53.124Z - debug: Data item not defined for this template.
+2018-12-04T06:21:53.127Z - debug: Resources not defined for this template.
+2018-12-04T06:21:53.132Z - debug: Executing script Company Task
+2018-12-04T06:21:53.137Z - debug: Replaced assets ["shared-scripts.js"]
+2018-12-04T06:21:53.541Z - info: Verifying license key free
+2018-12-04T06:21:54.949Z - info: Using enterprise trial license
+2018-12-04T06:21:56.593Z - debug: login
+2018-12-04T06:21:56.604Z - debug: Replaced assets ["xls-style.css"]
+2018-12-04T06:21:56.610Z - debug: Replaced assets ["shared-helpers.js","task-helpers.js"]
+2018-12-04T06:21:56.615Z - debug: Base url not specified, skipping its injection.
+2018-12-04T06:21:56.618Z - debug: Rendering engine handlebars
+2018-12-04T06:21:56.809Z - debug: Compiled template not found in the cache, compiling
+2018-12-04T06:21:56.811Z - debug: checkIfWithTask:  true
+2018-12-04T06:21:56.812Z - debug: Executing recipe html-to-xlsx
+2018-12-04T06:22:01.747Z - info: Starting rendering request 2 (user: null)
+2018-12-04T06:22:01.749Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T06:22:01.750Z - debug: Data item not defined for this template.
+2018-12-04T06:22:01.751Z - debug: Resources not defined for this template.
+2018-12-04T06:22:01.753Z - debug: Executing script Company Task
+2018-12-04T06:22:01.757Z - debug: Replaced assets ["shared-scripts.js"]
+2018-12-04T06:22:03.319Z - debug: login
+2018-12-04T06:22:03.322Z - debug: Replaced assets ["xls-style.css"]
+2018-12-04T06:22:03.324Z - debug: Replaced assets ["shared-helpers.js","task-helpers.js"]
+2018-12-04T06:22:03.325Z - debug: Base url not specified, skipping its injection.
+2018-12-04T06:22:03.329Z - debug: Rendering engine handlebars
+2018-12-04T06:22:03.345Z - debug: Taking compiled template from engine cache
+2018-12-04T06:22:03.347Z - debug: checkIfWithTask:  true
+2018-12-04T06:22:03.351Z - debug: Executing recipe html-to-xlsx
+2018-12-04T06:22:05.056Z - debug: Skipping storing report.
+2018-12-04T06:22:05.059Z - info: Rendering request 1 finished in 11942 ms
+2018-12-04T06:22:06.593Z - debug: Skipping storing report.
+2018-12-04T06:22:06.596Z - info: Rendering request 2 finished in 4850 ms
+2018-12-04T06:22:31.503Z - info: Starting rendering request 3 (user: null)
+2018-12-04T06:22:31.505Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T06:22:31.506Z - debug: Data item not defined for this template.
+2018-12-04T06:22:31.507Z - debug: Resources not defined for this template.
+2018-12-04T06:22:31.516Z - debug: Executing script Company Task
+2018-12-04T06:22:31.518Z - debug: Replaced assets ["shared-scripts.js"]
+2018-12-04T06:22:33.157Z - debug: login
+2018-12-04T06:22:33.160Z - debug: Replaced assets ["xls-style.css"]
+2018-12-04T06:22:33.167Z - debug: Replaced assets ["shared-helpers.js","task-helpers.js"]
+2018-12-04T06:22:33.168Z - debug: Base url not specified, skipping its injection.
+2018-12-04T06:22:33.170Z - debug: Rendering engine handlebars
+2018-12-04T06:22:33.184Z - debug: Taking compiled template from engine cache
+2018-12-04T06:22:33.185Z - debug: checkIfWithTask:  true
+2018-12-04T06:22:33.188Z - debug: Executing recipe html-to-xlsx
+2018-12-04T06:22:36.049Z - debug: Skipping storing report.
+2018-12-04T06:22:36.051Z - info: Rendering request 3 finished in 4553 ms
+2018-12-04T06:36:00.430Z - info: Initializing jsreport@2.2.0 in development mode using configuration file: jsreport.config.json
+2018-12-04T06:36:00.432Z - info: Searching for available extensions in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-04T06:36:00.443Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-04T06:36:00.456Z - info: Found 31 extensions
+2018-12-04T06:36:00.497Z - debug: Writing extension locations cache to C:\Users\IAINNO~1\AppData\Local\Temp\jsreport\core\locations.json
+2018-12-04T06:36:00.503Z - debug: Discovered 31 extensions
+2018-12-04T06:36:01.110Z - info: Using extension handlebars
+2018-12-04T06:36:01.119Z - info: Using extension import-export
+2018-12-04T06:36:01.350Z - info: Using extension templates
+2018-12-04T06:36:01.358Z - info: Using extension jsrender
+2018-12-04T06:36:01.360Z - debug: Extension authentication is disabled, skipping
+2018-12-04T06:36:01.361Z - info: Using extension freeze
+2018-12-04T06:36:01.365Z - info: Using extension cli
+2018-12-04T06:36:01.367Z - info: Using extension express
+2018-12-04T06:36:01.626Z - info: Using extension debug
+2018-12-04T06:36:01.630Z - info: Using extension tags
+2018-12-04T06:36:01.638Z - info: Using extension data
+2018-12-04T06:36:01.643Z - info: Using extension fs-store
+2018-12-04T06:36:02.011Z - debug: Extension fs-store was disabled
+2018-12-04T06:36:02.013Z - info: Using extension authorization
+2018-12-04T06:36:02.017Z - debug: Extension authorization was disabled
+2018-12-04T06:36:02.018Z - info: Using extension html-to-xlsx
+2018-12-04T06:36:02.262Z - info: html-to-xlsx detected chrome as available html engine
+2018-12-04T06:36:02.264Z - info: html-to-xlsx detected phantom as available html engine
+2018-12-04T06:36:02.265Z - info: Using extension child-templates
+2018-12-04T06:36:02.271Z - info: Using extension browser-client
+2018-12-04T06:36:02.275Z - info: Using extension chrome-pdf
+2018-12-04T06:36:02.281Z - info: Using extension pdf-utils
+2018-12-04T06:36:02.285Z - info: Using extension version-control
+2018-12-04T06:36:02.338Z - info: Using extension reports
+2018-12-04T06:36:02.348Z - info: Using extension text
+2018-12-04T06:36:02.350Z - info: Using extension base
+2018-12-04T06:36:02.354Z - info: Using extension studio
+2018-12-04T06:36:02.416Z - info: Using extension licensing
+2018-12-04T06:36:02.455Z - info: Using extension scripts
+2018-12-04T06:36:02.464Z - info: Using extension assets
+2018-12-04T06:36:02.479Z - info: Using extension scheduling
+2018-12-04T06:36:02.535Z - info: Using extension xlsx
+2018-12-04T06:36:02.671Z - info: Using extension sample-template
+2018-12-04T06:36:02.676Z - debug: Creating samples is disabled
+2018-12-04T06:36:02.677Z - info: Using extension resources
+2018-12-04T06:36:02.679Z - info: Using extension public-templates
+2018-12-04T06:36:02.683Z - debug: Extension public-templates was disabled
+2018-12-04T06:36:02.781Z - info: Creating default express app.
+2018-12-04T06:36:02.810Z - debug: Reading ssl certificate from C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\certificates\jsreport.net.cert
+2018-12-04T06:36:02.832Z - info: jsreport server successfully started on https port: 5489
+2018-12-04T06:36:02.833Z - info: jsreport server successfully started on http port: 1234
+2018-12-04T06:36:02.839Z - info: Verifying license key free
+2018-12-04T06:36:02.842Z - info: Using free license
+2018-12-04T06:36:02.851Z - info: reporter initialized
+2018-12-04T06:37:26.096Z - debug: OData query on templates
+2018-12-04T06:37:26.108Z - debug: OData query on tags
+2018-12-04T06:37:26.126Z - debug: OData query on scripts
+2018-12-04T06:37:26.130Z - debug: OData query on assets
+2018-12-04T06:37:26.133Z - debug: OData query on schedules
+2018-12-04T06:37:26.136Z - debug: OData query on xlsxTemplates
+2018-12-04T06:37:26.145Z - debug: OData query on settings
+2018-12-04T06:37:26.156Z - debug: OData query on data
+2018-12-04T06:37:26.294Z - debug: OData query on templates
+2018-12-04T06:37:26.315Z - debug: OData query on settings
+2018-12-04T06:38:12.090Z - debug: Version control commit: local changes
+2018-12-04T06:38:12.094Z - debug: Version control diff for local changes
+2018-12-04T06:38:24.474Z - debug: reading import zip file
+2018-12-04T06:38:24.513Z - debug: import found 29 objects
+2018-12-04T06:38:28.000Z - debug: OData query on templates
+2018-12-04T06:38:28.012Z - debug: OData query on tags
+2018-12-04T06:38:28.024Z - debug: OData query on scripts
+2018-12-04T06:38:28.030Z - debug: OData query on assets
+2018-12-04T06:38:28.033Z - debug: OData query on xlsxTemplates
+2018-12-04T06:38:28.043Z - debug: OData query on schedules
+2018-12-04T06:38:28.048Z - debug: OData query on settings
+2018-12-04T06:38:28.051Z - debug: OData query on data
+2018-12-04T06:38:28.171Z - debug: OData query on templates
+2018-12-04T06:38:28.191Z - debug: OData query on settings
+2018-12-04T06:38:30.056Z - debug: OData query on templates
+2018-12-04T06:38:30.067Z - debug: OData query on templates
+2018-12-04T06:38:30.413Z - debug: OData query on settings
+2018-12-04T06:38:30.804Z - debug: OData query on templates
+2018-12-04T06:38:38.842Z - info: Verifying license key free
+2018-12-04T06:38:40.148Z - info: Using enterprise trial license
+2018-12-04T06:42:02.626Z - info: Initializing jsreport@2.2.0 in development mode using configuration file: jsreport.config.json
+2018-12-04T06:42:02.629Z - info: Searching for available extensions in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-04T06:42:02.637Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-04T06:42:02.648Z - info: Found 31 extensions
+2018-12-04T06:42:03.156Z - info: Using extension handlebars
+2018-12-04T06:42:03.165Z - info: Using extension import-export
+2018-12-04T06:42:03.358Z - info: Using extension templates
+2018-12-04T06:42:03.367Z - info: Using extension jsrender
+2018-12-04T06:42:03.370Z - info: Using extension freeze
+2018-12-04T06:42:03.373Z - info: Using extension cli
+2018-12-04T06:42:03.375Z - info: Using extension express
+2018-12-04T06:42:03.596Z - info: Using extension debug
+2018-12-04T06:42:03.600Z - info: Using extension tags
+2018-12-04T06:42:03.608Z - info: Using extension data
+2018-12-04T06:42:03.614Z - info: Using extension fs-store
+2018-12-04T06:42:03.973Z - info: Using extension authorization
+2018-12-04T06:42:03.979Z - info: Using extension html-to-xlsx
+2018-12-04T06:42:04.229Z - info: html-to-xlsx detected chrome as available html engine
+2018-12-04T06:42:04.231Z - info: html-to-xlsx detected phantom as available html engine
+2018-12-04T06:42:04.232Z - info: Using extension child-templates
+2018-12-04T06:42:04.237Z - info: Using extension browser-client
+2018-12-04T06:42:04.242Z - info: Using extension chrome-pdf
+2018-12-04T06:42:04.249Z - info: Using extension pdf-utils
+2018-12-04T06:42:04.253Z - info: Using extension version-control
+2018-12-04T06:42:04.300Z - info: Using extension reports
+2018-12-04T06:42:04.307Z - info: Using extension text
+2018-12-04T06:42:04.309Z - info: Using extension base
+2018-12-04T06:42:04.312Z - info: Using extension studio
+2018-12-04T06:42:04.366Z - info: Using extension licensing
+2018-12-04T06:42:04.400Z - info: Using extension scripts
+2018-12-04T06:42:04.406Z - info: Using extension assets
+2018-12-04T06:42:04.421Z - info: Using extension scheduling
+2018-12-04T06:42:04.470Z - info: Using extension xlsx
+2018-12-04T06:42:04.598Z - info: Using extension sample-template
+2018-12-04T06:42:04.603Z - info: Using extension resources
+2018-12-04T06:42:04.605Z - info: Using extension public-templates
+2018-12-04T06:42:04.612Z - info: fs store is persisting using fs
+2018-12-04T06:42:04.613Z - info: fs store is synchronizing using fs
+2018-12-04T06:42:04.616Z - info: fs store is loading data
+2018-12-04T06:42:04.669Z - info: fs store is initialized successfully
+2018-12-04T06:42:04.767Z - info: Creating default express app.
+2018-12-04T06:42:04.820Z - error: Error when starting http server on port 1234 Error: listen EADDRINUSE :::1234
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:23:12)
+    at Promise._execute (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\debuggability.js:303:9)
+    at Promise._resolveFromExecutor (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\promise.js:79:10)
+    at startAsync (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:17:10)
+    at steps.push (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:119:14)
+    at Object.start (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:125:13)
+    at <anonymous>
+2018-12-04T06:42:04.824Z - error: Error occured during reporter init Error: listen EADDRINUSE :::1234
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:23:12)
+    at Promise._execute (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\debuggability.js:303:9)
+    at Promise._resolveFromExecutor (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\promise.js:79:10)
+    at startAsync (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:17:10)
+    at steps.push (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:119:14)
+    at Object.start (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:125:13)
+    at <anonymous>
+2018-12-04T06:43:16.963Z - info: Initializing jsreport@2.2.0 in development mode using configuration file: jsreport.config.json
+2018-12-04T06:43:16.966Z - info: Searching for available extensions in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-04T06:43:16.973Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-04T06:43:16.984Z - info: Found 31 extensions
+2018-12-04T06:43:17.491Z - info: Using extension handlebars
+2018-12-04T06:43:17.497Z - info: Using extension import-export
+2018-12-04T06:43:17.688Z - info: Using extension templates
+2018-12-04T06:43:17.697Z - info: Using extension jsrender
+2018-12-04T06:43:17.701Z - info: Using extension freeze
+2018-12-04T06:43:17.703Z - info: Using extension cli
+2018-12-04T06:43:17.705Z - info: Using extension express
+2018-12-04T06:43:17.956Z - info: Using extension debug
+2018-12-04T06:43:17.959Z - info: Using extension tags
+2018-12-04T06:43:17.967Z - info: Using extension data
+2018-12-04T06:43:17.975Z - info: Using extension fs-store
+2018-12-04T06:43:18.325Z - info: Using extension authorization
+2018-12-04T06:43:18.332Z - info: Using extension html-to-xlsx
+2018-12-04T06:43:18.563Z - info: html-to-xlsx detected chrome as available html engine
+2018-12-04T06:43:18.565Z - info: html-to-xlsx detected phantom as available html engine
+2018-12-04T06:43:18.566Z - info: Using extension child-templates
+2018-12-04T06:43:18.570Z - info: Using extension browser-client
+2018-12-04T06:43:18.574Z - info: Using extension chrome-pdf
+2018-12-04T06:43:18.581Z - info: Using extension pdf-utils
+2018-12-04T06:43:18.583Z - info: Using extension version-control
+2018-12-04T06:43:18.625Z - info: Using extension reports
+2018-12-04T06:43:18.633Z - info: Using extension text
+2018-12-04T06:43:18.635Z - info: Using extension base
+2018-12-04T06:43:18.639Z - info: Using extension studio
+2018-12-04T06:43:18.706Z - info: Using extension licensing
+2018-12-04T06:43:18.736Z - info: Using extension scripts
+2018-12-04T06:43:18.743Z - info: Using extension assets
+2018-12-04T06:43:18.759Z - info: Using extension scheduling
+2018-12-04T06:43:18.811Z - info: Using extension xlsx
+2018-12-04T06:43:18.949Z - info: Using extension sample-template
+2018-12-04T06:43:18.953Z - info: Using extension resources
+2018-12-04T06:43:18.956Z - info: Using extension public-templates
+2018-12-04T06:43:18.963Z - info: fs store is persisting using fs
+2018-12-04T06:43:18.965Z - info: fs store is synchronizing using fs
+2018-12-04T06:43:19.021Z - info: fs store is loading data
+2018-12-04T06:43:19.069Z - info: fs store is initialized successfully
+2018-12-04T06:43:19.099Z - info: Creating default express app.
+2018-12-04T06:43:19.155Z - error: Error when starting http server on port 1234 Error: listen EADDRINUSE :::1234
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:23:12)
+    at Promise._execute (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\debuggability.js:303:9)
+    at Promise._resolveFromExecutor (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\promise.js:79:10)
+    at startAsync (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:17:10)
+    at steps.push (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:119:14)
+    at Object.start (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:125:13)
+    at <anonymous>
+2018-12-04T06:43:19.158Z - error: Error occured during reporter init Error: listen EADDRINUSE :::1234
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:23:12)
+    at Promise._execute (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\debuggability.js:303:9)
+    at Promise._resolveFromExecutor (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\promise.js:79:10)
+    at startAsync (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:17:10)
+    at steps.push (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:119:14)
+    at Object.start (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:125:13)
+    at <anonymous>
+2018-12-04T06:44:48.304Z - info: Initializing jsreport@2.2.0 in development mode using configuration file: jsreport.config.json
+2018-12-04T06:44:48.306Z - info: Searching for available extensions in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-04T06:44:48.313Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-04T06:44:48.325Z - info: Found 31 extensions
+2018-12-04T06:44:48.830Z - info: Using extension handlebars
+2018-12-04T06:44:48.838Z - info: Using extension import-export
+2018-12-04T06:44:49.034Z - info: Using extension templates
+2018-12-04T06:44:49.041Z - info: Using extension jsrender
+2018-12-04T06:44:49.042Z - info: Using extension freeze
+2018-12-04T06:44:49.045Z - info: Using extension cli
+2018-12-04T06:44:49.046Z - info: Using extension express
+2018-12-04T06:44:49.261Z - info: Using extension debug
+2018-12-04T06:44:49.264Z - info: Using extension tags
+2018-12-04T06:44:49.269Z - info: Using extension data
+2018-12-04T06:44:49.276Z - info: Using extension fs-store
+2018-12-04T06:44:49.635Z - info: Using extension authorization
+2018-12-04T06:44:49.639Z - info: Using extension html-to-xlsx
+2018-12-04T06:44:49.863Z - info: html-to-xlsx detected chrome as available html engine
+2018-12-04T06:44:49.864Z - info: html-to-xlsx detected phantom as available html engine
+2018-12-04T06:44:49.865Z - info: Using extension child-templates
+2018-12-04T06:44:49.870Z - info: Using extension browser-client
+2018-12-04T06:44:49.875Z - info: Using extension chrome-pdf
+2018-12-04T06:44:49.882Z - info: Using extension pdf-utils
+2018-12-04T06:44:49.886Z - info: Using extension version-control
+2018-12-04T06:44:49.934Z - info: Using extension reports
+2018-12-04T06:44:49.942Z - info: Using extension text
+2018-12-04T06:44:49.944Z - info: Using extension base
+2018-12-04T06:44:49.948Z - info: Using extension studio
+2018-12-04T06:44:50.013Z - info: Using extension licensing
+2018-12-04T06:44:50.053Z - info: Using extension scripts
+2018-12-04T06:44:50.062Z - info: Using extension assets
+2018-12-04T06:44:50.080Z - info: Using extension scheduling
+2018-12-04T06:44:50.141Z - info: Using extension xlsx
+2018-12-04T06:44:50.291Z - info: Using extension sample-template
+2018-12-04T06:44:50.296Z - info: Using extension resources
+2018-12-04T06:44:50.298Z - info: Using extension public-templates
+2018-12-04T06:44:50.308Z - info: fs store is persisting using fs
+2018-12-04T06:44:50.310Z - info: fs store is synchronizing using fs
+2018-12-04T06:44:50.313Z - info: fs store is loading data
+2018-12-04T06:44:50.455Z - info: fs store is initialized successfully
+2018-12-04T06:44:50.485Z - info: Creating default express app.
+2018-12-04T06:44:50.532Z - error: Error when starting http server on port 1234 Error: listen EADDRINUSE :::1234
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:23:12)
+    at Promise._execute (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\debuggability.js:303:9)
+    at Promise._resolveFromExecutor (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\promise.js:79:10)
+    at startAsync (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:17:10)
+    at steps.push (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:119:14)
+    at Object.start (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:125:13)
+    at <anonymous>
+2018-12-04T06:44:50.535Z - error: Error occured during reporter init Error: listen EADDRINUSE :::1234
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:23:12)
+    at Promise._execute (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\debuggability.js:303:9)
+    at Promise._resolveFromExecutor (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\promise.js:79:10)
+    at startAsync (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:17:10)
+    at steps.push (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:119:14)
+    at Object.start (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:125:13)
+    at <anonymous>
+2018-12-04T06:49:51.136Z - info: Initializing jsreport@2.2.0 in development mode using configuration file: jsreport.config.json
+2018-12-04T06:49:51.139Z - info: Searching for available extensions in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-04T06:49:51.147Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-04T06:49:51.156Z - info: Found 31 extensions
+2018-12-04T06:49:51.667Z - info: Using extension handlebars
+2018-12-04T06:49:51.673Z - info: Using extension import-export
+2018-12-04T06:49:51.869Z - info: Using extension templates
+2018-12-04T06:49:51.877Z - info: Using extension jsrender
+2018-12-04T06:49:51.880Z - info: Using extension freeze
+2018-12-04T06:49:51.882Z - info: Using extension cli
+2018-12-04T06:49:51.883Z - info: Using extension express
+2018-12-04T06:49:52.134Z - info: Using extension debug
+2018-12-04T06:49:52.137Z - info: Using extension tags
+2018-12-04T06:49:52.144Z - info: Using extension data
+2018-12-04T06:49:52.149Z - info: Using extension fs-store
+2018-12-04T06:49:52.539Z - info: Using extension authorization
+2018-12-04T06:49:52.544Z - info: Using extension html-to-xlsx
+2018-12-04T06:49:52.769Z - info: html-to-xlsx detected chrome as available html engine
+2018-12-04T06:49:52.771Z - info: html-to-xlsx detected phantom as available html engine
+2018-12-04T06:49:52.772Z - info: Using extension child-templates
+2018-12-04T06:49:52.777Z - info: Using extension browser-client
+2018-12-04T06:49:52.781Z - info: Using extension chrome-pdf
+2018-12-04T06:49:52.786Z - info: Using extension pdf-utils
+2018-12-04T06:49:52.790Z - info: Using extension version-control
+2018-12-04T06:49:52.833Z - info: Using extension reports
+2018-12-04T06:49:52.841Z - info: Using extension text
+2018-12-04T06:49:52.843Z - info: Using extension base
+2018-12-04T06:49:52.846Z - info: Using extension studio
+2018-12-04T06:49:52.906Z - info: Using extension licensing
+2018-12-04T06:49:52.940Z - info: Using extension scripts
+2018-12-04T06:49:52.947Z - info: Using extension assets
+2018-12-04T06:49:52.963Z - info: Using extension scheduling
+2018-12-04T06:49:53.012Z - info: Using extension xlsx
+2018-12-04T06:49:53.143Z - info: Using extension sample-template
+2018-12-04T06:49:53.147Z - info: Using extension resources
+2018-12-04T06:49:53.150Z - info: Using extension public-templates
+2018-12-04T06:49:53.159Z - info: fs store is persisting using fs
+2018-12-04T06:49:53.162Z - info: fs store is synchronizing using fs
+2018-12-04T06:49:53.165Z - info: fs store is loading data
+2018-12-04T06:49:53.223Z - info: fs store is initialized successfully
+2018-12-04T06:49:53.253Z - info: Creating default express app.
+2018-12-04T06:49:53.303Z - error: Error when starting http server on port 1234 Error: listen EADDRINUSE :::1234
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:23:12)
+    at Promise._execute (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\debuggability.js:303:9)
+    at Promise._resolveFromExecutor (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\promise.js:79:10)
+    at startAsync (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:17:10)
+    at steps.push (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:119:14)
+    at Object.start (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:125:13)
+    at <anonymous>
+2018-12-04T06:49:53.397Z - error: Error occured during reporter init Error: listen EADDRINUSE :::1234
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:23:12)
+    at Promise._execute (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\debuggability.js:303:9)
+    at Promise._resolveFromExecutor (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\promise.js:79:10)
+    at startAsync (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:17:10)
+    at steps.push (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:119:14)
+    at Object.start (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:125:13)
+    at <anonymous>
+2018-12-04T06:50:50.541Z - info: Initializing jsreport@2.2.0 in development mode using configuration file: jsreport.config.json
+2018-12-04T06:50:50.544Z - info: Searching for available extensions in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-04T06:50:50.554Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-04T06:50:50.565Z - info: Found 31 extensions
+2018-12-04T06:50:51.065Z - info: Using extension handlebars
+2018-12-04T06:50:51.071Z - info: Using extension import-export
+2018-12-04T06:50:51.270Z - info: Using extension templates
+2018-12-04T06:50:51.280Z - info: Using extension jsrender
+2018-12-04T06:50:51.283Z - info: Using extension freeze
+2018-12-04T06:50:51.288Z - info: Using extension cli
+2018-12-04T06:50:51.292Z - info: Using extension express
+2018-12-04T06:50:51.541Z - info: Using extension debug
+2018-12-04T06:50:51.545Z - info: Using extension tags
+2018-12-04T06:50:51.553Z - info: Using extension data
+2018-12-04T06:50:51.559Z - info: Using extension fs-store
+2018-12-04T06:50:51.925Z - info: Using extension authorization
+2018-12-04T06:50:51.931Z - info: Using extension html-to-xlsx
+2018-12-04T06:50:52.156Z - info: html-to-xlsx detected chrome as available html engine
+2018-12-04T06:50:52.158Z - info: html-to-xlsx detected phantom as available html engine
+2018-12-04T06:50:52.158Z - info: Using extension child-templates
+2018-12-04T06:50:52.165Z - info: Using extension browser-client
+2018-12-04T06:50:52.169Z - info: Using extension chrome-pdf
+2018-12-04T06:50:52.175Z - info: Using extension pdf-utils
+2018-12-04T06:50:52.179Z - info: Using extension version-control
+2018-12-04T06:50:52.220Z - info: Using extension reports
+2018-12-04T06:50:52.227Z - info: Using extension text
+2018-12-04T06:50:52.229Z - info: Using extension base
+2018-12-04T06:50:52.232Z - info: Using extension studio
+2018-12-04T06:50:52.289Z - info: Using extension licensing
+2018-12-04T06:50:52.322Z - info: Using extension scripts
+2018-12-04T06:50:52.329Z - info: Using extension assets
+2018-12-04T06:50:52.346Z - info: Using extension scheduling
+2018-12-04T06:50:52.396Z - info: Using extension xlsx
+2018-12-04T06:50:52.524Z - info: Using extension sample-template
+2018-12-04T06:50:52.528Z - info: Using extension resources
+2018-12-04T06:50:52.531Z - info: Using extension public-templates
+2018-12-04T06:50:52.538Z - info: fs store is persisting using fs
+2018-12-04T06:50:52.539Z - info: fs store is synchronizing using fs
+2018-12-04T06:50:52.542Z - info: fs store is loading data
+2018-12-04T06:50:52.590Z - info: fs store is initialized successfully
+2018-12-04T06:50:52.617Z - info: Creating default express app.
+2018-12-04T06:50:52.758Z - info: jsreport server successfully started on https port: 2345
+2018-12-04T06:50:52.760Z - info: jsreport server successfully started on http port: 1234
+2018-12-04T06:50:52.762Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-12-04T06:50:52.799Z - info: Verifying license key free
+2018-12-04T06:50:52.803Z - info: Using free license
+2018-12-04T06:50:52.808Z - info: reporter initialized
+2018-12-04T06:51:32.949Z - info: Verifying license key free
+2018-12-04T06:51:34.367Z - info: Using enterprise trial license
+2018-12-04T06:51:54.443Z - info: Initializing jsreport@2.2.0 in development mode using configuration file: jsreport.config.json
+2018-12-04T06:51:54.447Z - info: Searching for available extensions in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-04T06:51:54.456Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-04T06:51:54.480Z - info: Found 31 extensions
+2018-12-04T06:51:55.023Z - info: Using extension handlebars
+2018-12-04T06:51:55.029Z - info: Using extension import-export
+2018-12-04T06:51:55.237Z - info: Using extension templates
+2018-12-04T06:51:55.246Z - info: Using extension jsrender
+2018-12-04T06:51:55.249Z - info: Using extension freeze
+2018-12-04T06:51:55.252Z - info: Using extension cli
+2018-12-04T06:51:55.254Z - info: Using extension express
+2018-12-04T06:51:55.519Z - info: Using extension debug
+2018-12-04T06:51:55.523Z - info: Using extension tags
+2018-12-04T06:51:55.532Z - info: Using extension data
+2018-12-04T06:51:55.539Z - info: Using extension fs-store
+2018-12-04T06:51:55.887Z - info: Using extension authorization
+2018-12-04T06:51:55.893Z - info: Using extension html-to-xlsx
+2018-12-04T06:51:56.134Z - info: html-to-xlsx detected chrome as available html engine
+2018-12-04T06:51:56.137Z - info: html-to-xlsx detected phantom as available html engine
+2018-12-04T06:51:56.138Z - info: Using extension child-templates
+2018-12-04T06:51:56.143Z - info: Using extension browser-client
+2018-12-04T06:51:56.149Z - info: Using extension chrome-pdf
+2018-12-04T06:51:56.158Z - info: Using extension pdf-utils
+2018-12-04T06:51:56.163Z - info: Using extension version-control
+2018-12-04T06:51:56.214Z - info: Using extension reports
+2018-12-04T06:51:56.221Z - info: Using extension text
+2018-12-04T06:51:56.223Z - info: Using extension base
+2018-12-04T06:51:56.225Z - info: Using extension studio
+2018-12-04T06:51:56.285Z - info: Using extension licensing
+2018-12-04T06:51:56.317Z - info: Using extension scripts
+2018-12-04T06:51:56.325Z - info: Using extension assets
+2018-12-04T06:51:56.340Z - info: Using extension scheduling
+2018-12-04T06:51:56.392Z - info: Using extension xlsx
+2018-12-04T06:51:56.530Z - info: Using extension sample-template
+2018-12-04T06:51:56.534Z - info: Using extension resources
+2018-12-04T06:51:56.537Z - info: Using extension public-templates
+2018-12-04T06:51:56.544Z - info: fs store is persisting using fs
+2018-12-04T06:51:56.545Z - info: fs store is synchronizing using fs
+2018-12-04T06:51:56.548Z - info: fs store is loading data
+2018-12-04T06:51:56.778Z - info: fs store is initialized successfully
+2018-12-04T06:51:56.809Z - info: Creating default express app.
+2018-12-04T06:51:56.857Z - info: jsreport server successfully started on https port: 2345
+2018-12-04T06:51:56.857Z - info: jsreport server successfully started on http port: 1234
+2018-12-04T06:51:56.858Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-12-04T06:51:56.884Z - info: Verifying license key free
+2018-12-04T06:51:58.198Z - info: Using enterprise trial license
+2018-12-04T06:51:58.206Z - info: reporter initialized
+2018-12-04T06:53:19.883Z - info: Starting rendering request 1 (user: null)
+2018-12-04T06:53:19.887Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T06:53:26.174Z - info: Rendering request 1 finished in 6292 ms
+2018-12-04T06:53:33.012Z - info: Starting rendering request 2 (user: null)
+2018-12-04T06:53:33.015Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T06:53:37.401Z - info: Rendering request 2 finished in 4395 ms
+2018-12-04T06:55:11.931Z - info: Starting rendering request 3 (user: null)
+2018-12-04T06:55:11.934Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T06:55:16.630Z - info: Rendering request 3 finished in 4704 ms
+2018-12-04T06:55:51.531Z - info: Starting rendering request 4 (user: null)
+2018-12-04T06:55:51.535Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T06:55:55.669Z - info: Rendering request 4 finished in 4139 ms
+2018-12-04T07:00:09.022Z - info: Starting rendering request 5 (user: null)
+2018-12-04T07:00:09.024Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T07:00:11.573Z - info: Starting rendering request 6 (user: null)
+2018-12-04T07:00:11.575Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T07:00:14.658Z - info: Rendering request 5 finished in 5636 ms
+2018-12-04T07:00:16.264Z - info: Rendering request 6 finished in 4692 ms
+2018-12-04T07:03:07.999Z - info: Starting rendering request 7 (user: null)
+2018-12-04T07:03:08.003Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T07:03:15.237Z - info: Rendering request 7 finished in 7239 ms
+2018-12-04T07:06:21.186Z - info: Starting rendering request 8 (user: null)
+2018-12-04T07:06:21.188Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T07:06:25.530Z - info: Starting rendering request 9 (user: null)
+2018-12-04T07:06:25.531Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T07:06:25.859Z - info: Rendering request 8 finished in 4674 ms
+2018-12-04T07:06:30.664Z - info: Rendering request 9 finished in 5134 ms
+2018-12-04T07:07:23.024Z - info: Starting rendering request 10 (user: null)
+2018-12-04T07:07:23.027Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T07:07:28.088Z - info: Rendering request 10 finished in 5063 ms
+2018-12-04T07:09:40.527Z - info: Starting rendering request 11 (user: null)
+2018-12-04T07:09:40.530Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T07:09:45.787Z - info: Rendering request 11 finished in 5255 ms
+2018-12-04T07:10:23.478Z - info: Starting rendering request 12 (user: null)
+2018-12-04T07:10:23.481Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T07:10:27.623Z - info: Rendering request 12 finished in 4146 ms
+2018-12-04T07:10:28.619Z - info: Starting rendering request 13 (user: null)
+2018-12-04T07:10:28.620Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T07:10:33.036Z - info: Rendering request 13 finished in 4420 ms
+2018-12-04T07:11:09.888Z - info: Starting rendering request 14 (user: null)
+2018-12-04T07:11:09.892Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T07:11:14.539Z - info: Starting rendering request 15 (user: null)
+2018-12-04T07:11:14.540Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T07:11:15.234Z - info: Rendering request 14 finished in 5347 ms
+2018-12-04T07:11:18.647Z - info: Rendering request 15 finished in 4107 ms
+2018-12-04T07:14:28.629Z - info: Starting rendering request 16 (user: null)
+2018-12-04T07:14:28.631Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T07:14:32.695Z - info: Starting rendering request 17 (user: null)
+2018-12-04T07:14:32.698Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T07:14:33.984Z - info: Rendering request 16 finished in 5356 ms
+2018-12-04T07:14:37.373Z - info: Rendering request 17 finished in 4674 ms
+2018-12-04T07:18:59.419Z - info: Starting rendering request 18 (user: null)
+2018-12-04T07:18:59.421Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T07:19:04.058Z - info: Rendering request 18 finished in 4641 ms
+2018-12-04T07:20:28.816Z - info: Starting rendering request 19 (user: null)
+2018-12-04T07:20:28.819Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T07:20:34.368Z - info: Rendering request 19 finished in 5554 ms
+2018-12-04T07:22:16.520Z - info: Starting rendering request 20 (user: null)
+2018-12-04T07:22:16.522Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T07:22:24.602Z - info: Rendering request 20 finished in 8081 ms
+2018-12-04T07:23:20.772Z - info: Starting rendering request 21 (user: null)
+2018-12-04T07:23:20.775Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T07:23:26.941Z - info: Rendering request 21 finished in 6168 ms
+2018-12-04T07:24:03.828Z - info: Starting rendering request 22 (user: null)
+2018-12-04T07:24:03.830Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T07:24:07.360Z - info: Starting rendering request 23 (user: null)
+2018-12-04T07:24:07.362Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T07:24:10.306Z - info: Rendering request 22 finished in 6478 ms
+2018-12-04T07:24:11.846Z - info: Rendering request 23 finished in 4492 ms
+2018-12-04T07:55:22.152Z - info: Initializing jsreport@2.2.0 in development mode using configuration file: jsreport.config.json
+2018-12-04T07:55:22.156Z - info: Searching for available extensions in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-04T07:55:22.166Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-04T07:55:22.193Z - info: Found 31 extensions
+2018-12-04T07:55:22.815Z - info: Using extension handlebars
+2018-12-04T07:55:22.823Z - info: Using extension import-export
+2018-12-04T07:55:23.033Z - info: Using extension templates
+2018-12-04T07:55:23.041Z - info: Using extension jsrender
+2018-12-04T07:55:23.045Z - info: Using extension freeze
+2018-12-04T07:55:23.049Z - info: Using extension cli
+2018-12-04T07:55:23.051Z - info: Using extension express
+2018-12-04T07:55:23.330Z - info: Using extension debug
+2018-12-04T07:55:23.335Z - info: Using extension tags
+2018-12-04T07:55:23.343Z - info: Using extension data
+2018-12-04T07:55:23.349Z - info: Using extension fs-store
+2018-12-04T07:55:23.869Z - info: Using extension authorization
+2018-12-04T07:55:23.876Z - info: Using extension html-to-xlsx
+2018-12-04T07:55:24.505Z - info: html-to-xlsx detected chrome as available html engine
+2018-12-04T07:55:24.508Z - info: html-to-xlsx detected phantom as available html engine
+2018-12-04T07:55:24.510Z - info: Using extension child-templates
+2018-12-04T07:55:24.519Z - info: Using extension browser-client
+2018-12-04T07:55:24.549Z - info: Using extension chrome-pdf
+2018-12-04T07:55:24.571Z - info: Using extension pdf-utils
+2018-12-04T07:55:24.595Z - info: Using extension version-control
+2018-12-04T07:55:24.651Z - info: Using extension reports
+2018-12-04T07:55:24.658Z - info: Using extension text
+2018-12-04T07:55:24.661Z - info: Using extension base
+2018-12-04T07:55:24.664Z - info: Using extension studio
+2018-12-04T07:55:24.735Z - info: Using extension licensing
+2018-12-04T07:55:24.770Z - info: Using extension scripts
+2018-12-04T07:55:24.781Z - info: Using extension assets
+2018-12-04T07:55:24.798Z - info: Using extension scheduling
+2018-12-04T07:55:24.853Z - info: Using extension xlsx
+2018-12-04T07:55:25.004Z - info: Using extension sample-template
+2018-12-04T07:55:25.009Z - info: Using extension resources
+2018-12-04T07:55:25.012Z - info: Using extension public-templates
+2018-12-04T07:55:25.021Z - info: fs store is persisting using fs
+2018-12-04T07:55:25.023Z - info: fs store is synchronizing using fs
+2018-12-04T07:55:25.099Z - info: fs store is loading data
+2018-12-04T07:55:25.305Z - info: fs store is initialized successfully
+2018-12-04T07:55:25.345Z - info: Creating default express app.
+2018-12-04T07:55:25.405Z - info: jsreport server successfully started on https port: 12345
+2018-12-04T07:55:25.406Z - info: jsreport server successfully started on http port: 1234
+2018-12-04T07:55:25.408Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-12-04T07:55:25.461Z - info: Verifying license key free
+2018-12-04T07:55:26.776Z - info: Using enterprise trial license
+2018-12-04T07:55:26.779Z - info: reporter initialized
+2018-12-04T07:58:48.842Z - info: Starting rendering request 1 (user: null)
+2018-12-04T07:58:48.848Z - info: Rendering template { name: Company-User Deliverable List xls, recipe: html-to-xlsx, engine: handlebars, preview: false }
+2018-12-04T08:22:27.416Z - info: Starting rendering request 2 (user: null)
+2018-12-04T08:22:27.419Z - info: Starting rendering request 3 (user: null)
+2018-12-04T08:22:27.443Z - info: Rendering template { name: Company-User Deliverable List xls, recipe: html-to-xlsx, engine: handlebars, preview: false }
+2018-12-04T08:22:27.447Z - info: Rendering template { name: Department-User Deliverables xls, recipe: html-to-xlsx, engine: handlebars, preview: false }
+2018-12-04T08:22:35.850Z - error: Error when processing render request Invalid character () in string: 
+                                                    1000000372002
+                                                                                            at index 66 Error: Invalid character () in string: 
+                                                    1000000372002
+                                                                                            at index 66
+    at XMLStringifier.module.exports.XMLStringifier.assertLegalChar (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\html-to-xlsx\node_modules\xmlbuilder\lib\XMLStringifier.js:153:15)
+    at XMLStringifier.assertLegalChar (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\html-to-xlsx\node_modules\xmlbuilder\lib\XMLStringifier.js:4:59)
+    at XMLStringifier.module.exports.XMLStringifier.eleText (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\html-to-xlsx\node_modules\xmlbuilder\lib\XMLStringifier.js:33:19)
+    at new XMLText (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\html-to-xlsx\node_modules\xmlbuilder\lib\XMLText.js:17:35)
+    at XMLElement.module.exports.XMLNode.text (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\html-to-xlsx\node_modules\xmlbuilder\lib\XMLNode.js:165:15)
+    at XMLElement.module.exports.XMLNode.node (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\html-to-xlsx\node_modules\xmlbuilder\lib\XMLNode.js:157:15)
+    at XMLElement.module.exports.XMLNode.element (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\html-to-xlsx\node_modules\xmlbuilder\lib\XMLNode.js:102:28)
+    at XMLElement.module.exports.XMLNode.ele (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\html-to-xlsx\node_modules\xmlbuilder\lib\XMLNode.js:357:19)
+    at SharedStrings.toxml (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\html-to-xlsx\node_modules\msexcel-builder-extended\lib\msexcel-builder.js:295:10)
+    at Workbook.save (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\html-to-xlsx\node_modules\msexcel-builder-extended\lib\msexcel-builder.js:827:75)
+    at Workbook.save (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\html-to-xlsx\node_modules\msexcel-builder-extended\lib\msexcel-builder.js:7:59)
+    at Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\html-to-xlsx\lib\conversion.js:331:14)
+    at new Promise (<anonymous>)
+    at tableToXlsx (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\html-to-xlsx\lib\conversion.js:330:10)
+    at convert (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\html-to-xlsx\lib\conversion.js:383:26)
+    at <anonymous>
+2018-12-04T08:22:35.851Z - error: Error during processing request at https://localhost:12345/api/report
+2018-12-04T08:25:00.080Z - info: Initializing jsreport@2.2.0 in development mode using configuration file: jsreport.config.json
+2018-12-04T08:25:00.082Z - info: Searching for available extensions in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-04T08:25:00.089Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-04T08:25:00.105Z - info: Found 31 extensions
+2018-12-04T08:25:00.650Z - info: Using extension handlebars
+2018-12-04T08:25:00.657Z - info: Using extension import-export
+2018-12-04T08:25:00.855Z - info: Using extension templates
+2018-12-04T08:25:00.864Z - info: Using extension jsrender
+2018-12-04T08:25:00.866Z - info: Using extension freeze
+2018-12-04T08:25:00.868Z - info: Using extension cli
+2018-12-04T08:25:00.870Z - info: Using extension express
+2018-12-04T08:25:01.119Z - info: Using extension debug
+2018-12-04T08:25:01.122Z - info: Using extension tags
+2018-12-04T08:25:01.131Z - info: Using extension data
+2018-12-04T08:25:01.137Z - info: Using extension fs-store
+2018-12-04T08:25:01.505Z - info: Using extension authorization
+2018-12-04T08:25:01.509Z - info: Using extension html-to-xlsx
+2018-12-04T08:25:01.746Z - info: html-to-xlsx detected chrome as available html engine
+2018-12-04T08:25:01.747Z - info: html-to-xlsx detected phantom as available html engine
+2018-12-04T08:25:01.747Z - info: Using extension child-templates
+2018-12-04T08:25:01.752Z - info: Using extension browser-client
+2018-12-04T08:25:01.756Z - info: Using extension chrome-pdf
+2018-12-04T08:25:01.761Z - info: Using extension pdf-utils
+2018-12-04T08:25:01.766Z - info: Using extension version-control
+2018-12-04T08:25:01.811Z - info: Using extension reports
+2018-12-04T08:25:01.819Z - info: Using extension text
+2018-12-04T08:25:01.821Z - info: Using extension base
+2018-12-04T08:25:01.823Z - info: Using extension studio
+2018-12-04T08:25:01.895Z - info: Using extension licensing
+2018-12-04T08:25:01.935Z - info: Using extension scripts
+2018-12-04T08:25:01.941Z - info: Using extension assets
+2018-12-04T08:25:01.956Z - info: Using extension scheduling
+2018-12-04T08:25:02.008Z - info: Using extension xlsx
+2018-12-04T08:25:02.146Z - info: Using extension sample-template
+2018-12-04T08:25:02.149Z - info: Using extension resources
+2018-12-04T08:25:02.152Z - info: Using extension public-templates
+2018-12-04T08:25:02.158Z - info: fs store is persisting using fs
+2018-12-04T08:25:02.159Z - info: fs store is synchronizing using fs
+2018-12-04T08:25:02.161Z - info: fs store is loading data
+2018-12-04T08:25:02.387Z - info: fs store is initialized successfully
+2018-12-04T08:25:02.418Z - info: Creating default express app.
+2018-12-04T08:25:02.472Z - info: jsreport server successfully started on https port: 12345
+2018-12-04T08:25:02.473Z - info: jsreport server successfully started on http port: 1234
+2018-12-04T08:25:02.474Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-12-04T08:25:02.518Z - info: Verifying license key free
+2018-12-04T08:25:04.027Z - info: Using enterprise trial license
+2018-12-04T08:25:04.037Z - info: reporter initialized
+2018-12-04T08:32:24.206Z - info: Starting rendering request 1 (user: null)
+2018-12-04T08:32:24.227Z - info: Starting rendering request 2 (user: null)
+2018-12-04T08:32:24.247Z - info: Rendering template { name: Department-User Deliverables xls, recipe: html-to-xlsx, engine: handlebars, preview: false }
+2018-12-04T08:32:24.252Z - info: Rendering template { name: Department-User Deliverables xls, recipe: html-to-xlsx, engine: handlebars, preview: false }
+2018-12-04T08:32:34.323Z - info: Initializing jsreport@2.2.0 in development mode using configuration file: jsreport.config.json
+2018-12-04T08:32:34.325Z - info: Searching for available extensions in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-04T08:32:34.333Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-04T08:32:34.350Z - info: Found 31 extensions
+2018-12-04T08:32:34.854Z - info: Using extension handlebars
+2018-12-04T08:32:34.860Z - info: Using extension import-export
+2018-12-04T08:32:35.055Z - info: Using extension templates
+2018-12-04T08:32:35.064Z - info: Using extension jsrender
+2018-12-04T08:32:35.065Z - info: Using extension freeze
+2018-12-04T08:32:35.068Z - info: Using extension cli
+2018-12-04T08:32:35.069Z - info: Using extension express
+2018-12-04T08:32:35.294Z - info: Using extension debug
+2018-12-04T08:32:35.297Z - info: Using extension tags
+2018-12-04T08:32:35.303Z - info: Using extension data
+2018-12-04T08:32:35.308Z - info: Using extension fs-store
+2018-12-04T08:32:35.677Z - info: Using extension authorization
+2018-12-04T08:32:35.681Z - info: Using extension html-to-xlsx
+2018-12-04T08:32:35.925Z - info: html-to-xlsx detected chrome as available html engine
+2018-12-04T08:32:35.926Z - info: html-to-xlsx detected phantom as available html engine
+2018-12-04T08:32:35.927Z - info: Using extension child-templates
+2018-12-04T08:32:35.934Z - info: Using extension browser-client
+2018-12-04T08:32:35.938Z - info: Using extension chrome-pdf
+2018-12-04T08:32:35.946Z - info: Using extension pdf-utils
+2018-12-04T08:32:35.948Z - info: Using extension version-control
+2018-12-04T08:32:35.993Z - info: Using extension reports
+2018-12-04T08:32:36.001Z - info: Using extension text
+2018-12-04T08:32:36.003Z - info: Using extension base
+2018-12-04T08:32:36.006Z - info: Using extension studio
+2018-12-04T08:32:36.065Z - info: Using extension licensing
+2018-12-04T08:32:36.099Z - info: Using extension scripts
+2018-12-04T08:32:36.105Z - info: Using extension assets
+2018-12-04T08:32:36.120Z - info: Using extension scheduling
+2018-12-04T08:32:36.176Z - info: Using extension xlsx
+2018-12-04T08:32:36.320Z - info: Using extension sample-template
+2018-12-04T08:32:36.323Z - info: Using extension resources
+2018-12-04T08:32:36.325Z - info: Using extension public-templates
+2018-12-04T08:32:36.333Z - info: fs store is persisting using fs
+2018-12-04T08:32:36.333Z - info: fs store is synchronizing using fs
+2018-12-04T08:32:36.335Z - info: fs store is loading data
+2018-12-04T08:32:36.577Z - info: fs store is initialized successfully
+2018-12-04T08:32:36.599Z - info: Creating default express app.
+2018-12-04T08:32:36.645Z - info: jsreport server successfully started on https port: 12345
+2018-12-04T08:32:36.645Z - info: jsreport server successfully started on http port: 1234
+2018-12-04T08:32:36.646Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-12-04T08:32:36.677Z - info: Verifying license key free
+2018-12-04T08:32:37.896Z - info: Using enterprise trial license
+2018-12-04T08:32:37.903Z - info: reporter initialized
+2018-12-04T08:33:27.444Z - info: Starting rendering request 1 (user: null)
+2018-12-04T08:33:27.449Z - info: Rendering template { name: Department-User Deliverables xls, recipe: html-to-xlsx, engine: handlebars, preview: false }
+2018-12-04T08:33:36.742Z - info: Rendering request 1 finished in 9299 ms
+2018-12-04T08:41:32.950Z - info: Starting rendering request 2 (user: null)
+2018-12-04T08:41:32.952Z - info: Rendering template { name: Department-User Deliverables xls, recipe: html-to-xlsx, engine: handlebars, preview: false }
+2018-12-04T08:41:45.863Z - info: Rendering request 2 finished in 12921 ms
+2018-12-04T08:42:44.845Z - info: Starting rendering request 3 (user: null)
+2018-12-04T08:42:44.847Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T08:42:49.869Z - info: Rendering request 3 finished in 5028 ms
+2018-12-04T08:42:55.333Z - info: Starting rendering request 4 (user: null)
+2018-12-04T08:42:55.335Z - info: Rendering template { name: Department Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T08:42:59.064Z - info: Rendering request 4 finished in 3733 ms
+2018-12-04T08:47:41.425Z - info: Starting rendering request 5 (user: null)
+2018-12-04T08:47:41.428Z - info: Rendering template { name: Department Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T08:47:45.933Z - info: Rendering request 5 finished in 4509 ms
+2018-12-04T08:47:55.349Z - info: Starting rendering request 6 (user: null)
+2018-12-04T08:47:55.351Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T08:47:57.048Z - warn: Error when processing render request company_id is not defined
+logs:
++0      Starting rendering request 6 (user: null)
++4      Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
++5      Data item not defined for this template.
++5      Resources not defined for this template.
++7      Executing script Company Task
++9      Replaced assets ["shared-scripts.js"] ReferenceError: company_id is not defined
+    at Proxy.<anonymous> (evaluate-user-script.js:59:27)
+    at Object.apply (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\vm2\lib/contextify.js:87:36)
+    at Request.self.callback (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\request\request.js:186:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\request\request.js:1163:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at IncomingMessage.<anonymous> (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\request\request.js:1085:12)
+    at Object.onceWrapper (events.js:313:30)
+2018-12-04T08:47:57.053Z - warn: Error during processing request at https://localhost:12345/api/report/Company%20%20Task%20xls%20v2
+2018-12-04T08:48:32.264Z - info: Starting rendering request 7 (user: null)
+2018-12-04T08:48:32.267Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T08:48:37.693Z - info: Rendering request 7 finished in 5411 ms
+2018-12-04T08:48:49.843Z - info: Starting rendering request 8 (user: null)
+2018-12-04T08:48:49.844Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T08:48:53.929Z - info: Rendering request 8 finished in 4088 ms
+2018-12-04T08:51:00.487Z - info: Starting rendering request 9 (user: null)
+2018-12-04T08:51:00.490Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T08:51:04.769Z - info: Rendering request 9 finished in 4288 ms
+2018-12-04T08:51:17.896Z - info: Starting rendering request 10 (user: null)
+2018-12-04T08:51:17.897Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T08:51:21.584Z - info: Rendering request 10 finished in 3687 ms
+2018-12-04T08:52:27.826Z - info: Starting rendering request 11 (user: null)
+2018-12-04T08:52:27.829Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T08:52:32.254Z - info: Rendering request 11 finished in 4428 ms
+2018-12-04T08:52:57.908Z - info: Starting rendering request 12 (user: null)
+2018-12-04T08:52:57.909Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T08:53:01.762Z - info: Rendering request 12 finished in 3856 ms
+2018-12-04T08:53:39.529Z - info: Starting rendering request 13 (user: null)
+2018-12-04T08:53:39.531Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T08:53:44.895Z - info: Rendering request 13 finished in 5363 ms
+2018-12-04T08:54:04.319Z - info: Starting rendering request 14 (user: null)
+2018-12-04T08:54:04.320Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T08:54:08.745Z - info: Rendering request 14 finished in 4427 ms
+2018-12-04T08:54:17.587Z - info: Starting rendering request 15 (user: null)
+2018-12-04T08:54:17.588Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T08:54:22.023Z - info: Rendering request 15 finished in 4438 ms
+2018-12-04T08:57:49.282Z - info: Starting rendering request 16 (user: null)
+2018-12-04T08:57:49.283Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T08:57:50.874Z - info: Starting rendering request 17 (user: null)
+2018-12-04T08:57:50.876Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T08:57:54.276Z - info: Rendering request 16 finished in 4994 ms
+2018-12-04T08:57:55.506Z - info: Rendering request 17 finished in 4633 ms
+2018-12-04T08:58:17.348Z - info: Starting rendering request 18 (user: null)
+2018-12-04T08:58:17.349Z - info: Rendering template { name: Company  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T08:58:21.019Z - info: Rendering request 18 finished in 3672 ms
+2018-12-04T09:00:34.233Z - info: Starting rendering request 19 (user: null)
+2018-12-04T09:00:34.235Z - info: Rendering template { name: Company & Dept  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: false }
+2018-12-04T09:00:38.232Z - info: Rendering request 19 finished in 3999 ms
+2018-12-04T09:01:12.302Z - info: Starting rendering request 20 (user: null)
+2018-12-04T09:01:12.303Z - info: Rendering template { name: Company & Dept  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: false }
+2018-12-04T09:01:15.273Z - info: Rendering request 20 finished in 2971 ms
+2018-12-04T09:04:35.381Z - info: Starting rendering request 21 (user: null)
+2018-12-04T09:04:35.383Z - info: Rendering template { name: Company Expense xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T09:04:40.411Z - info: Rendering request 21 finished in 5032 ms
+2018-12-04T09:05:18.531Z - info: Starting rendering request 22 (user: null)
+2018-12-04T09:05:18.532Z - info: Rendering template { name: Department Expense xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T09:05:22.353Z - info: Rendering request 22 finished in 3823 ms
+2018-12-04T09:15:37.733Z - info: Starting rendering request 23 (user: null)
+2018-12-04T09:15:37.736Z - info: Rendering template { name: Company Expense xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T09:15:39.562Z - warn: Error when processing render request company_id is not defined ReferenceError: company_id is not defined
+    at Proxy.<anonymous> (evaluate-user-script.js:23:27)
+    at Object.apply (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\vm2\lib/contextify.js:87:36)
+    at Request.self.callback (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\request\request.js:186:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\request\request.js:1163:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at IncomingMessage.<anonymous> (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\request\request.js:1085:12)
+    at Object.onceWrapper (events.js:313:30)
+2018-12-04T09:15:39.563Z - warn: Error during processing request at https://localhost:12345/api/report/Company%20Expense%20xls%20v2
+2018-12-04T09:15:51.413Z - info: Starting rendering request 24 (user: null)
+2018-12-04T09:15:51.414Z - info: Rendering template { name: Company Expense xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T09:15:53.032Z - warn: Error when processing render request company_id is not defined ReferenceError: company_id is not defined
+    at Proxy.<anonymous> (evaluate-user-script.js:23:27)
+    at Object.apply (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\vm2\lib/contextify.js:87:36)
+    at Request.self.callback (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\request\request.js:186:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\request\request.js:1163:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at IncomingMessage.<anonymous> (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\request\request.js:1085:12)
+    at Object.onceWrapper (events.js:313:30)
+2018-12-04T09:15:53.032Z - warn: Error during processing request at https://localhost:12345/api/report/Company%20Expense%20xls%20v2
+2018-12-04T09:16:14.486Z - info: Starting rendering request 25 (user: null)
+2018-12-04T09:16:14.488Z - info: Rendering template { name: Company Expense xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T09:16:16.214Z - warn: Error when processing render request Error while executing templating engine. Parse error on line 156:
+...       {{/if}}    {{else}}        <t
+----------------------^
+Expecting 'EOF', got 'INVERSE' Error: Parse error on line 156:
+...       {{/if}}    {{else}}        <t
+----------------------^
+Expecting 'EOF', got 'INVERSE'
+    at Parser.parseError (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:268:19)
+    at Parser.parse (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:337:30)
+    at HandlebarsEnvironment.parse (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:46:43)
+    at compileInput (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:515:19)
+    at ret (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:524:18)
+    at C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-handlebars\lib\handlebarsEngine.js:25:14
+    at Object.apply (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\vm2\lib/contextify.js:288:34)
+    at evaluate-template-engine.js:1:41
+    at ContextifyScript.Script.runInContext (vm.js:59:29)
+    at VM.run (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\vm2\lib\main.js:212:72)
+    at run (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-core\lib\render\safeSandbox.js:171:19)
+    at module.exports (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-core\lib\render\engineScript.js:143:5)
+    at IncomingMessage.<anonymous> (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\script-manager\lib\worker-servers.js:239:47)
+    at emitNone (events.js:106:13)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+2018-12-04T09:16:16.214Z - warn: Error during processing request at https://localhost:12345/api/report/Company%20Expense%20xls%20v2
+2018-12-04T09:17:35.915Z - info: Starting rendering request 26 (user: null)
+2018-12-04T09:17:35.917Z - info: Rendering template { name: Company Expense xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T09:17:37.156Z - warn: Error when processing render request Error while executing templating engine. Parse error on line 156:
+...       {{/if}}    {{else}}        <t
+----------------------^
+Expecting 'EOF', got 'INVERSE' Error: Parse error on line 156:
+...       {{/if}}    {{else}}        <t
+----------------------^
+Expecting 'EOF', got 'INVERSE'
+    at Parser.parseError (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:268:19)
+    at Parser.parse (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:337:30)
+    at HandlebarsEnvironment.parse (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:46:43)
+    at compileInput (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:515:19)
+    at ret (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:524:18)
+    at C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-handlebars\lib\handlebarsEngine.js:25:14
+    at Object.apply (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\vm2\lib/contextify.js:288:34)
+    at evaluate-template-engine.js:1:41
+    at ContextifyScript.Script.runInContext (vm.js:59:29)
+    at VM.run (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\vm2\lib\main.js:212:72)
+    at run (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-core\lib\render\safeSandbox.js:171:19)
+    at module.exports (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-core\lib\render\engineScript.js:143:5)
+    at IncomingMessage.<anonymous> (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\script-manager\lib\worker-servers.js:239:47)
+    at emitNone (events.js:106:13)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+2018-12-04T09:17:37.158Z - warn: Error during processing request at https://localhost:12345/api/report/Company%20Expense%20xls%20v2
+2018-12-04T09:17:42.940Z - info: Starting rendering request 27 (user: null)
+2018-12-04T09:17:42.941Z - info: Rendering template { name: Company Expense xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T09:17:43.933Z - warn: Error when processing render request Error while executing templating engine. Parse error on line 156:
+...       {{/if}}    {{else}}        <t
+----------------------^
+Expecting 'EOF', got 'INVERSE' Error: Parse error on line 156:
+...       {{/if}}    {{else}}        <t
+----------------------^
+Expecting 'EOF', got 'INVERSE'
+    at Parser.parseError (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:268:19)
+    at Parser.parse (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:337:30)
+    at HandlebarsEnvironment.parse (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:46:43)
+    at compileInput (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:515:19)
+    at ret (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:524:18)
+    at C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-handlebars\lib\handlebarsEngine.js:25:14
+    at Object.apply (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\vm2\lib/contextify.js:288:34)
+    at evaluate-template-engine.js:1:41
+    at ContextifyScript.Script.runInContext (vm.js:59:29)
+    at VM.run (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\vm2\lib\main.js:212:72)
+    at run (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-core\lib\render\safeSandbox.js:171:19)
+    at module.exports (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-core\lib\render\engineScript.js:143:5)
+    at IncomingMessage.<anonymous> (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\script-manager\lib\worker-servers.js:239:47)
+    at emitNone (events.js:106:13)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+2018-12-04T09:17:43.934Z - warn: Error during processing request at https://localhost:12345/api/report/Company%20Expense%20xls%20v2
+2018-12-04T09:25:20.889Z - info: Starting rendering request 28 (user: null)
+2018-12-04T09:25:21.012Z - info: Rendering template { name: Company Expense xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T09:25:22.283Z - warn: Error when processing render request Error while executing templating engine. Parse error on line 156:
+...       {{/if}}    {{else}}        <t
+----------------------^
+Expecting 'EOF', got 'INVERSE' Error: Parse error on line 156:
+...       {{/if}}    {{else}}        <t
+----------------------^
+Expecting 'EOF', got 'INVERSE'
+    at Parser.parseError (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:268:19)
+    at Parser.parse (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:337:30)
+    at HandlebarsEnvironment.parse (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:46:43)
+    at compileInput (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:515:19)
+    at ret (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:524:18)
+    at C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-handlebars\lib\handlebarsEngine.js:25:14
+    at Object.apply (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\vm2\lib/contextify.js:288:34)
+    at evaluate-template-engine.js:1:41
+    at ContextifyScript.Script.runInContext (vm.js:59:29)
+    at VM.run (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\vm2\lib\main.js:212:72)
+    at run (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-core\lib\render\safeSandbox.js:171:19)
+    at module.exports (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-core\lib\render\engineScript.js:143:5)
+    at IncomingMessage.<anonymous> (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\script-manager\lib\worker-servers.js:239:47)
+    at emitNone (events.js:106:13)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+2018-12-04T09:25:22.283Z - warn: Error during processing request at https://localhost:12345/api/report/Company%20Expense%20xls%20v2
+2018-12-04T09:25:26.896Z - info: Starting rendering request 29 (user: null)
+2018-12-04T09:25:26.897Z - info: Rendering template { name: Company Expense xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T09:25:30.568Z - info: Rendering request 29 finished in 3673 ms
+2018-12-04T09:26:15.736Z - info: Starting rendering request 30 (user: null)
+2018-12-04T09:26:15.738Z - info: Rendering template { name: Company Expense xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T09:26:20.177Z - info: Rendering request 30 finished in 4441 ms
+2018-12-04T09:27:52.577Z - info: Starting rendering request 31 (user: null)
+2018-12-04T09:27:52.579Z - info: Rendering template { name: Company Expense xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T09:27:57.618Z - info: Rendering request 31 finished in 5042 ms
+2018-12-04T09:28:34.589Z - info: Starting rendering request 32 (user: null)
+2018-12-04T09:28:34.591Z - info: Rendering template { name: Company Expense xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T09:28:39.075Z - info: Rendering request 32 finished in 4487 ms
+2018-12-04T09:28:51.865Z - info: Starting rendering request 33 (user: null)
+2018-12-04T09:28:51.866Z - info: Rendering template { name: Company Expense xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T09:28:56.344Z - info: Rendering request 33 finished in 4482 ms
+2018-12-04T09:29:29.796Z - info: Starting rendering request 34 (user: null)
+2018-12-04T09:29:29.798Z - info: Rendering template { name: Company Expense xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T09:29:34.415Z - info: Rendering request 34 finished in 4622 ms
+2018-12-04T09:44:47.960Z - info: Starting rendering request 35 (user: null)
+2018-12-04T09:44:47.963Z - info: Rendering template { name: Company Expense xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T09:44:52.617Z - info: Rendering request 35 finished in 4659 ms
+2018-12-04T09:47:03.632Z - info: Starting rendering request 36 (user: null)
+2018-12-04T09:47:03.634Z - info: Rendering template { name: Company Expense xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T09:47:07.963Z - info: Rendering request 36 finished in 4334 ms
+2018-12-04T09:47:30.548Z - info: Starting rendering request 37 (user: null)
+2018-12-04T09:47:30.550Z - info: Rendering template { name: Company Expense xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T09:47:35.078Z - info: Rendering request 37 finished in 4530 ms
+2018-12-04T09:52:15.631Z - info: Starting rendering request 38 (user: null)
+2018-12-04T09:52:15.632Z - info: Rendering template { name: Company & Dept Expense xls v2, recipe: html-to-xlsx, engine: handlebars, preview: false }
+2018-12-04T09:52:19.410Z - info: Rendering request 38 finished in 3779 ms
+2018-12-04T09:52:45.773Z - info: Starting rendering request 39 (user: null)
+2018-12-04T09:52:45.775Z - info: Rendering template { name: Company & Dept Expense xls v2, recipe: html-to-xlsx, engine: handlebars, preview: false }
+2018-12-04T09:52:48.413Z - info: Rendering request 39 finished in 2641 ms
+2018-12-04T09:53:08.364Z - info: Starting rendering request 40 (user: null)
+2018-12-04T09:53:08.365Z - info: Rendering template { name: Company & Dept  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: false }
+2018-12-04T09:53:10.892Z - info: Rendering request 40 finished in 2528 ms
+2018-12-04T09:54:40.037Z - info: Starting rendering request 41 (user: null)
+2018-12-04T09:54:40.040Z - info: Rendering template { name: Company-User Deliverable List xls, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T09:54:59.013Z - info: Rendering request 41 finished in 18990 ms
+2018-12-04T09:56:04.234Z - info: Starting rendering request 42 (user: null)
+2018-12-04T09:56:04.235Z - info: Rendering template { name: Department-User Deliverables xls, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T09:56:12.817Z - info: Rendering request 42 finished in 8584 ms
+2018-12-04T10:03:16.768Z - info: Starting rendering request 43 (user: null)
+2018-12-04T10:03:16.771Z - info: Rendering template { name: Company-User Deliverable List xls, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T10:03:22.425Z - info: Rendering request 43 finished in 5658 ms
+2018-12-04T10:03:32.878Z - info: Starting rendering request 44 (user: null)
+2018-12-04T10:03:32.881Z - info: Rendering template { name: Company-User Deliverable List xls, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T10:03:53.825Z - info: Rendering request 44 finished in 20947 ms
+2018-12-04T10:05:41.712Z - info: Starting rendering request 45 (user: null)
+2018-12-04T10:05:41.714Z - info: Rendering template { name: Company-User Deliverable List xls, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T10:05:46.933Z - info: Rendering request 45 finished in 5222 ms
+2018-12-04T10:06:40.402Z - info: Starting rendering request 46 (user: null)
+2018-12-04T10:06:40.403Z - info: Rendering template { name: Company-User Deliverable List xls, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T10:06:48.526Z - info: Rendering request 46 finished in 8125 ms
+2018-12-04T10:08:26.151Z - info: Starting rendering request 47 (user: null)
+2018-12-04T10:08:26.154Z - info: Rendering template { name: Department-User Deliverables xls, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T10:08:34.139Z - info: Rendering request 47 finished in 7989 ms
+2018-12-04T10:13:20.334Z - info: Starting rendering request 48 (user: null)
+2018-12-04T10:13:20.335Z - info: Rendering template { name: Company-User Deliverable List xls, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T10:13:41.262Z - info: Rendering request 48 finished in 20930 ms
+2018-12-04T10:17:10.550Z - info: Starting rendering request 49 (user: null)
+2018-12-04T10:17:10.553Z - info: Rendering template { name: Company-User Deliverable List xls, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T10:17:34.706Z - info: Rendering request 49 finished in 24159 ms
+2018-12-04T10:18:17.532Z - info: Starting rendering request 50 (user: null)
+2018-12-04T10:18:17.534Z - info: Rendering template { name: Company-User Deliverable List xls, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T10:18:36.638Z - info: Rendering request 50 finished in 19106 ms
+2018-12-04T10:20:45.527Z - info: Starting rendering request 51 (user: null)
+2018-12-04T10:20:45.530Z - info: Rendering template { name: Company & Dept Deliverable List xls, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T10:22:43.409Z - info: Rendering request 51 finished in 117888 ms
+2018-12-04T10:23:09.377Z - info: Initializing jsreport@2.2.0 in development mode using configuration file: jsreport.config.json
+2018-12-04T10:23:09.380Z - info: Searching for available extensions in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-04T10:23:09.387Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-04T10:23:09.401Z - info: Found 31 extensions
+2018-12-04T10:23:09.902Z - info: Using extension handlebars
+2018-12-04T10:23:09.908Z - info: Using extension import-export
+2018-12-04T10:23:10.104Z - info: Using extension templates
+2018-12-04T10:23:10.113Z - info: Using extension jsrender
+2018-12-04T10:23:10.115Z - info: Using extension freeze
+2018-12-04T10:23:10.118Z - info: Using extension cli
+2018-12-04T10:23:10.120Z - info: Using extension express
+2018-12-04T10:23:10.376Z - info: Using extension debug
+2018-12-04T10:23:10.379Z - info: Using extension tags
+2018-12-04T10:23:10.384Z - info: Using extension data
+2018-12-04T10:23:10.390Z - info: Using extension fs-store
+2018-12-04T10:23:10.761Z - info: Using extension authorization
+2018-12-04T10:23:10.765Z - info: Using extension html-to-xlsx
+2018-12-04T10:23:10.988Z - info: html-to-xlsx detected chrome as available html engine
+2018-12-04T10:23:10.989Z - info: html-to-xlsx detected phantom as available html engine
+2018-12-04T10:23:10.989Z - info: Using extension child-templates
+2018-12-04T10:23:10.994Z - info: Using extension browser-client
+2018-12-04T10:23:10.998Z - info: Using extension chrome-pdf
+2018-12-04T10:23:11.003Z - info: Using extension pdf-utils
+2018-12-04T10:23:11.008Z - info: Using extension version-control
+2018-12-04T10:23:11.049Z - info: Using extension reports
+2018-12-04T10:23:11.057Z - info: Using extension text
+2018-12-04T10:23:11.058Z - info: Using extension base
+2018-12-04T10:23:11.061Z - info: Using extension studio
+2018-12-04T10:23:11.129Z - info: Using extension licensing
+2018-12-04T10:23:11.159Z - info: Using extension scripts
+2018-12-04T10:23:11.165Z - info: Using extension assets
+2018-12-04T10:23:11.180Z - info: Using extension scheduling
+2018-12-04T10:23:11.233Z - info: Using extension xlsx
+2018-12-04T10:23:11.377Z - info: Using extension sample-template
+2018-12-04T10:23:11.380Z - info: Using extension resources
+2018-12-04T10:23:11.382Z - info: Using extension public-templates
+2018-12-04T10:23:11.391Z - info: fs store is persisting using fs
+2018-12-04T10:23:11.391Z - info: fs store is synchronizing using fs
+2018-12-04T10:23:11.393Z - info: fs store is loading data
+2018-12-04T10:23:11.604Z - info: fs store is initialized successfully
+2018-12-04T10:23:11.629Z - info: Creating default express app.
+2018-12-04T10:23:11.685Z - info: jsreport server successfully started on https port: 12345
+2018-12-04T10:23:11.685Z - info: jsreport server successfully started on http port: 1234
+2018-12-04T10:23:11.687Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-12-04T10:23:11.727Z - info: Verifying license key free
+2018-12-04T10:23:12.981Z - info: Using enterprise trial license
+2018-12-04T10:23:12.983Z - info: reporter initialized
+2018-12-04T10:23:51.988Z - info: Starting rendering request 1 (user: null)
+2018-12-04T10:23:51.993Z - info: Rendering template { name: Company & Dept Expense xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T10:23:53.577Z - warn: Error when processing render request Cannot read property 'name' of undefined TypeError: Cannot read property 'name' of undefined
+    at Proxy.<anonymous> (evaluate-user-script.js:22:39)
+    at Object.apply (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\vm2\lib/contextify.js:87:36)
+    at Request.self.callback (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\request\request.js:186:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\request\request.js:1163:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at IncomingMessage.<anonymous> (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\request\request.js:1085:12)
+    at Object.onceWrapper (events.js:313:30)
+2018-12-04T10:23:53.579Z - warn: Error during processing request at https://localhost:12345/api/report/Company%20%26%20Dept%20Expense%20xls%20v2
+2018-12-04T10:24:27.904Z - info: Starting rendering request 2 (user: null)
+2018-12-04T10:24:27.908Z - info: Rendering template { name: Company & Dept Expense xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T10:24:29.320Z - warn: Error when processing render request Cannot read property 'name' of undefined TypeError: Cannot read property 'name' of undefined
+    at Proxy.<anonymous> (evaluate-user-script.js:22:39)
+    at Object.apply (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\vm2\lib/contextify.js:87:36)
+    at Request.self.callback (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\request\request.js:186:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\request\request.js:1163:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at IncomingMessage.<anonymous> (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\request\request.js:1085:12)
+    at Object.onceWrapper (events.js:313:30)
+2018-12-04T10:24:29.321Z - warn: Error during processing request at https://localhost:12345/api/report/Company%20%26%20Dept%20Expense%20xls%20v2
+2018-12-04T10:25:03.778Z - info: Starting rendering request 3 (user: null)
+2018-12-04T10:25:03.780Z - info: Rendering template { name: Company & Dept Deliverable List xls, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-04T10:25:51.322Z - info: Rendering request 3 finished in 47544 ms
+2018-12-05T00:25:39.943Z - info: Initializing jsreport@2.2.0 in development mode using configuration file: jsreport.config.json
+2018-12-05T00:25:39.946Z - info: Searching for available extensions in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-05T00:25:39.958Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-05T00:25:39.994Z - info: Found 31 extensions
+2018-12-05T00:25:40.857Z - info: Using extension handlebars
+2018-12-05T00:25:40.867Z - info: Using extension import-export
+2018-12-05T00:25:41.354Z - info: Using extension templates
+2018-12-05T00:25:41.370Z - info: Using extension jsrender
+2018-12-05T00:25:41.372Z - info: Using extension freeze
+2018-12-05T00:25:41.377Z - info: Using extension cli
+2018-12-05T00:25:41.379Z - info: Using extension express
+2018-12-05T00:25:41.846Z - info: Using extension debug
+2018-12-05T00:25:41.852Z - info: Using extension tags
+2018-12-05T00:25:41.863Z - info: Using extension data
+2018-12-05T00:25:41.870Z - info: Using extension fs-store
+2018-12-05T00:25:42.506Z - info: Using extension authorization
+2018-12-05T00:25:42.521Z - info: Using extension html-to-xlsx
+2018-12-05T00:25:42.902Z - info: html-to-xlsx detected chrome as available html engine
+2018-12-05T00:25:42.904Z - info: html-to-xlsx detected phantom as available html engine
+2018-12-05T00:25:42.905Z - info: Using extension child-templates
+2018-12-05T00:25:42.914Z - info: Using extension browser-client
+2018-12-05T00:25:42.920Z - info: Using extension chrome-pdf
+2018-12-05T00:25:42.929Z - info: Using extension pdf-utils
+2018-12-05T00:25:42.934Z - info: Using extension version-control
+2018-12-05T00:25:43.023Z - info: Using extension reports
+2018-12-05T00:25:43.034Z - info: Using extension text
+2018-12-05T00:25:43.037Z - info: Using extension base
+2018-12-05T00:25:43.042Z - info: Using extension studio
+2018-12-05T00:25:43.135Z - info: Using extension licensing
+2018-12-05T00:25:43.190Z - info: Using extension scripts
+2018-12-05T00:25:43.201Z - info: Using extension assets
+2018-12-05T00:25:43.226Z - info: Using extension scheduling
+2018-12-05T00:25:43.319Z - info: Using extension xlsx
+2018-12-05T00:25:43.587Z - info: Using extension sample-template
+2018-12-05T00:25:43.594Z - info: Using extension resources
+2018-12-05T00:25:43.598Z - info: Using extension public-templates
+2018-12-05T00:25:43.610Z - info: fs store is persisting using fs
+2018-12-05T00:25:43.612Z - info: fs store is synchronizing using fs
+2018-12-05T00:25:43.663Z - info: fs store is loading data
+2018-12-05T00:25:43.935Z - info: fs store is initialized successfully
+2018-12-05T00:25:43.992Z - info: Creating default express app.
+2018-12-05T00:25:44.116Z - info: jsreport server successfully started on https port: 12345
+2018-12-05T00:25:44.117Z - info: jsreport server successfully started on http port: 1234
+2018-12-05T00:25:44.121Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-12-05T00:25:44.172Z - info: Verifying license key free
+2018-12-05T00:25:45.960Z - info: Using enterprise trial license
+2018-12-05T00:25:45.965Z - info: reporter initialized
+2018-12-05T00:34:47.245Z - info: Starting rendering request 1 (user: null)
+2018-12-05T00:34:47.249Z - info: Rendering template { name: User Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-05T00:35:00.348Z - info: Rendering request 1 finished in 13102 ms
+2018-12-05T00:35:13.753Z - info: Starting rendering request 2 (user: null)
+2018-12-05T00:35:13.755Z - info: Rendering template { name: User Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-05T00:35:18.762Z - info: Rendering request 2 finished in 5005 ms
+2018-12-05T00:39:38.996Z - info: Starting rendering request 3 (user: null)
+2018-12-05T00:39:38.998Z - info: Rendering template { name: Company & Dept  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-05T00:39:40.359Z - warn: Error when processing render request Cannot read property 'name' of undefined TypeError: Cannot read property 'name' of undefined
+    at Proxy.<anonymous> (evaluate-user-script.js:22:39)
+    at Object.apply (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\vm2\lib/contextify.js:87:36)
+    at Request.self.callback (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\request\request.js:186:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\request\request.js:1163:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at IncomingMessage.<anonymous> (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\request\request.js:1085:12)
+    at Object.onceWrapper (events.js:313:30)
+2018-12-05T00:39:40.363Z - warn: Error during processing request at https://localhost:12345/api/report/Company%20%26%20Dept%20%20Task%20xls%20v2
+2018-12-05T00:39:49.879Z - info: Starting rendering request 4 (user: null)
+2018-12-05T00:39:49.882Z - info: Rendering template { name: Company & Dept  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-05T00:39:55.061Z - info: Rendering request 4 finished in 5181 ms
+2018-12-05T00:40:22.941Z - info: Starting rendering request 5 (user: null)
+2018-12-05T00:40:22.945Z - info: Rendering template { name: Company & Dept  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-05T00:40:26.969Z - info: Rendering request 5 finished in 4025 ms
+2018-12-05T00:40:52.592Z - info: Starting rendering request 6 (user: null)
+2018-12-05T00:40:52.596Z - info: Rendering template { name: Company & Dept  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-05T00:40:58.898Z - info: Rendering request 6 finished in 6326 ms
+2018-12-05T00:44:52.465Z - info: Starting rendering request 7 (user: null)
+2018-12-05T00:44:52.468Z - info: Rendering template { name: Company & Dept  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-05T00:44:58.132Z - info: Rendering request 7 finished in 5663 ms
+2018-12-05T00:45:12.438Z - info: Starting rendering request 8 (user: null)
+2018-12-05T00:45:12.440Z - info: Rendering template { name: Company & Dept  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-05T00:45:16.395Z - info: Rendering request 8 finished in 3957 ms
+2018-12-05T00:45:30.789Z - info: Starting rendering request 9 (user: null)
+2018-12-05T00:45:30.792Z - info: Rendering template { name: Company & Dept  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-05T00:45:34.871Z - info: Rendering request 9 finished in 4083 ms
+2018-12-05T00:48:04.765Z - info: Starting rendering request 10 (user: null)
+2018-12-05T00:48:04.768Z - info: Rendering template { name: Company & Dept  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-05T00:48:09.643Z - info: Rendering request 10 finished in 4878 ms
+2018-12-05T00:48:27.825Z - info: Starting rendering request 11 (user: null)
+2018-12-05T00:48:27.828Z - info: Rendering template { name: Company & Dept  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-05T00:48:31.622Z - info: Rendering request 11 finished in 3796 ms
+2018-12-05T00:48:49.725Z - info: Starting rendering request 12 (user: null)
+2018-12-05T00:48:49.727Z - info: Rendering template { name: Company & Dept  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-05T00:48:54.493Z - info: Rendering request 12 finished in 4766 ms
+2018-12-05T00:49:11.606Z - info: Starting rendering request 13 (user: null)
+2018-12-05T00:49:11.608Z - info: Rendering template { name: Company & Dept  Task xls v2, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-05T00:49:17.407Z - info: Rendering request 13 finished in 5801 ms
+2018-12-05T00:52:45.207Z - info: Starting rendering request 14 (user: null)
+2018-12-05T00:52:45.209Z - info: Rendering template { name: TASK REPORT, recipe: html-to-xlsx, engine: handlebars, preview: false }
+2018-12-05T00:52:49.530Z - info: Rendering request 14 finished in 4325 ms
+2018-12-05T00:54:02.378Z - info: Starting rendering request 15 (user: null)
+2018-12-05T00:54:02.380Z - info: Rendering template { name: TASK REPORT, recipe: html-to-xlsx, engine: handlebars, preview: false }
+2018-12-05T00:54:06.009Z - info: Rendering request 15 finished in 3631 ms
+2018-12-05T00:54:34.335Z - info: Starting rendering request 16 (user: null)
+2018-12-05T00:54:34.337Z - info: Rendering template { name: TASK REPORT, recipe: html-to-xlsx, engine: handlebars, preview: false }
+2018-12-05T00:54:37.352Z - info: Rendering request 16 finished in 3018 ms
+2018-12-05T00:55:48.574Z - info: Starting rendering request 17 (user: null)
+2018-12-05T00:55:48.577Z - info: Rendering template { name: Company & Dept Deliverable List xls, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-05T00:55:51.991Z - info: Starting rendering request 18 (user: null)
+2018-12-05T00:55:51.993Z - info: Rendering template { name: Company & Dept Deliverable List xls, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-05T00:56:35.252Z - info: Rendering request 18 finished in 43260 ms
+2018-12-05T00:56:35.728Z - info: Rendering request 17 finished in 47148 ms
+2018-12-05T00:56:47.016Z - info: Starting rendering request 19 (user: null)
+2018-12-05T00:56:47.020Z - info: Rendering template { name: Company & Dept Deliverable List xls, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-05T00:56:57.955Z - info: Rendering request 19 finished in 10936 ms
+2018-12-05T01:10:09.352Z - info: Starting rendering request 20 (user: null)
+2018-12-05T01:10:09.355Z - info: Rendering template { name: Company & Dept Deliverable List xls, recipe: html-to-xlsx, engine: handlebars, preview: false }
+2018-12-05T01:10:17.798Z - info: Rendering request 20 finished in 8453 ms
+2018-12-05T01:11:03.982Z - info: Starting rendering request 21 (user: null)
+2018-12-05T01:11:03.986Z - info: Rendering template { name: Company & Dept Deliverable List xls, recipe: html-to-xlsx, engine: handlebars, preview: false }
+2018-12-05T01:11:25.912Z - info: Rendering request 21 finished in 21933 ms
+2018-12-05T01:13:57.810Z - info: Starting rendering request 22 (user: null)
+2018-12-05T01:13:57.812Z - info: Rendering template { name: Company & Dept Deliverable List xls, recipe: html-to-xlsx, engine: handlebars, preview: false }
+2018-12-05T01:14:02.523Z - info: Rendering request 22 finished in 4714 ms
+2018-12-05T01:15:13.633Z - info: Starting rendering request 23 (user: null)
+2018-12-05T01:15:13.634Z - info: Rendering template { name: Company & Dept Deliverable List xls, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-05T01:15:39.949Z - info: Rendering request 23 finished in 26317 ms
+2018-12-05T01:46:06.933Z - info: Initializing jsreport@2.2.0 in development mode using configuration file: jsreport.config.json
+2018-12-05T01:46:06.936Z - info: Searching for available extensions in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-05T01:46:06.943Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-05T01:46:06.958Z - info: Found 31 extensions
+2018-12-05T01:46:07.505Z - info: Using extension handlebars
+2018-12-05T01:46:07.512Z - info: Using extension import-export
+2018-12-05T01:46:07.792Z - info: Using extension templates
+2018-12-05T01:46:07.805Z - info: Using extension jsrender
+2018-12-05T01:46:07.807Z - info: Using extension freeze
+2018-12-05T01:46:07.811Z - info: Using extension cli
+2018-12-05T01:46:07.813Z - info: Using extension express
+2018-12-05T01:46:08.099Z - info: Using extension debug
+2018-12-05T01:46:08.102Z - info: Using extension tags
+2018-12-05T01:46:08.109Z - info: Using extension data
+2018-12-05T01:46:08.115Z - info: Using extension fs-store
+2018-12-05T01:46:08.502Z - info: Using extension authorization
+2018-12-05T01:46:08.505Z - info: Using extension html-to-xlsx
+2018-12-05T01:46:08.770Z - info: html-to-xlsx detected chrome as available html engine
+2018-12-05T01:46:08.773Z - info: html-to-xlsx detected phantom as available html engine
+2018-12-05T01:46:08.773Z - info: Using extension child-templates
+2018-12-05T01:46:08.783Z - info: Using extension browser-client
+2018-12-05T01:46:08.792Z - info: Using extension chrome-pdf
+2018-12-05T01:46:08.805Z - info: Using extension pdf-utils
+2018-12-05T01:46:08.810Z - info: Using extension version-control
+2018-12-05T01:46:08.919Z - info: Using extension reports
+2018-12-05T01:46:08.932Z - info: Using extension text
+2018-12-05T01:46:08.936Z - info: Using extension base
+2018-12-05T01:46:08.941Z - info: Using extension studio
+2018-12-05T01:46:09.069Z - info: Using extension licensing
+2018-12-05T01:46:09.132Z - info: Using extension scripts
+2018-12-05T01:46:09.145Z - info: Using extension assets
+2018-12-05T01:46:09.177Z - info: Using extension scheduling
+2018-12-05T01:46:09.280Z - info: Using extension xlsx
+2018-12-05T01:46:09.571Z - info: Using extension sample-template
+2018-12-05T01:46:09.576Z - info: Using extension resources
+2018-12-05T01:46:09.581Z - info: Using extension public-templates
+2018-12-05T01:46:09.600Z - info: fs store is persisting using fs
+2018-12-05T01:46:09.605Z - info: fs store is synchronizing using fs
+2018-12-05T01:46:09.656Z - info: fs store is loading data
+2018-12-05T01:46:09.857Z - info: fs store is initialized successfully
+2018-12-05T01:46:09.882Z - info: Creating default express app.
+2018-12-05T01:46:09.949Z - info: jsreport server successfully started on https port: 12345
+2018-12-05T01:46:09.950Z - info: jsreport server successfully started on http port: 1234
+2018-12-05T01:46:09.952Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-12-05T01:46:09.991Z - info: Verifying license key free
+2018-12-05T01:46:09.994Z - info: Using free license
+2018-12-05T01:46:10.003Z - info: reporter initialized
+2018-12-05T02:24:53.054Z - info: Initializing jsreport@2.2.0 in development mode using configuration file: jsreport.config.json
+2018-12-05T02:24:53.056Z - info: Searching for available extensions in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-05T02:24:53.065Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-05T02:24:53.084Z - info: Found 31 extensions
+2018-12-05T02:24:53.649Z - info: Using extension handlebars
+2018-12-05T02:24:53.657Z - info: Using extension import-export
+2018-12-05T02:24:53.924Z - info: Using extension templates
+2018-12-05T02:24:53.932Z - info: Using extension jsrender
+2018-12-05T02:24:53.934Z - info: Using extension freeze
+2018-12-05T02:24:53.937Z - info: Using extension cli
+2018-12-05T02:24:53.939Z - info: Using extension express
+2018-12-05T02:24:54.221Z - info: Using extension debug
+2018-12-05T02:24:54.224Z - info: Using extension tags
+2018-12-05T02:24:54.231Z - info: Using extension data
+2018-12-05T02:24:54.236Z - info: Using extension fs-store
+2018-12-05T02:24:54.651Z - info: Using extension authorization
+2018-12-05T02:24:54.658Z - info: Using extension html-to-xlsx
+2018-12-05T02:24:54.899Z - info: html-to-xlsx detected chrome as available html engine
+2018-12-05T02:24:54.901Z - info: html-to-xlsx detected phantom as available html engine
+2018-12-05T02:24:54.901Z - info: Using extension child-templates
+2018-12-05T02:24:54.906Z - info: Using extension browser-client
+2018-12-05T02:24:54.910Z - info: Using extension chrome-pdf
+2018-12-05T02:24:54.916Z - info: Using extension pdf-utils
+2018-12-05T02:24:54.920Z - info: Using extension version-control
+2018-12-05T02:24:54.972Z - info: Using extension reports
+2018-12-05T02:24:54.979Z - info: Using extension text
+2018-12-05T02:24:54.982Z - info: Using extension base
+2018-12-05T02:24:54.984Z - info: Using extension studio
+2018-12-05T02:24:55.054Z - info: Using extension licensing
+2018-12-05T02:24:55.087Z - info: Using extension scripts
+2018-12-05T02:24:55.093Z - info: Using extension assets
+2018-12-05T02:24:55.112Z - info: Using extension scheduling
+2018-12-05T02:24:55.165Z - info: Using extension xlsx
+2018-12-05T02:24:55.311Z - info: Using extension sample-template
+2018-12-05T02:24:55.315Z - info: Using extension resources
+2018-12-05T02:24:55.318Z - info: Using extension public-templates
+2018-12-05T02:24:55.326Z - info: fs store is persisting using fs
+2018-12-05T02:24:55.327Z - info: fs store is synchronizing using fs
+2018-12-05T02:24:55.363Z - info: fs store is loading data
+2018-12-05T02:24:55.498Z - info: fs store is initialized successfully
+2018-12-05T02:24:55.524Z - info: Creating default express app.
+2018-12-05T02:24:55.572Z - info: jsreport server successfully started on https port: 8080
+2018-12-05T02:24:55.576Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-12-05T02:24:55.623Z - info: Verifying license key free
+2018-12-05T02:24:55.628Z - info: Using free license
+2018-12-05T02:24:55.633Z - info: reporter initialized
+2018-12-05T02:33:00.825Z - info: Starting rendering request 1 (user: null)
+2018-12-05T02:33:00.830Z - info: Rendering template { name: Company & Dept Deliverable List xls, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-05T02:33:20.906Z - info: Starting rendering request 2 (user: null)
+2018-12-05T02:33:20.913Z - info: Rendering template { name: Company & Dept Deliverable List xls, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2018-12-05T02:33:21.195Z - info: Rendering request 1 finished in 20370 ms
+2018-12-05T02:33:41.929Z - info: Rendering request 2 finished in 21027 ms
+2018-12-05T02:38:12.785Z - info: Initializing jsreport@2.2.0 in development mode using configuration file: jsreport.config.json
+2018-12-05T02:38:12.788Z - info: Searching for available extensions in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-05T02:38:12.797Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-05T02:38:12.812Z - info: Found 31 extensions
+2018-12-05T02:38:13.357Z - info: Using extension handlebars
+2018-12-05T02:38:13.362Z - info: Using extension import-export
+2018-12-05T02:38:13.623Z - info: Using extension templates
+2018-12-05T02:38:13.634Z - info: Using extension jsrender
+2018-12-05T02:38:13.636Z - info: Using extension freeze
+2018-12-05T02:38:13.639Z - info: Using extension cli
+2018-12-05T02:38:13.640Z - info: Using extension express
+2018-12-05T02:38:13.934Z - info: Using extension debug
+2018-12-05T02:38:13.938Z - info: Using extension tags
+2018-12-05T02:38:13.947Z - info: Using extension data
+2018-12-05T02:38:13.954Z - info: Using extension fs-store
+2018-12-05T02:38:14.339Z - info: Using extension authorization
+2018-12-05T02:38:14.346Z - info: Using extension html-to-xlsx
+2018-12-05T02:38:14.568Z - info: html-to-xlsx detected chrome as available html engine
+2018-12-05T02:38:14.572Z - info: html-to-xlsx detected phantom as available html engine
+2018-12-05T02:38:14.573Z - info: Using extension child-templates
+2018-12-05T02:38:14.579Z - info: Using extension browser-client
+2018-12-05T02:38:14.584Z - info: Using extension chrome-pdf
+2018-12-05T02:38:14.590Z - info: Using extension pdf-utils
+2018-12-05T02:38:14.595Z - info: Using extension version-control
+2018-12-05T02:38:14.639Z - info: Using extension reports
+2018-12-05T02:38:14.647Z - info: Using extension text
+2018-12-05T02:38:14.649Z - info: Using extension base
+2018-12-05T02:38:14.653Z - info: Using extension studio
+2018-12-05T02:38:14.723Z - info: Using extension licensing
+2018-12-05T02:38:14.755Z - info: Using extension scripts
+2018-12-05T02:38:14.763Z - info: Using extension assets
+2018-12-05T02:38:14.780Z - info: Using extension scheduling
+2018-12-05T02:38:14.837Z - info: Using extension xlsx
+2018-12-05T02:38:14.983Z - info: Using extension sample-template
+2018-12-05T02:38:14.988Z - info: Using extension resources
+2018-12-05T02:38:14.991Z - info: Using extension public-templates
+2018-12-05T02:38:15.000Z - info: fs store is persisting using fs
+2018-12-05T02:38:15.002Z - info: fs store is synchronizing using fs
+2018-12-05T02:38:15.043Z - info: fs store is loading data
+2018-12-05T02:38:15.171Z - info: fs store is initialized successfully
+2018-12-05T02:38:15.197Z - info: Creating default express app.
+2018-12-05T02:38:15.252Z - info: jsreport server successfully started on https port: 8080
+2018-12-05T02:38:15.256Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-12-05T02:38:15.292Z - info: Verifying license key free
+2018-12-05T02:38:15.302Z - info: Using free license
+2018-12-05T02:38:15.318Z - info: reporter initialized
+2018-12-05T03:06:55.634Z - info: Initializing jsreport@2.2.0 in development mode using configuration file: jsreport.config.json
+2018-12-05T03:06:55.639Z - info: Searching for available extensions in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-05T03:06:55.651Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-05T03:06:55.674Z - info: Found 31 extensions
+2018-12-05T03:06:56.199Z - info: Using extension handlebars
+2018-12-05T03:06:56.205Z - info: Using extension import-export
+2018-12-05T03:06:56.503Z - info: Using extension templates
+2018-12-05T03:06:56.530Z - info: Using extension jsrender
+2018-12-05T03:06:56.538Z - info: Using extension freeze
+2018-12-05T03:06:56.544Z - info: Using extension cli
+2018-12-05T03:06:56.553Z - info: Using extension express
+2018-12-05T03:06:56.991Z - info: Using extension debug
+2018-12-05T03:06:57.001Z - info: Using extension tags
+2018-12-05T03:06:57.024Z - info: Using extension data
+2018-12-05T03:06:57.040Z - info: Using extension fs-store
+2018-12-05T03:06:58.025Z - info: Using extension authorization
+2018-12-05T03:06:58.038Z - info: Using extension html-to-xlsx
+2018-12-05T03:06:58.619Z - info: html-to-xlsx detected chrome as available html engine
+2018-12-05T03:06:58.625Z - info: html-to-xlsx detected phantom as available html engine
+2018-12-05T03:06:58.627Z - info: Using extension child-templates
+2018-12-05T03:06:58.643Z - info: Using extension browser-client
+2018-12-05T03:06:58.654Z - info: Using extension chrome-pdf
+2018-12-05T03:06:58.674Z - info: Using extension pdf-utils
+2018-12-05T03:06:58.685Z - info: Using extension version-control
+2018-12-05T03:06:58.811Z - info: Using extension reports
+2018-12-05T03:06:58.836Z - info: Using extension text
+2018-12-05T03:06:58.842Z - info: Using extension base
+2018-12-05T03:06:58.850Z - info: Using extension studio
+2018-12-05T03:06:59.023Z - info: Using extension licensing
+2018-12-05T03:06:59.200Z - info: Using extension scripts
+2018-12-05T03:06:59.207Z - info: Using extension assets
+2018-12-05T03:06:59.224Z - info: Using extension scheduling
+2018-12-05T03:06:59.274Z - info: Using extension xlsx
+2018-12-05T03:06:59.413Z - info: Using extension sample-template
+2018-12-05T03:06:59.419Z - info: Using extension resources
+2018-12-05T03:06:59.421Z - info: Using extension public-templates
+2018-12-05T03:06:59.429Z - info: fs store is persisting using fs
+2018-12-05T03:06:59.431Z - info: fs store is synchronizing using fs
+2018-12-05T03:06:59.472Z - info: fs store is loading data
+2018-12-05T03:06:59.599Z - info: fs store is initialized successfully
+2018-12-05T03:06:59.631Z - info: Creating default express app.
+2018-12-05T03:06:59.678Z - info: jsreport server successfully started on https port: 8080
+2018-12-05T03:06:59.680Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-12-05T03:06:59.711Z - info: Verifying license key free
+2018-12-05T03:06:59.718Z - info: Using free license
+2018-12-05T03:06:59.723Z - info: reporter initialized
+2018-12-05T03:11:01.721Z - info: Initializing jsreport@2.2.0 in development mode using configuration file: jsreport.config.json
+2018-12-05T03:11:01.724Z - info: Searching for available extensions in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-05T03:11:01.732Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-05T03:11:01.747Z - info: Found 31 extensions
+2018-12-05T03:11:02.324Z - info: Using extension handlebars
+2018-12-05T03:11:02.331Z - info: Using extension import-export
+2018-12-05T03:11:02.606Z - info: Using extension templates
+2018-12-05T03:11:02.619Z - info: Using extension jsrender
+2018-12-05T03:11:02.622Z - info: Using extension freeze
+2018-12-05T03:11:02.626Z - info: Using extension cli
+2018-12-05T03:11:02.627Z - info: Using extension express
+2018-12-05T03:11:02.917Z - info: Using extension debug
+2018-12-05T03:11:02.925Z - info: Using extension tags
+2018-12-05T03:11:02.939Z - info: Using extension data
+2018-12-05T03:11:02.952Z - info: Using extension fs-store
+2018-12-05T03:11:03.808Z - info: Using extension authorization
+2018-12-05T03:11:03.829Z - info: Using extension html-to-xlsx
+2018-12-05T03:11:04.445Z - info: html-to-xlsx detected chrome as available html engine
+2018-12-05T03:11:04.451Z - info: html-to-xlsx detected phantom as available html engine
+2018-12-05T03:11:04.454Z - info: Using extension child-templates
+2018-12-05T03:11:04.476Z - info: Using extension browser-client
+2018-12-05T03:11:04.487Z - info: Using extension chrome-pdf
+2018-12-05T03:11:04.506Z - info: Using extension pdf-utils
+2018-12-05T03:11:04.516Z - info: Using extension version-control
+2018-12-05T03:11:04.638Z - info: Using extension reports
+2018-12-05T03:11:04.660Z - info: Using extension text
+2018-12-05T03:11:04.666Z - info: Using extension base
+2018-12-05T03:11:04.676Z - info: Using extension studio
+2018-12-05T03:11:04.835Z - info: Using extension licensing
+2018-12-05T03:11:04.916Z - info: Using extension scripts
+2018-12-05T03:11:04.931Z - info: Using extension assets
+2018-12-05T03:11:04.964Z - info: Using extension scheduling
+2018-12-05T03:11:05.068Z - info: Using extension xlsx
+2018-12-05T03:11:05.407Z - info: Using extension sample-template
+2018-12-05T03:11:05.422Z - info: Using extension resources
+2018-12-05T03:11:05.431Z - info: Using extension public-templates
+2018-12-05T03:11:05.460Z - info: fs store is persisting using fs
+2018-12-05T03:11:05.464Z - info: fs store is synchronizing using fs
+2018-12-05T03:11:05.537Z - info: fs store is loading data
+2018-12-05T03:11:05.699Z - info: fs store is initialized successfully
+2018-12-05T03:11:05.729Z - info: Creating default express app.
+2018-12-05T03:11:05.773Z - info: jsreport server successfully started on https port: 8080
+2018-12-05T03:11:05.776Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-12-05T03:11:05.817Z - info: Verifying license key free
+2018-12-05T03:11:05.822Z - info: Using free license
+2018-12-05T03:11:05.827Z - info: reporter initialized
+2018-12-05T03:13:47.505Z - info: Initializing jsreport@2.2.0 in development mode using configuration file: jsreport.config.json
+2018-12-05T03:13:47.509Z - info: Searching for available extensions in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-05T03:13:47.519Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-05T03:13:47.538Z - info: Found 31 extensions
+2018-12-05T03:13:48.100Z - info: Using extension handlebars
+2018-12-05T03:13:48.113Z - info: Using extension import-export
+2018-12-05T03:13:48.554Z - info: Using extension templates
+2018-12-05T03:13:48.574Z - info: Using extension jsrender
+2018-12-05T03:13:48.580Z - info: Using extension freeze
+2018-12-05T03:13:48.586Z - info: Using extension cli
+2018-12-05T03:13:48.590Z - info: Using extension express
+2018-12-05T03:13:48.969Z - info: Using extension debug
+2018-12-05T03:13:48.981Z - info: Using extension tags
+2018-12-05T03:13:49.005Z - info: Using extension data
+2018-12-05T03:13:49.020Z - info: Using extension fs-store
+2018-12-05T03:13:49.985Z - info: Using extension authorization
+2018-12-05T03:13:50.001Z - info: Using extension html-to-xlsx
+2018-12-05T03:13:50.607Z - info: html-to-xlsx detected chrome as available html engine
+2018-12-05T03:13:50.613Z - info: html-to-xlsx detected phantom as available html engine
+2018-12-05T03:13:50.615Z - info: Using extension child-templates
+2018-12-05T03:13:50.630Z - info: Using extension browser-client
+2018-12-05T03:13:50.642Z - info: Using extension chrome-pdf
+2018-12-05T03:13:50.661Z - info: Using extension pdf-utils
+2018-12-05T03:13:50.671Z - info: Using extension version-control
+2018-12-05T03:13:50.794Z - info: Using extension reports
+2018-12-05T03:13:50.818Z - info: Using extension text
+2018-12-05T03:13:50.823Z - info: Using extension base
+2018-12-05T03:13:50.833Z - info: Using extension studio
+2018-12-05T03:13:50.994Z - info: Using extension licensing
+2018-12-05T03:13:51.166Z - info: Using extension scripts
+2018-12-05T03:13:51.173Z - info: Using extension assets
+2018-12-05T03:13:51.190Z - info: Using extension scheduling
+2018-12-05T03:13:51.241Z - info: Using extension xlsx
+2018-12-05T03:13:51.379Z - info: Using extension sample-template
+2018-12-05T03:13:51.384Z - info: Using extension resources
+2018-12-05T03:13:51.386Z - info: Using extension public-templates
+2018-12-05T03:13:51.394Z - info: fs store is persisting using fs
+2018-12-05T03:13:51.395Z - info: fs store is synchronizing using fs
+2018-12-05T03:13:51.431Z - info: fs store is loading data
+2018-12-05T03:13:51.554Z - info: fs store is initialized successfully
+2018-12-05T03:13:51.575Z - info: Creating default express app.
+2018-12-05T03:13:51.626Z - info: jsreport server successfully started on https port: 8080
+2018-12-05T03:13:51.630Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-12-05T03:13:51.672Z - info: Verifying license key free
+2018-12-05T03:13:51.676Z - info: Using free license
+2018-12-05T03:13:51.680Z - info: reporter initialized
+2018-12-05T03:16:17.139Z - info: Initializing jsreport@2.2.0 in development mode using configuration file: jsreport.config.json
+2018-12-05T03:16:17.141Z - info: Searching for available extensions in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-05T03:16:17.153Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-05T03:16:17.169Z - info: Found 31 extensions
+2018-12-05T03:16:17.713Z - info: Using extension handlebars
+2018-12-05T03:16:17.720Z - info: Using extension import-export
+2018-12-05T03:16:18.049Z - info: Using extension templates
+2018-12-05T03:16:18.093Z - info: Using extension jsrender
+2018-12-05T03:16:18.103Z - info: Using extension freeze
+2018-12-05T03:16:18.115Z - info: Using extension cli
+2018-12-05T03:16:18.122Z - info: Using extension express
+2018-12-05T03:16:18.468Z - info: Using extension debug
+2018-12-05T03:16:18.471Z - info: Using extension tags
+2018-12-05T03:16:18.478Z - info: Using extension data
+2018-12-05T03:16:18.485Z - info: Using extension fs-store
+2018-12-05T03:16:19.281Z - info: Using extension authorization
+2018-12-05T03:16:19.296Z - info: Using extension html-to-xlsx
+2018-12-05T03:16:19.887Z - info: html-to-xlsx detected chrome as available html engine
+2018-12-05T03:16:19.892Z - info: html-to-xlsx detected phantom as available html engine
+2018-12-05T03:16:19.895Z - info: Using extension child-templates
+2018-12-05T03:16:19.910Z - info: Using extension browser-client
+2018-12-05T03:16:19.922Z - info: Using extension chrome-pdf
+2018-12-05T03:16:19.942Z - info: Using extension pdf-utils
+2018-12-05T03:16:19.952Z - info: Using extension version-control
+2018-12-05T03:16:20.078Z - info: Using extension reports
+2018-12-05T03:16:20.102Z - info: Using extension text
+2018-12-05T03:16:20.106Z - info: Using extension base
+2018-12-05T03:16:20.115Z - info: Using extension studio
+2018-12-05T03:16:20.278Z - info: Using extension licensing
+2018-12-05T03:16:20.355Z - info: Using extension scripts
+2018-12-05T03:16:20.376Z - info: Using extension assets
+2018-12-05T03:16:20.419Z - info: Using extension scheduling
+2018-12-05T03:16:20.573Z - info: Using extension xlsx
+2018-12-05T03:16:20.896Z - info: Using extension sample-template
+2018-12-05T03:16:20.902Z - info: Using extension resources
+2018-12-05T03:16:20.905Z - info: Using extension public-templates
+2018-12-05T03:16:20.915Z - info: fs store is persisting using fs
+2018-12-05T03:16:20.919Z - info: fs store is synchronizing using fs
+2018-12-05T03:16:20.957Z - info: fs store is loading data
+2018-12-05T03:16:21.105Z - info: fs store is initialized successfully
+2018-12-05T03:16:21.137Z - info: Creating default express app.
+2018-12-05T03:16:21.184Z - info: jsreport server successfully started on https port: 3000
+2018-12-05T03:16:21.186Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-12-05T03:16:21.229Z - info: Verifying license key free
+2018-12-05T03:16:21.232Z - info: Using free license
+2018-12-05T03:16:21.237Z - info: reporter initialized
+2018-12-05T03:38:34.125Z - info: Initializing jsreport@2.2.0 in development mode using configuration file: jsreport.config.json
+2018-12-05T03:38:34.127Z - info: Searching for available extensions in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-05T03:38:34.136Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-05T03:38:34.151Z - info: Found 31 extensions
+2018-12-05T03:38:34.322Z - error: Error occured during reporter init Error: options contain values that does not match the defined full root schema. schema validation errors: rootOptions.httpPort should be number
+    at Reporter.init (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-core\lib\reporter.js:142:15)
+    at <anonymous>
+2018-12-05T03:39:29.952Z - info: Initializing jsreport@2.2.0 in development mode using configuration file: jsreport.config.json
+2018-12-05T03:39:29.957Z - info: Searching for available extensions in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-05T03:39:29.975Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-05T03:39:29.998Z - info: Found 31 extensions
+2018-12-05T03:39:30.119Z - error: Error occured during reporter init Error: options contain values that does not match the defined full root schema. schema validation errors: rootOptions.httpPort should be number
+    at Reporter.init (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-core\lib\reporter.js:142:15)
+    at <anonymous>
+2018-12-05T03:40:24.515Z - info: Initializing jsreport@2.2.0 in development mode using configuration file: jsreport.config.json
+2018-12-05T03:40:24.517Z - info: Searching for available extensions in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-05T03:40:24.526Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-05T03:40:24.540Z - info: Found 31 extensions
+2018-12-05T03:40:25.048Z - info: Using extension handlebars
+2018-12-05T03:40:25.055Z - info: Using extension import-export
+2018-12-05T03:40:25.478Z - info: Using extension templates
+2018-12-05T03:40:25.506Z - info: Using extension jsrender
+2018-12-05T03:40:25.515Z - info: Using extension freeze
+2018-12-05T03:40:25.525Z - info: Using extension cli
+2018-12-05T03:40:25.530Z - info: Using extension express
+2018-12-05T03:40:26.093Z - info: Using extension debug
+2018-12-05T03:40:26.101Z - info: Using extension tags
+2018-12-05T03:40:26.116Z - info: Using extension data
+2018-12-05T03:40:26.128Z - info: Using extension fs-store
+2018-12-05T03:40:27.129Z - info: Using extension authorization
+2018-12-05T03:40:27.148Z - info: Using extension html-to-xlsx
+2018-12-05T03:40:27.723Z - info: html-to-xlsx detected chrome as available html engine
+2018-12-05T03:40:27.728Z - info: html-to-xlsx detected phantom as available html engine
+2018-12-05T03:40:27.733Z - info: Using extension child-templates
+2018-12-05T03:40:27.748Z - info: Using extension browser-client
+2018-12-05T03:40:27.761Z - info: Using extension chrome-pdf
+2018-12-05T03:40:27.779Z - info: Using extension pdf-utils
+2018-12-05T03:40:27.789Z - info: Using extension version-control
+2018-12-05T03:40:27.912Z - info: Using extension reports
+2018-12-05T03:40:27.946Z - info: Using extension text
+2018-12-05T03:40:27.953Z - info: Using extension base
+2018-12-05T03:40:27.963Z - info: Using extension studio
+2018-12-05T03:40:28.131Z - info: Using extension licensing
+2018-12-05T03:40:28.221Z - info: Using extension scripts
+2018-12-05T03:40:28.243Z - info: Using extension assets
+2018-12-05T03:40:28.286Z - info: Using extension scheduling
+2018-12-05T03:40:28.405Z - info: Using extension xlsx
+2018-12-05T03:40:28.749Z - info: Using extension sample-template
+2018-12-05T03:40:28.757Z - info: Using extension resources
+2018-12-05T03:40:28.760Z - info: Using extension public-templates
+2018-12-05T03:40:28.772Z - info: fs store is persisting using fs
+2018-12-05T03:40:28.774Z - info: fs store is synchronizing using fs
+2018-12-05T03:40:28.806Z - info: fs store is loading data
+2018-12-05T03:40:28.922Z - info: fs store is initialized successfully
+2018-12-05T03:40:28.946Z - info: Creating default express app.
+2018-12-05T03:40:29.006Z - error: Error when starting http server on port 3000 Error: listen EADDRINUSE :::3000
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:23:12)
+    at Promise._execute (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\debuggability.js:303:9)
+    at Promise._resolveFromExecutor (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\promise.js:79:10)
+    at startAsync (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:17:10)
+    at steps.push (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:119:14)
+    at Object.start (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:125:13)
+    at <anonymous>
+2018-12-05T03:40:29.012Z - error: Error occured during reporter init Error: listen EADDRINUSE :::3000
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:23:12)
+    at Promise._execute (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\debuggability.js:303:9)
+    at Promise._resolveFromExecutor (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\bluebird\js\release\promise.js:79:10)
+    at startAsync (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:17:10)
+    at steps.push (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:119:14)
+    at Object.start (C:\Users\IAInnovations0005\Desktop\jsreport\node_modules\jsreport-express\lib\reporter.express.js:125:13)
+    at <anonymous>
+2018-12-05T05:00:56.965Z - info: Initializing jsreport@2.2.0 in development mode using configuration file: jsreport.config.json
+2018-12-05T05:00:56.967Z - info: Searching for available extensions in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-05T05:00:56.986Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-05T05:00:57.006Z - info: Found 31 extensions
+2018-12-05T05:00:57.675Z - info: Using extension handlebars
+2018-12-05T05:00:57.681Z - info: Using extension import-export
+2018-12-05T05:00:57.887Z - info: Using extension templates
+2018-12-05T05:00:57.893Z - info: Using extension jsrender
+2018-12-05T05:00:57.896Z - info: Using extension freeze
+2018-12-05T05:00:57.898Z - info: Using extension cli
+2018-12-05T05:00:57.899Z - info: Using extension express
+2018-12-05T05:00:58.118Z - info: Using extension debug
+2018-12-05T05:00:58.130Z - info: Using extension tags
+2018-12-05T05:00:58.148Z - info: Using extension data
+2018-12-05T05:00:58.153Z - info: Using extension fs-store
+2018-12-05T05:00:58.420Z - info: Using extension authorization
+2018-12-05T05:00:58.424Z - info: Using extension html-to-xlsx
+2018-12-05T05:00:58.580Z - info: html-to-xlsx detected chrome as available html engine
+2018-12-05T05:00:58.582Z - info: html-to-xlsx detected phantom as available html engine
+2018-12-05T05:00:58.582Z - info: Using extension child-templates
+2018-12-05T05:00:58.585Z - info: Using extension browser-client
+2018-12-05T05:00:58.590Z - info: Using extension chrome-pdf
+2018-12-05T05:00:58.595Z - info: Using extension pdf-utils
+2018-12-05T05:00:58.597Z - info: Using extension version-control
+2018-12-05T05:00:58.657Z - info: Using extension reports
+2018-12-05T05:00:58.663Z - info: Using extension text
+2018-12-05T05:00:58.666Z - info: Using extension base
+2018-12-05T05:00:58.668Z - info: Using extension studio
+2018-12-05T05:00:58.706Z - info: Using extension licensing
+2018-12-05T05:00:58.733Z - info: Using extension scripts
+2018-12-05T05:00:58.739Z - info: Using extension assets
+2018-12-05T05:00:58.752Z - info: Using extension scheduling
+2018-12-05T05:00:58.815Z - info: Using extension xlsx
+2018-12-05T05:00:58.926Z - info: Using extension sample-template
+2018-12-05T05:00:58.928Z - info: Using extension resources
+2018-12-05T05:00:58.930Z - info: Using extension public-templates
+2018-12-05T05:00:58.934Z - info: fs store is persisting using fs
+2018-12-05T05:00:58.936Z - info: fs store is synchronizing using fs
+2018-12-05T05:00:58.981Z - info: fs store is loading data
+2018-12-05T05:00:59.101Z - info: fs store is initialized successfully
+2018-12-05T05:00:59.131Z - info: Creating default express app.
+2018-12-05T05:00:59.173Z - info: jsreport server successfully started on https port: 3000
+2018-12-05T05:00:59.176Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-12-05T05:00:59.212Z - info: Verifying license key free
+2018-12-05T05:00:59.216Z - info: Using free license
+2018-12-05T05:00:59.220Z - info: reporter initialized
+2018-12-05T05:11:39.513Z - info: Initializing jsreport@2.2.0 in development mode using configuration file: jsreport.config.json
+2018-12-05T05:11:39.516Z - info: Searching for available extensions in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-05T05:11:39.530Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-05T05:11:39.545Z - info: Found 31 extensions
+2018-12-05T05:11:40.075Z - info: Using extension handlebars
+2018-12-05T05:11:40.080Z - info: Using extension import-export
+2018-12-05T05:11:40.269Z - info: Using extension templates
+2018-12-05T05:11:40.276Z - info: Using extension jsrender
+2018-12-05T05:11:40.279Z - info: Using extension freeze
+2018-12-05T05:11:40.282Z - info: Using extension cli
+2018-12-05T05:11:40.283Z - info: Using extension express
+2018-12-05T05:11:40.444Z - info: Using extension debug
+2018-12-05T05:11:40.446Z - info: Using extension tags
+2018-12-05T05:11:40.450Z - info: Using extension data
+2018-12-05T05:11:40.453Z - info: Using extension fs-store
+2018-12-05T05:11:40.719Z - info: Using extension authorization
+2018-12-05T05:11:40.722Z - info: Using extension html-to-xlsx
+2018-12-05T05:11:40.879Z - info: html-to-xlsx detected chrome as available html engine
+2018-12-05T05:11:40.880Z - info: html-to-xlsx detected phantom as available html engine
+2018-12-05T05:11:40.880Z - info: Using extension child-templates
+2018-12-05T05:11:40.883Z - info: Using extension browser-client
+2018-12-05T05:11:40.886Z - info: Using extension chrome-pdf
+2018-12-05T05:11:40.892Z - info: Using extension pdf-utils
+2018-12-05T05:11:40.894Z - info: Using extension version-control
+2018-12-05T05:11:40.928Z - info: Using extension reports
+2018-12-05T05:11:40.932Z - info: Using extension text
+2018-12-05T05:11:40.933Z - info: Using extension base
+2018-12-05T05:11:40.935Z - info: Using extension studio
+2018-12-05T05:11:40.974Z - info: Using extension licensing
+2018-12-05T05:11:40.999Z - info: Using extension scripts
+2018-12-05T05:11:41.005Z - info: Using extension assets
+2018-12-05T05:11:41.016Z - info: Using extension scheduling
+2018-12-05T05:11:41.057Z - info: Using extension xlsx
+2018-12-05T05:11:41.161Z - info: Using extension sample-template
+2018-12-05T05:11:41.164Z - info: Using extension resources
+2018-12-05T05:11:41.166Z - info: Using extension public-templates
+2018-12-05T05:11:41.171Z - info: fs store is persisting using fs
+2018-12-05T05:11:41.172Z - info: fs store is synchronizing using fs
+2018-12-05T05:11:41.208Z - info: fs store is loading data
+2018-12-05T05:11:41.335Z - info: fs store is initialized successfully
+2018-12-05T05:11:41.357Z - info: Creating default express app.
+2018-12-05T05:11:41.404Z - info: jsreport server successfully started on https port: 8080
+2018-12-05T05:11:41.407Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-12-05T05:11:41.434Z - info: Verifying license key free
+2018-12-05T05:11:41.436Z - info: Using free license
+2018-12-05T05:11:41.438Z - info: reporter initialized
+2018-12-05T05:35:41.860Z - info: Initializing jsreport@2.2.0 in development mode using configuration file: jsreport.config.json
+2018-12-05T05:35:41.862Z - info: Searching for available extensions in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-05T05:35:41.879Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-05T05:35:41.900Z - info: Found 31 extensions
+2018-12-05T05:35:42.446Z - info: Using extension handlebars
+2018-12-05T05:35:42.452Z - info: Using extension import-export
+2018-12-05T05:35:42.635Z - info: Using extension templates
+2018-12-05T05:35:42.642Z - info: Using extension jsrender
+2018-12-05T05:35:42.643Z - info: Using extension freeze
+2018-12-05T05:35:42.646Z - info: Using extension cli
+2018-12-05T05:35:42.647Z - info: Using extension express
+2018-12-05T05:35:42.818Z - info: Using extension debug
+2018-12-05T05:35:42.821Z - info: Using extension tags
+2018-12-05T05:35:42.825Z - info: Using extension data
+2018-12-05T05:35:42.829Z - info: Using extension fs-store
+2018-12-05T05:35:43.104Z - info: Using extension authorization
+2018-12-05T05:35:43.107Z - info: Using extension html-to-xlsx
+2018-12-05T05:35:43.267Z - info: html-to-xlsx detected chrome as available html engine
+2018-12-05T05:35:43.269Z - info: html-to-xlsx detected phantom as available html engine
+2018-12-05T05:35:43.269Z - info: Using extension child-templates
+2018-12-05T05:35:43.273Z - info: Using extension browser-client
+2018-12-05T05:35:43.275Z - info: Using extension chrome-pdf
+2018-12-05T05:35:43.280Z - info: Using extension pdf-utils
+2018-12-05T05:35:43.282Z - info: Using extension version-control
+2018-12-05T05:35:43.314Z - info: Using extension reports
+2018-12-05T05:35:43.320Z - info: Using extension text
+2018-12-05T05:35:43.321Z - info: Using extension base
+2018-12-05T05:35:43.324Z - info: Using extension studio
+2018-12-05T05:35:43.364Z - info: Using extension licensing
+2018-12-05T05:35:43.389Z - info: Using extension scripts
+2018-12-05T05:35:43.394Z - info: Using extension assets
+2018-12-05T05:35:43.406Z - info: Using extension scheduling
+2018-12-05T05:35:43.447Z - info: Using extension xlsx
+2018-12-05T05:35:43.551Z - info: Using extension sample-template
+2018-12-05T05:35:43.555Z - info: Using extension resources
+2018-12-05T05:35:43.557Z - info: Using extension public-templates
+2018-12-05T05:35:43.562Z - info: fs store is persisting using fs
+2018-12-05T05:35:43.563Z - info: fs store is synchronizing using fs
+2018-12-05T05:35:43.601Z - info: fs store is loading data
+2018-12-05T05:35:43.728Z - info: fs store is initialized successfully
+2018-12-05T05:35:43.761Z - info: Creating default express app.
+2018-12-05T05:35:43.816Z - info: jsreport server successfully started on https port: 8080
+2018-12-05T05:35:43.818Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-12-05T05:35:43.854Z - info: Verifying license key free
+2018-12-05T05:35:43.857Z - info: Using free license
+2018-12-05T05:35:43.860Z - info: reporter initialized
+2018-12-05T05:51:41.504Z - info: Initializing jsreport@2.2.0 in development mode using configuration file: jsreport.config.json
+2018-12-05T05:51:41.506Z - info: Searching for available extensions in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-05T05:51:41.548Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-05T05:51:41.562Z - info: Found 31 extensions
+2018-12-05T05:51:42.091Z - info: Using extension handlebars
+2018-12-05T05:51:42.097Z - info: Using extension import-export
+2018-12-05T05:51:42.235Z - info: Using extension templates
+2018-12-05T05:51:42.242Z - info: Using extension jsrender
+2018-12-05T05:51:42.244Z - info: Using extension freeze
+2018-12-05T05:51:42.248Z - info: Using extension cli
+2018-12-05T05:51:42.249Z - info: Using extension express
+2018-12-05T05:51:42.408Z - info: Using extension debug
+2018-12-05T05:51:42.412Z - info: Using extension tags
+2018-12-05T05:51:42.416Z - info: Using extension data
+2018-12-05T05:51:42.420Z - info: Using extension fs-store
+2018-12-05T05:51:42.512Z - info: Using extension authorization
+2018-12-05T05:51:42.515Z - info: Using extension html-to-xlsx
+2018-12-05T05:51:42.685Z - info: html-to-xlsx detected chrome as available html engine
+2018-12-05T05:51:42.686Z - info: html-to-xlsx detected phantom as available html engine
+2018-12-05T05:51:42.687Z - info: Using extension child-templates
+2018-12-05T05:51:42.690Z - info: Using extension browser-client
+2018-12-05T05:51:42.693Z - info: Using extension chrome-pdf
+2018-12-05T05:51:42.699Z - info: Using extension pdf-utils
+2018-12-05T05:51:42.702Z - info: Using extension version-control
+2018-12-05T05:51:42.739Z - info: Using extension reports
+2018-12-05T05:51:42.744Z - info: Using extension text
+2018-12-05T05:51:42.746Z - info: Using extension base
+2018-12-05T05:51:42.748Z - info: Using extension studio
+2018-12-05T05:51:42.788Z - info: Using extension licensing
+2018-12-05T05:51:42.811Z - info: Using extension scripts
+2018-12-05T05:51:42.818Z - info: Using extension assets
+2018-12-05T05:51:42.826Z - info: Using extension scheduling
+2018-12-05T05:51:42.867Z - info: Using extension xlsx
+2018-12-05T05:51:42.962Z - info: Using extension sample-template
+2018-12-05T05:51:42.966Z - info: Using extension resources
+2018-12-05T05:51:42.968Z - info: Using extension public-templates
+2018-12-05T05:51:42.973Z - info: fs store is persisting using fs
+2018-12-05T05:51:42.974Z - info: fs store is synchronizing using fs
+2018-12-05T05:51:42.982Z - info: fs store is loading data
+2018-12-05T05:51:43.205Z - info: fs store is initialized successfully
+2018-12-05T05:51:43.236Z - info: Creating default express app.
+2018-12-05T05:51:43.279Z - info: jsreport server successfully started on https port: 8080
+2018-12-05T05:51:43.279Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-12-05T05:51:43.301Z - info: Verifying license key free
+2018-12-05T05:51:43.304Z - info: Using free license
+2018-12-05T05:51:43.374Z - info: reporter initialized
+2018-12-05T05:58:44.526Z - info: Initializing jsreport@2.2.0 in development mode using configuration file: jsreport.config.json
+2018-12-05T05:58:44.528Z - info: Searching for available extensions in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-05T05:58:44.545Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-05T05:58:44.560Z - info: Found 31 extensions
+2018-12-05T05:58:45.113Z - info: Using extension handlebars
+2018-12-05T05:58:45.118Z - info: Using extension import-export
+2018-12-05T05:58:45.294Z - info: Using extension templates
+2018-12-05T05:58:45.301Z - info: Using extension jsrender
+2018-12-05T05:58:45.304Z - info: Using extension freeze
+2018-12-05T05:58:45.307Z - info: Using extension cli
+2018-12-05T05:58:45.309Z - info: Using extension express
+2018-12-05T05:58:45.473Z - info: Using extension debug
+2018-12-05T05:58:45.476Z - info: Using extension tags
+2018-12-05T05:58:45.481Z - info: Using extension data
+2018-12-05T05:58:45.485Z - info: Using extension fs-store
+2018-12-05T05:58:45.754Z - info: Using extension authorization
+2018-12-05T05:58:45.759Z - info: Using extension html-to-xlsx
+2018-12-05T05:58:45.914Z - info: html-to-xlsx detected chrome as available html engine
+2018-12-05T05:58:45.915Z - info: html-to-xlsx detected phantom as available html engine
+2018-12-05T05:58:45.915Z - info: Using extension child-templates
+2018-12-05T05:58:45.919Z - info: Using extension browser-client
+2018-12-05T05:58:45.921Z - info: Using extension chrome-pdf
+2018-12-05T05:58:45.927Z - info: Using extension pdf-utils
+2018-12-05T05:58:45.929Z - info: Using extension version-control
+2018-12-05T05:58:45.961Z - info: Using extension reports
+2018-12-05T05:58:45.966Z - info: Using extension text
+2018-12-05T05:58:45.967Z - info: Using extension base
+2018-12-05T05:58:45.969Z - info: Using extension studio
+2018-12-05T05:58:46.007Z - info: Using extension licensing
+2018-12-05T05:58:46.036Z - info: Using extension scripts
+2018-12-05T05:58:46.042Z - info: Using extension assets
+2018-12-05T05:58:46.054Z - info: Using extension scheduling
+2018-12-05T05:58:46.096Z - info: Using extension xlsx
+2018-12-05T05:58:46.200Z - info: Using extension sample-template
+2018-12-05T05:58:46.203Z - info: Using extension resources
+2018-12-05T05:58:46.205Z - info: Using extension public-templates
+2018-12-05T05:58:46.210Z - info: fs store is persisting using fs
+2018-12-05T05:58:46.211Z - info: fs store is synchronizing using fs
+2018-12-05T05:58:46.248Z - info: fs store is loading data
+2018-12-05T05:58:46.371Z - info: fs store is initialized successfully
+2018-12-05T05:58:46.397Z - info: Creating default express app.
+2018-12-05T05:58:46.440Z - info: jsreport server successfully started on https port: 8080
+2018-12-05T05:58:46.443Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-12-05T05:58:46.475Z - info: Verifying license key free
+2018-12-05T05:58:46.479Z - info: Using free license
+2018-12-05T05:58:46.483Z - info: reporter initialized
+2018-12-05T06:02:00.735Z - info: Initializing jsreport@2.2.0 in development mode using configuration file: jsreport.config.json
+2018-12-05T06:02:00.737Z - info: Searching for available extensions in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-05T06:02:00.745Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-05T06:02:00.760Z - info: Found 31 extensions
+2018-12-05T06:02:01.264Z - info: Using extension handlebars
+2018-12-05T06:02:01.269Z - info: Using extension import-export
+2018-12-05T06:02:01.403Z - info: Using extension templates
+2018-12-05T06:02:01.407Z - info: Using extension jsrender
+2018-12-05T06:02:01.409Z - info: Using extension freeze
+2018-12-05T06:02:01.411Z - info: Using extension cli
+2018-12-05T06:02:01.413Z - info: Using extension express
+2018-12-05T06:02:01.555Z - info: Using extension debug
+2018-12-05T06:02:01.557Z - info: Using extension tags
+2018-12-05T06:02:01.561Z - info: Using extension data
+2018-12-05T06:02:01.565Z - info: Using extension fs-store
+2018-12-05T06:02:01.801Z - info: Using extension authorization
+2018-12-05T06:02:01.807Z - info: Using extension html-to-xlsx
+2018-12-05T06:02:01.977Z - info: html-to-xlsx detected chrome as available html engine
+2018-12-05T06:02:01.979Z - info: html-to-xlsx detected phantom as available html engine
+2018-12-05T06:02:01.979Z - info: Using extension child-templates
+2018-12-05T06:02:01.983Z - info: Using extension browser-client
+2018-12-05T06:02:01.987Z - info: Using extension chrome-pdf
+2018-12-05T06:02:01.991Z - info: Using extension pdf-utils
+2018-12-05T06:02:01.993Z - info: Using extension version-control
+2018-12-05T06:02:02.026Z - info: Using extension reports
+2018-12-05T06:02:02.033Z - info: Using extension text
+2018-12-05T06:02:02.035Z - info: Using extension base
+2018-12-05T06:02:02.038Z - info: Using extension studio
+2018-12-05T06:02:02.075Z - info: Using extension licensing
+2018-12-05T06:02:02.100Z - info: Using extension scripts
+2018-12-05T06:02:02.108Z - info: Using extension assets
+2018-12-05T06:02:02.120Z - info: Using extension scheduling
+2018-12-05T06:02:02.159Z - info: Using extension xlsx
+2018-12-05T06:02:02.258Z - info: Using extension sample-template
+2018-12-05T06:02:02.261Z - info: Using extension resources
+2018-12-05T06:02:02.264Z - info: Using extension public-templates
+2018-12-05T06:02:02.270Z - info: fs store is persisting using fs
+2018-12-05T06:02:02.270Z - info: fs store is synchronizing using fs
+2018-12-05T06:02:02.272Z - info: fs store is loading data
+2018-12-05T06:02:02.484Z - info: fs store is initialized successfully
+2018-12-05T06:02:02.516Z - info: Creating default express app.
+2018-12-05T06:02:02.567Z - info: jsreport server successfully started on https port: 8080
+2018-12-05T06:02:02.569Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-12-05T06:02:02.607Z - info: Verifying license key free
+2018-12-05T06:02:02.610Z - info: Using free license
+2018-12-05T06:02:02.615Z - info: reporter initialized
+2018-12-05T07:06:42.282Z - info: Initializing jsreport@2.2.0 in development mode using configuration file: jsreport.config.json
+2018-12-05T07:06:42.285Z - info: Searching for available extensions in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-05T07:06:42.295Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\IAInnovations0005\Desktop\jsreport
+2018-12-05T07:06:42.314Z - info: Found 31 extensions
+2018-12-05T07:06:42.888Z - info: Using extension handlebars
+2018-12-05T07:06:42.894Z - info: Using extension import-export
+2018-12-05T07:06:43.088Z - info: Using extension templates
+2018-12-05T07:06:43.094Z - info: Using extension jsrender
+2018-12-05T07:06:43.098Z - info: Using extension freeze
+2018-12-05T07:06:43.101Z - info: Using extension cli
+2018-12-05T07:06:43.102Z - info: Using extension express
+2018-12-05T07:06:43.316Z - info: Using extension debug
+2018-12-05T07:06:43.319Z - info: Using extension tags
+2018-12-05T07:06:43.325Z - info: Using extension data
+2018-12-05T07:06:43.332Z - info: Using extension fs-store
+2018-12-05T07:06:43.665Z - info: Using extension authorization
+2018-12-05T07:06:43.668Z - info: Using extension html-to-xlsx
+2018-12-05T07:06:43.844Z - info: html-to-xlsx detected chrome as available html engine
+2018-12-05T07:06:43.846Z - info: html-to-xlsx detected phantom as available html engine
+2018-12-05T07:06:43.846Z - info: Using extension child-templates
+2018-12-05T07:06:43.850Z - info: Using extension browser-client
+2018-12-05T07:06:43.854Z - info: Using extension chrome-pdf
+2018-12-05T07:06:43.859Z - info: Using extension pdf-utils
+2018-12-05T07:06:43.864Z - info: Using extension version-control
+2018-12-05T07:06:43.904Z - info: Using extension reports
+2018-12-05T07:06:43.910Z - info: Using extension text
+2018-12-05T07:06:43.912Z - info: Using extension base
+2018-12-05T07:06:43.915Z - info: Using extension studio
+2018-12-05T07:07:58.120Z - info: Using extension licensing
+2018-12-05T07:07:58.171Z - info: Using extension scripts
+2018-12-05T07:07:58.176Z - info: Using extension assets
+2018-12-05T07:07:58.189Z - info: Using extension scheduling
+2018-12-05T07:07:58.236Z - info: Using extension xlsx
+2018-12-05T07:07:58.346Z - info: Using extension sample-template
+2018-12-05T07:07:58.350Z - info: Using extension resources
+2018-12-05T07:07:58.352Z - info: Using extension public-templates
+2018-12-05T07:07:58.358Z - info: fs store is persisting using fs
+2018-12-05T07:07:58.359Z - info: fs store is synchronizing using fs
+2018-12-05T07:07:58.360Z - info: fs store is loading data
+2018-12-05T07:07:58.498Z - info: fs store is initialized successfully
+2018-12-05T07:07:58.535Z - info: Creating default express app.
+2018-12-05T07:07:58.596Z - info: jsreport server successfully started on https port: 8080
+2018-12-05T07:07:58.599Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-12-05T07:07:58.637Z - info: Verifying license key free
+2018-12-05T07:07:58.640Z - info: Using free license
+2018-12-05T07:07:58.643Z - info: reporter initialized

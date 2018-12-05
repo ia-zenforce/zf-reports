@@ -1,0 +1,123 @@
+<style>
+    {#asset xls-style.css @encoding=utf8}
+</style>
+
+<table>
+    <tr>
+        <td colspan="6%" class='bold center-align'>
+            {{getReportViewBy tasks.reportDetails.viewBy }}
+        </td>
+    </tr>
+    <tr><td  colspan='6' class="empty"> </td></tr>
+    <tr>
+        <td colspan="6" class='bold'> 
+            {{getReportName tasks}}
+        </td>
+    </tr>
+    <tr>
+        <td colspan="6" class='bold'> Duration: {{getDate tasks.reportDetails.startDate}} - {{getDate tasks.reportDetails.endDate}} </td>
+    </tr>
+    <tr><td  colspan='6' class="empty"> </td></tr>
+    <tr class='heading'>
+        <td>TASKS</td>
+        <td>DESCRIPTION</td>
+        <td>STATUS</td>
+        <td>CATEGORY</td>
+        <td>ASSIGNEES</td>
+        <td>NOTES</td>
+    </tr>
+    {{#each (groupByDay tasks)}}
+        <tr  class='main summary'>
+            <td colspan="6">{{getDay @key }} - {{formatDate @key}}</td>
+        </tr>
+        {{#if (checkIfWithTask this)}}
+            {{#each this}}
+                <tr class='item summary'>
+                    <td rowspan={{getRowSpan this}}>{{task_title}}</td>
+                    <td rowspan={{getRowSpan this}} class='desc'>{{task_description}}</td>
+                    <td rowspan={{getRowSpan this}}>{{status}}</td>
+                    <td rowspan={{getRowSpan this}}>{{capitalize task_category}}</td>
+                    <td>{{getFirstAssignee members}}</td>
+                    <td>{{getFirstNote notes}}</td>
+                </tr>
+                {{#each (populateMultipleData this)}}
+                    <tr class='summary'>
+                        <td>{{capitalize user.user_fullname}}</td>
+                        <td>{{capitalize note.body}}</td>
+                    </tr>
+                {{/each}}
+            {{/each}}
+        {{else}}
+            <tr class='summary center-align'>
+                <td colspan="6">NO TASK ASSIGNED</td>
+            </tr>
+        {{/if}}
+        {{#if (checkIfEndOfWeek (getDay @key))}}
+            <tr><td colspan='6' class="empty divider"> </td></tr>
+        {{else}}
+        {{/if}}
+    {{/each}}
+    <tr><td  colspan='6' class="empty"> </td></tr>
+    <tr><td  colspan='6' class="empty"> </td></tr>
+    <tr class='head-section font-white center-align'>
+            <td colspan='2'>SUMMARY</td>
+        </tr>
+        <tr class='heading center-align'>
+            <td>STATUS SUMMARY</td>
+            <td></td>
+        </tr>
+        {{#each (getTaskStatusSummary tasks.data)}}
+            <tr class='summary'>
+                <td>{{@key}}</td>
+                <td>{{this}}</td>
+            </tr>
+        {{/each}}
+        <tr class='summary main'>
+            <td>Total:</td>
+            <td>{{getCompleted tasks.data}}/{{tasks.data.length}} Completed</td>
+        </tr>
+        <tr><td  colspan='6' class="empty"> </td></tr>
+        <tr><td  colspan='6' class="empty"> </td></tr>
+        <tr class='heading center-align'>
+            <td>CATEGORY SUMMARY</td>
+            <td></td>
+        </tr>
+        {{#each (getTaskCategorySummary tasks.data)}}
+            <tr class='summary'>
+                <td>{{capitalize @key}}</td>
+                <td>{{completed}}/{{total}}</td>
+            </tr>
+        {{/each}}
+        <tr class='summary main'>
+            <td>Total: </td>
+            <td>{{getCompleted tasks.data}}/{{tasks.data.length}} Completed</td>
+        </tr>
+        <tr class='summary main'>
+            <td>Completion rate:  </td>
+            <td>{{rate tasks.data}}%</td>
+        </tr>
+        <tr><td  colspan='6' class="empty"> </td></tr>
+        <tr><td  colspan='6' class="empty"> </td></tr>
+        {{#if (checkIfWithProductivityView tasks.reportDetails.viewBy)}}
+            <tr class='head-section font-white center-align'>
+                <td colspan='3'>User Productivity</td>
+            </tr>
+            <tr class='heading center-align'>
+                <td>User</td>
+                <td>Tasks</td>
+                <td>Productivity</td>
+            </tr>
+                {{#each (getUserProductivity tasks.data)}}
+            <tr class='summary'>
+                    <td>{{capitalize name}}</td>
+                    <td>{{taskCount.completed}} out of {{taskCount.total}} completed</td>
+                    <td class=>{{productivity}}%</td>
+            </tr>
+                {{/each}}
+            <tr class='summary main'>
+                <td colspan='2'>Productivity rate:</td> 
+                <td>{{getGroupProductivity }}%</td>
+            </tr>
+        {{else}}
+        {{/if}}
+</table>

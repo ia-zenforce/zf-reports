@@ -1,0 +1,140 @@
+<style>
+    {#asset xls-style.css @encoding=utf8}
+</style>
+
+<table>
+    <tr>
+        <td colspan="5" class='bold center-align'> 
+            {{#if deliverables.reportDetails.viewByCompany}}
+                COMPANY DELIVERABLES REPORT 
+            {{else}}
+                DEPARTMENT DELIVERABLES REPORT 
+            {{/if}}
+        </td>
+    </tr>
+    <tr>
+        <td colspan="5" class='bold'> 
+            {{#if deliverables.reportDetails.viewByCompany}}
+                Company: {{deliverables.name}} 
+            {{else}}
+                Department: {{deliverables.name}} 
+            {{/if}}
+        </td>
+    </tr>
+    <tr>
+        <td colspan="5" class='bold'> Duration: {{getDate deliverables.reportDetails.startDate}} - {{getDate deliverables.reportDetails.endDate}} </td>
+    </tr>
+    <tr><td  colspan='5' class="empty"> </td></tr>
+    {{#if (checkIfWithResult deliverables.data)}}
+        {{#if deliverables.reportDetails.viewByCompany}}
+            {{#each (groupByDepartment deliverables.data)}}
+                <tr class='head-section'>
+                    <td colspan="5" class='font-white'>DEPARTMENT: {{upperCase title}}</td>
+                </tr>
+                {{#each (groupByUser items)}}
+                    <tr class='name-section'>
+                        <td colspan="5">{{upperCase user_name}}</td>
+                    </tr>
+                    {{#each (groupByTaskDel userDeliverables)}}
+                        <tr class='heading'>
+                           <td colspan="5">Task - {{title}}</td>
+                       </tr>
+                       {{#each (groupByType items)}}
+                            <tr class='main'>
+                                <td>Deliverable</td>
+                                <td>Status</td>
+                                {{#if (checkKeys keys)}}
+                                    <td>Date Submitted</td>
+                                    <td colspan="2" class="center-align">Submitted Data</td>
+                                {{else}}
+                                <td>Duedate</td>
+                                <td colspan="2" class="center-align">Date Submitted</td>
+                                {{/if}}
+                                
+                            </tr>
+                            {{#each items}}
+                                {{#if (checkIfSubmitted submitted)}}
+                                    {{#each submitted}}
+                                        <tr class='item summary'>
+                                            <td rowspan={{getRowSpanBasedOnDel del_details}}>{{del_type}}</td>
+                                            <td rowspan={{getRowSpanBasedOnDel del_details}}>Completed</td>
+                                            <td rowspan={{getRowSpanBasedOnDel del_details}}>{{formatDate date_submitted}}</td>
+                                        </tr>
+                                        {{#each (getFields del_details)}}
+                                            <tr class="summary">
+                                               <td>{{getFieldValue fieldName}}</td>
+                                               <td>{{getFieldValue value}}</td>
+                                            </tr>
+                                        {{/each}}
+                                    {{/each}}
+                                {{else}}
+                                    <tr class='item summary'>
+                                        <td>{{name}}</td>
+                                        <td>{{status}}</td>
+                                        <td colspan={{getSpan}}>{{formatDate duedate}}</td>
+                                        <td colspan="2" class="center-align">--/--/--</td>
+                                    </tr>
+                                {{/if}}
+                            {{/each}}
+                       {{/each}}
+                    {{/each}}
+                    <tr><td  colspan='5' class="empty"> </td></tr>
+                {{/each}}
+            {{/each}}
+        {{else}}
+            {{#each deliverables.data}}
+                <tr class='name-section'>
+                    <td colspan="5">{{upperCase user_name}}</td>
+                </tr>
+                {{#each (groupByTaskDel userDeliverables)}}
+                    <tr class='heading'>
+                       <td colspan="5">Task - {{title}}</td>
+                   </tr>
+                   {{#each (groupByType items)}}
+                        <tr class='main'>
+                            <td>Deliverable</td>
+                            <td>Status</td>
+                            {{#if (checkKeys keys)}}
+                                <td>Date Submitted</td>
+                                <td colspan="2" class="center-align">Submitted Data</td>
+                            {{else}}
+                            <td>Duedate</td>
+                            <td colspan="2" class="center-align">Date Submitted</td>
+                            {{/if}}
+                            
+                        </tr>
+                        {{#each items}}
+                            {{#if (checkIfSubmitted submitted)}}
+                                {{#each submitted}}
+                                    <tr class='item summary'>
+                                        <td rowspan={{getRowSpanBasedOnDel del_details}}>{{del_type}}</td>
+                                        <td rowspan={{getRowSpanBasedOnDel del_details}}>Completed</td>
+                                        <td rowspan={{getRowSpanBasedOnDel del_details}}>{{formatDate date_submitted}}</td>
+                                    </tr>
+                                    {{#each (getFields del_details)}}
+                                        <tr class="summary">
+                                           <td>{{getFieldValue fieldName}}</td>
+                                           <td>{{getFieldValue value}}</td>
+                                        </tr>
+                                    {{/each}}
+                                {{/each}}
+                            {{else}}
+                                <tr class='item summary'>
+                                    <td>{{name}}</td>
+                                    <td>{{status}}</td>
+                                    <td colspan={{getSpan}}>{{formatDate duedate}}</td>
+                                    <td colspan="2" class="center-align">--/--/--</td>
+                                </tr>
+                            {{/if}}
+                        {{/each}}
+                   {{/each}}
+                {{/each}}
+                <tr><td  colspan='5' class="empty"> </td></tr>
+            {{/each}}
+        {{/if}}
+    {{else}}
+        <tr>
+            <td colSpan='5' class='bold'>NO DATA AVAILABLE FOR THIS DURATION.</td>
+        </tr>
+    {{/if}}
+</table>

@@ -1,0 +1,31 @@
+{
+    "_id": "5c05f20ae58d5c1094841997",
+    "name": "Company & Dept Deliverable List xls",
+    "recipe": "html-to-xlsx",
+    "shortid": "S1WzBx31f",
+    "engine": "handlebars",
+    "data": null,
+    "modificationDate": {
+        "$$date": 1543918714403
+    },
+    "phantom": {
+        "orientation": "landscape",
+        "fitToPage": false,
+        "format": "Legal",
+        "resourceTimeout": "1000000000"
+    },
+    "scripts": [
+        {
+            "shortid": "SyeVt0bTZ"
+        }
+    ],
+    "resources": {
+        "items": []
+    },
+    "tenantId": "ia-zenforce",
+    "htmlToXlsx": {
+        "htmlEngine": "phantom"
+    },
+    "htmlToXlsxPhantomDefaultMigrated": true,
+    "$entitySet": "templates"
+}

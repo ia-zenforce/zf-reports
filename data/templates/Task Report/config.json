@@ -1,0 +1,21 @@
+{
+    "_id": "5c05f20ae58d5cede2841999",
+    "shortid": "HJjPOWAbz",
+    "name": "Task Report",
+    "recipe": "html-to-xlsx",
+    "engine": "handlebars",
+    "modificationDate": {
+        "$$date": 1543971333411
+    },
+    "scripts": [
+        {
+            "shortid": "SkgWk8Q6-"
+        }
+    ],
+    "tenantId": "ia-zenforce",
+    "htmlToXlsx": {
+        "htmlEngine": "phantom"
+    },
+    "htmlToXlsxPhantomDefaultMigrated": true,
+    "$entitySet": "templates"
+}

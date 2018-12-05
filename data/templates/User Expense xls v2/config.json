@@ -1,0 +1,25 @@
+{
+    "_id": "5c05f20ae58d5c87f084199c",
+    "shortid": "Ski064CZf",
+    "name": "User Expense xls v2",
+    "recipe": "html-to-xlsx",
+    "engine": "handlebars",
+    "phantom": {
+        "format": "Legal",
+        "orientation": "landscape"
+    },
+    "scripts": [
+        {
+            "shortid": "rkzGAls2b"
+        }
+    ],
+    "modificationDate": {
+        "$$date": 1543906279752
+    },
+    "tenantId": "ia-zenforce",
+    "htmlToXlsx": {
+        "htmlEngine": "phantom"
+    },
+    "htmlToXlsxPhantomDefaultMigrated": true,
+    "$entitySet": "templates"
+}
